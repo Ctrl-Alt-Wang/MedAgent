@@ -1,0 +1,1 @@
+{"val/sum_response_length":553.8,"_wandb":{"runtime":2420},"val/n_rollouts":100,"val/turn_count":2.44,"_step":0,"val/n_rollouts_w_trace":100,"_timestamp":1.7760838086470277e+09,"_runtime":2420.951536811,"val/n_rollouts_w_reward":57,"val/mean_response_length":262.5416666666667,"val/reward":2.035927960927961}

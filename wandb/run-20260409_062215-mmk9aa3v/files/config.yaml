@@ -1,0 +1,60 @@
+_wandb:
+    value:
+        cli_version: 0.25.1
+        e:
+            khhrj08ygdqmwxmhtrxelsh2gmfxg08d:
+                cpu_count: 32
+                cpu_count_logical: 64
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "190101118976"
+                        used: "68192612352"
+                email: linghuchongxajh@163.com
+                executable: /usr/local/miniconda3/envs/py312/bin/python3
+                gpu: NVIDIA A800-SXM4-80GB
+                gpu_count: 4
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "85899345920"
+                      name: NVIDIA A800-SXM4-80GB
+                      uuid: GPU-b2a67532-8449-ec15-686a-fb028c35be7d
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "85899345920"
+                      name: NVIDIA A800-SXM4-80GB
+                      uuid: GPU-8ebcdaf6-606a-88ea-32a7-a68afd069c42
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "85899345920"
+                      name: NVIDIA A800-SXM4-80GB
+                      uuid: GPU-e879779d-e6f1-c86f-975f-c46bb798229b
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "85899345920"
+                      name: NVIDIA A800-SXM4-80GB
+                      uuid: GPU-37050b01-5738-95c7-db42-42000b2fc531
+                host: 253e4827cacf
+                memory:
+                    total: "993406689280"
+                os: Linux-5.15.0-113-generic-x86_64-with-glibc2.35
+                program: <stdin>
+                python: CPython 3.12.11
+                root: /workspace/post_train/sql_agent
+                startedAt: "2026-04-09T06:22:15.350799Z"
+                writerId: khhrj08ygdqmwxmhtrxelsh2gmfxg08d
+        m: []
+        python_version: 3.12.11
+        t:
+            "1":
+                - 105
+            "2":
+                - 105
+            "3":
+                - 2
+                - 13
+            "4": 3.12.11
+            "5": 0.25.1
+            "12": 0.25.1
+            "13": linux-x86_64

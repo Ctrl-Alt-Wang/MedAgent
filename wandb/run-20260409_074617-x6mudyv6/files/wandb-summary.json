@@ -1,0 +1,1 @@
+{"_timestamp":1.775722159346986e+09,"_runtime":1866.024382342,"val/mean_response_length":NaN,"_step":0,"_wandb":{"runtime":1866},"val/n_rollouts_w_trace":0,"val/reward":0,"val/n_rollouts_w_reward":0,"val/turn_count":NaN,"val/sum_response_length":NaN,"val/n_rollouts":100}
