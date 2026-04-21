@@ -1,0 +1,8 @@
+checkpoints/
+wandb/
+__pycache__/
+*.log
+*.bak
+agentops.log
+*.pyc
+.DS_Store
