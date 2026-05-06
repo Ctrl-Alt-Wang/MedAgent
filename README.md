@@ -163,21 +163,10 @@ Increasing `rm_weight` from 0.3 to 0.8 resulted in a **4-point score drop** (76.
 
 ---
 
-## Changes to `tools_embedding.py`
-
-```python
-# v15 added (not in v14):
-if len(content) > 1500:
-    content = content[:1500] + "...(内容已截断)"
-```
-Each search result document is now truncated to 1500 characters to prevent context overflow during training.
-
----
-
 ## Files in This Branch
 
 | File | Description |
 |------|-------------|
 | `train_sql_agent.py` | GRPO training launcher (v15 configuration) |
 | `sql_agent.py` | Agent + reward function (v15, working tree) |
-| `tools_embedding.py` | 4-way vector search tool (with 1500-char truncation) |
+| `tools_embedding.py` | 4-way vector search tool (1500-char truncation per document, same as v14) |
