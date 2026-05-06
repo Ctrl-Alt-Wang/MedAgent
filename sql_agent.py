@@ -321,12 +321,12 @@ def get_training_schedule(increment_rollout: bool) -> Dict[str, float]:
     progress = min(global_step / schedule_steps, 1.0)
 
     format_scale = 1.2                        # 固定，不再动态衰减
-    correct_scale = 1.0                       # 固定，与 format 比 1.2:1
+    correct_scale = 1.2                       # 固定，与 format 比 1.2:1
 
-    if progress < 0.3:
+    if progress < 0.2:
         rm_weight = 0.0
     else:
-        rm_weight = 0.3 * (progress - 0.3) / 0.7  # 0.0 -> 0.3
+        rm_weight = 0.8 * (progress - 0.2) / 0.8  # 0.0 -> 0.8
 
     return {
         "global_step": float(global_step),
@@ -597,6 +597,13 @@ def compute_correctness_reward(answer: str, valid_ids: Set[str]) -> float:
     reward += check_section_prefix_alignment(answer, valid_ids)
     reward += check_honest_abstention(answer, valid_ids)
 
+    # prefix_coverage: reward covering multiple evidence source types
+    if real_ids:
+        covered_prefixes = {rid[:2] for rid in real_ids}
+        db_source_count = len(covered_prefixes & {"01", "02", "03", "04"})
+        reward += 0.12 * db_source_count
+        logger.info(f"[PrefixCoverage] covered={covered_prefixes}, db_source_count={db_source_count}, bonus={0.12 * db_source_count:.2f}")
+
     if valid_ids and not real_ids and not ABSTAIN_PATTERN.search(answer):
         reward -= 0.20
 
@@ -618,7 +625,7 @@ async def compute_reward_model_score(question: str, answer: str) -> float:
             resp.raise_for_status()
             result = resp.json()
             raw_score = float(result.get("score", 0.0))
-            z = (raw_score - (-3.4)) / max(8.0, 1e-6)
+            z = (raw_score - (-5.0)) / max(8.0, 1e-6)
             score = 1.0 / (1.0 + math.exp(-z))
             logger.info(f"[RM] raw={raw_score:.4f}, z={z:.2f}, score={score:.3f}")
             return float(score)

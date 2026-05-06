@@ -112,7 +112,7 @@ def verl_default_config(
     need_offload = n_gpus <= 4
 
     # rollout
-    n_rollouts = 4
+    n_rollouts = 8
     max_turns = 2
 
     # gpu memory utilization
@@ -171,7 +171,7 @@ def verl_default_config(
                 # 医学场景下给一点小 KL，训练更稳
                 "use_kl_loss": True,
                 "kl_loss_coef": 0.08,
-                "entropy_coeff": 0.005,
+                "entropy_coeff": 0,
                 "clip_ratio_low": 0.20,
                 "clip_ratio_high": 0.20,
                 "fsdp_config": {
@@ -204,7 +204,7 @@ def verl_default_config(
             "critic_warmup": 0,
             "logger": get_logger_backends(use_wandb),
             "project_name": "AgentLightning",
-            "experiment_name": f"ebm_agent_14b_grpo_{n_gpus}gpu",
+            "experiment_name": f"ebm_agent_14b_grpo_{n_gpus}gpu_v15",
             "nnodes": 1,
             "save_freq": save_freq,
             "test_freq": test_freq,

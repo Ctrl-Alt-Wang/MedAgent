@@ -1,232 +1,183 @@
-# SQL 搜索 Agent 的 GRPO 训练
+# MedAgent v15 — Training Record
 
-基于强化学习的医学问答 Agent，通过 SQL 查询医学数据库回答用户问题。
+> Branch: `v15`  
+> Experiment name: `ebm_agent_14b_grpo_4gpu_v15`  
+> Evaluated checkpoint: `global_step_250` (training **not complete**, ~74% progress)  
+> **Evaluation score: 72.2 / 100** (GPT-4.1 strict_v4 rubric, 200-question benchmark)
 
-## 准备环境
-单张或者多张显卡的GPU服务器，然后确保硬盘大于500G，用于存储Checkpiont模型
+---
 
-## 训练框架
+## Training Overview
 
-- **强化学习框架**: agent-lightning + verl (GRPO 算法)
-- **Agent 框架**: openai-agents
-- **基础模型**: Qwen/Qwen3-0.6B (可配置)
+| Item | Value |
+|------|-------|
+| Base model | Qwen2.5-14B-Instruct |
+| Framework | Agent-Lightning + VERL + GRPO |
+| GPUs | 4 × NVIDIA A800-80GB |
+| Training dates | 2026-04-26 → 2026-04-29 |
+| Total steps saved | 250 (estimated full training: ~339 steps) |
+| Train dataset | `data/train.parquet` (~1000 medical Q&A) |
+| Val dataset | `data/val.parquet` |
 
-## 项目结构
+> **Note:** v15 score (72.2) vs v14 score (76.2) is **not a fair comparison** — v15 evaluated at step 250 (~74% through training) vs v14 at its final step 336.
 
-## 环境准备
-同步post_train代码到服务器，
-cd post_train
-# 获取镜像
-docker pull modelscope-registry.us-west-1.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda12.6.3-py311-torch2.7.1-vllm0.10.1.1-modelscope1.29.2-swift3.8.3
+---
 
-# 创建容器，如果只使用显卡1，不使用显卡0 --gpus "device=1"，如果公司的服务器，使用显卡1，并且swift更改名称，如果是云服务就不用更改这些命令
-docker create \
-  --runtime=nvidia --gpus all --net=host \
-  --shm-size="10g" --cap-add=SYS_ADMIN \
-  -v "$(pwd)":/workspace/post_train \
-  -v "$HOME/.cache":/root/.cache \
-  -v /etc/localtime:/etc/localtime:ro \
-  -v /etc/timezone:/etc/timezone:ro \
-  --name swift \
-  modelscope-registry.us-west-1.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda12.6.3-py311-torch2.7.1-vllm0.10.1.1-modelscope1.29.2-swift3.8.3 \
-  sleep infinity
+## Hyperparameters (`train_sql_agent.py`)
 
-# 启动容器
-docker start swift
-docker exec -it swift bash
+| Parameter | v14 value | **v15 value** | Change |
+|-----------|-----------|---------------|--------|
+| `base_lr` | 1.5e-6 | **7e-7** → clamped to **8e-7** | ↓ ~47% |
+| `n_rollouts` | 4 | **8** | ×2 |
+| `max_prompt_length` | 8192 | **12288** | +50% |
+| `max_response_length` | 2048 | 2048 | unchanged |
+| `train_batch_size` | 8 | 8 | unchanged |
+| `kl_loss_coef` | 0.02 | **0.08** | ×4 |
+| `entropy_coeff` | 0.01 | **0** | removed |
+| `clip_ratio_low` | 0.20 | 0.20 | unchanged |
+| `clip_ratio_high` | 0.28 | **0.20** | symmetric |
+| `max_model_len` (vLLM) | 16384 | 16384 | unchanged |
+| `TP` | 4 | 4 | unchanged |
+| `save_freq` | 50 steps | 50 steps | unchanged |
+| `total_epochs` | 3 | 3 | unchanged |
+| `max_actor_ckpt_to_keep` | 1 | 2 | |
+| Actor checkpoint save_contents | (default) | `["model"]` only | |
 
-# 安装agent-lightning
-克隆agent-lightning
-```
-cd agent-lightning
-pip install uv
-uv pip install --system  --no-cache-dir -e .[dev,agent,apo] fastmcp==2.14.1 openai-agents==0.6.3 vllm==0.10.1.1 verl==0.5.0 'litellm[proxy]>=1.78' 'agentops>=0.4.21' 'openai>=2.0.0'
-```
+---
 
-## omegaconf验证
-pip uninstall -y antlr4-python3-runtime
-pip install antlr4-python3-runtime==4.9.3
-python -c "import omegaconf; print('omegaconf import OK', omegaconf.__version__)"
+## Reward Function (`sql_agent.py`)
 
-# 检查安装配置信息
-python utils/check_install.py
+### Reward Formula
 
 ```
-sql_agent/
-├── sql_agent.py      # Agent 实现与奖励计算
-├── tools.py          # 数据库查询工具
-├── train.sh          # 训练启动脚本
-├── sqlagent_test.py  # 独立测试脚本
-└── data/
-    ├── train.parquet     # 训练数据集
-    ├── val.parquet       # 验证数据集
-    └── qa_dataset.jsonl  # 原始问答数据
+total_reward = hard_reward
+             + format_scale  × format_reward        # [0, 1.2]
+             + correct_scale × correctness_reward    # [-3.6, 3.6]
+             + rm_weight     × rm_score              # [0, 0.8]
+             + prefix_coverage_bonus                 # [0, 0.48]  ← NEW
 ```
 
+### Component Weights vs v14
 
+| Component | v14 | **v15** | Change |
+|-----------|-----|---------|--------|
+| `format_scale` | 1.2 | 1.2 | unchanged |
+| `correct_scale` | 1.0 | **1.2** | +20% |
+| `rm_weight` max | 0.3 | **0.8** | ×2.67 |
+| RM activation threshold | progress > 0.3 | **progress > 0.2** | earlier |
+| `prefix_coverage` bonus | — | **+0.12 per DB (max +0.48)** | NEW |
 
-## 核心功能
+### RM Weight Schedule
 
-### Agent 能力
+```python
+if progress < 0.2:        # first 20% of training: RM disabled
+    rm_weight = 0.0
+else:
+    rm_weight = 0.8 * (progress - 0.2) / 0.8   # linearly 0.0 → 0.8
+```
+RM activates at 20% (earlier than v14's 30%), reaching maximum **0.8** at 100%.
 
-通过 SQL 查询医学数据库回答用户问题，支持查询：
+### NEW: prefix_coverage bonus (in `compute_correctness_reward`)
 
-- **药品信息** (`drugs_info`): 药品名称、成分、适应症、不良反应、禁忌症等
-- **疾病信息** (`disease`): 疾病名称、临床表现、并发症、诊断方法、治疗方案等
-
-### 可用工具
-
-`query_database_by_sql(sql: str)` - 执行 SQL 查询
-
-根据自然语言问题生成 SQL 查询语句，查询药品或疾病数据库。
-
-### 奖励机制
-
-采用混合奖励策略：
-
-1. **规则奖励** (0.1): 正确执行 SQL 查询即获得
-2. **LLM 评估奖励** (0.0-1.0): 基于回答准确性、完整性、清晰性、专业性打分
-
-## 快速开始
-
-### 1. 安装依赖
-
-```bash
-cd agent-lightning
-uv pip install --system  --no-cache-dir -e .[dev,agent,apo] fastmcp==2.14.1 openai-agents==0.6.3 vllm==0.10.1.1 verl==0.5.0 'litellm[proxy]>=1.78' 'agentops>=0.4.21' 'openai>=2.0.0'
+```python
+if real_ids:
+    covered_prefixes = {rid[:2] for rid in real_ids}
+    db_source_count = len(covered_prefixes & {"01", "02", "03", "04"})
+    reward += 0.12 * db_source_count   # max +0.48 for all 4 DBs
 ```
 
-### 2. 配置环境变量
+| DB prefix | Source |
+|-----------|--------|
+| `01` | Chinese clinical guidelines |
+| `02` | English clinical guidelines |
+| `03` | Systematic reviews & meta-analyses |
+| `04` | RCT studies |
 
-```bash
-cp env_template .env
+### RM Score Normalization (changed from v14)
+
+```python
+# v14: z = (raw_score - (-3.4)) / 8.0
+z = (raw_score - (-5.0)) / 8.0    # center shifted left → scores map higher
+rm_score = sigmoid(z)
 ```
 
-### 3. 启动训练
+### hard_reward — unchanged from v14
 
-```bash
-cd sql_agent
-# 配置WADDB，然后重启ray
-WANDB_BASE_URL=http://103.139.212.228:3005
-WANDB_API_KEY=local-f2ca8cd44276ac92ca0a2c12641a6902beb6847d
-wandb login
-swanlab login -k sVBFGEGIJC0wZonl1vBZP
-bash restart_ray.sh
-# 单步测试
-python train_sql_agent.py --ci-fast --model /workspace/post_train/post_train/sql_agent/Qwen3-0.6B
+```
+-1.0   medical question but no tool called
+-0.5   reference list pattern detected in answer tail
+-1.2   cited IDs exist but none are valid
+-0.8 to -2.0   fabricated IDs
 ```
 
-### 4. 测试运行
+### format_reward — unchanged from v14, range [0, 1]
 
-```bash
-python sqlagent_test.py
+| Sub-component | Max pts |
+|---------------|---------|
+| PICO fields filled (≥3/4) | 0.15 |
+| Main section presence | 0.35 |
+| Main section order | 0.15 |
+| Sub-section presence | 0.25 |
+| Sub-section order | 0.10 |
+
+### correctness_reward — unchanged from v14, range [-3, 3]
+
+| Sub-component | Value |
+|---------------|-------|
+| Citation precision (`real/cited`) | `1.4 × precision` |
+| ≥4 valid cited IDs bonus | +0.50 |
+| ≥2 valid cited IDs bonus | +0.30 |
+| ≥1 valid cited ID bonus | +0.12 |
+| No citations at all | -0.05 |
+| Section-prefix alignment | [-0.5, +0.5] |
+| Honest abstention | bonus/penalty |
+| Valid IDs exist but none cited | -0.20 |
+
+### Observed Reward Distribution (step 127, April 26)
+
+- Typical reward: **5.05 – 5.12**
+- Reward variance: **~0.07** (collapsed — 20× lower than v14's ~1.5)
+- rm_weight at step 127: **0.647** (dominant component)
+- RM contribution per rollout: 0.40 – 0.46
+- prefix_coverage: **always +0.48** (all 4 DBs hit → constant, zero variance)
+
+---
+
+## Key Observations & Known Issues
+
+### 1. Reward Variance Collapse
+By step 127, the total reward range per batch dropped to ~0.07 (vs v14's ~1.5). Root cause:
+- `prefix_coverage` always fires at max (+0.48) once the model learns to call tools from all 4 DBs
+- High `rm_weight=0.8` with RM scores clustering at 0.63–0.72 → RM contribution also near-constant
+- GRPO intra-group advantage ≈ 0 → gradient signal effectively died ~step 127
+
+### 2. Conservative Hyperparams Compound the Issue
+- `kl_loss_coef=0.08` (×4 vs v14) + `base_lr=8e-7` (clamped minimum) = very slow effective learning
+- With 8 rollouts per prompt (vs v14's 4), the batch requires twice as many inference calls but parameter updates remain the same frequency
+
+### 3. RM Alignment
+Increasing `rm_weight` from 0.3 to 0.8 resulted in a **4-point score drop** (76.2 → 72.2) on GPT-4.1 strict_v4 evaluation. This suggests the proxy RM model (`http://117.50.48.176:8400/score`) has weak correlation with the actual evaluation rubric.
+
+### 4. ContextWindowExceeded Errors (validation only)
+3,204 errors from validation rollouts during April 8–14 (training with different context settings). These affected **only validation monitoring**, not training gradients. Training rollouts (29,963 successful) were unaffected by VERL's `max_prompt_length=12288` truncation.
+
+---
+
+## Changes to `tools_embedding.py`
+
+```python
+# v15 added (not in v14):
+if len(content) > 1500:
+    content = content[:1500] + "...(内容已截断)"
 ```
+Each search result document is now truncated to 1500 characters to prevent context overflow during training.
 
-### 5. 完整的训练命令
-  第一步：先用 --ci-fast 验证流程跑通
+---
 
-  AGL_MANAGED_STORE=0 python train_sql_agent.py \
-    --ci-fast \
-    --llm-proxy \
-    --model /workspace/post_train/post_train/sql_agent/Qwen2.5-7B-Instruct \
-    --external-store-address http://117.133.60.219:45993
+## Files in This Branch
 
-  这只跑 1 个训练步，目的是确认：triplets 能正常生成、训练步骤不崩溃。
-
-  第二步：确认没问题后，正式训练
-
-  AGL_MANAGED_STORE=0 python train_sql_agent.py \
-    --llm-proxy \
-    --model /workspace/post_train/post_train/sql_agent/Qwen2.5-7B-Instruct \
-    --external-store-address http://117.133.60.219:45993
-
-  去掉 --ci-fast 后走默认配置：2 个 epoch，每 20 步保存 checkpoint 和验证。
-
-  各参数解释
-  参数: AGL_MANAGED_STORE=0
-  作用: 告诉框架不要自己管理 store 生命周期，因为你用了外部 store
-  你的情况: 必须，配合 --external-store-address 使用
-  ────────────────────────────────────────
-  参数: --llm-proxy
-  作用: 启用 OTel tracer + LlmProxyTraceToTriplet adapter，框架才能拦截 LLM 调用生成训练数据
-  你的情况: 必须，之前漏了这个导致 0 triplets
-  ────────────────────────────────────────
-  参数: --model
-  作用: 指定模型路径，覆盖默认的 Qwen3-0.6B
-  你的情况: 指向你的 Qwen2.5-7B-Instruct
-  ────────────────────────────────────────
-  参数: --external-store-address
-  作用: 连接外部存储服务，算法和 runner 之间交换数据
-  你的情况: 你已有的外部 store
-  ────────────────────────────────────────
-  参数: --ci-fast
-  作用: 只跑 1 步训练（测试用）
-  你的情况: 调试时加，正式训练去掉
-  ────────────────────────────────────────
-  参数: --ci
-  作用: 跑 20 步训练（轻量验证）
-  你的情况: 介于调试和正式之间
-  ────────────────────────────────────────
-  参数: --n-runners
-  作用: runner worker 数量，默认 4
-  你的情况: 默认即可
-  ────────────────────────────────────────
-  参数: --debug
-  作用: 打开 DEBUG 日志
-  你的情况: 排查问题时可加
-  另外注意
-
-
-
-## 数据格式
-
-训练数据为 Parquet 格式，包含以下字段：
-
-| 字段 | 类型 | 说明 |
-|------|------|------|
-| id | string | 样本唯一标识 |
-| question | string | 用户问题 |
-| answer | string | 标准答案 (训练时动态生成) |
-
-## 配置说明
-
-主要训练参数 (`train.sh`):
-
-- `BASE_MODEL`: 基础模型路径
-- `data.train_batch_size`: 训练批次大小
-- `actor_rollout_ref.actor.optim.lr`: 学习率
-- `actor_rollout_ref.rollout.n`: 每个问题的采样数
-- `trainer.total_epochs`: 训练轮数
-
-
-## 故障, 尝试更换modelscope-registry.us-west-1.cr.aliyuncs.com/modelscope-repo/modelscope:ubuntu22.04-cuda12.6.3-py311-torch2.7.1-vllm0.10.1.1-modelscope1.29.2-swift3.8.3为其它的镜像
-如果出现容器内CUDA不可用，vllm加载失败，尝试升级下CUDA驱动sudo apt install nvidia-driver-590-server-open
-root@10-60-176-80:/workspace/post_train/post_train# python utils/
-chat_session_filter.py   filter_again.py          filter_with_llm.py       progress.json            xunzheng_question.jsonl
-check_install.py         filtered_output.jsonl    open_evidence.json       README.md
-.env                     filter_new_question.py   openevidence.py          reward_scale.py
-root@10-60-176-80:/workspace/post_train/post_train# python utils/check_install.py
-/usr/local/lib/python3.11/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
-  import pynvml  # type: ignore[import]
-=== 环境诊断开始 ===
-Python: 3.11.11 (main, Aug 15 2025, 16:18:34) [GCC 11.4.0]
-PyTorch: 2.7.1+cu126
-CUDA Available: False
-
---- 1. 检测 Flash Attention ---
-✅ Flash Attention 导入成功. 版本: 2.7.4.post1
-
---- 2. 检测 vLLM (原生) ---
-❌ vLLM 导入失败: Could not import module 'ProcessorMixin'. Are this object's requirements defined correctly?
-
---- 3. 检测 verl 兼容层 (关键故障点) ---
-❌ verl.third_party.vllm 导入直接崩溃: Could not import module 'ProcessorMixin'. Are this object's requirements defined correctly?
-
-=== 诊断结束 ===
-
-## 注意
-要注意sql_agent.py中的Agent执行轮次，max_turns和verl中训练的max_turns必须是一致的。
-
-## 如果出现这个错误，大部分是连接不到AGL的store，可以暂时不用AGL_MANAGED_STORE=0
-   Tracing: request failed: [Errno 101] Network is unreachable
-   Set LightningStoreOTLPExporter endpoint to http://117.133.60.219:45993/v1/traces
+| File | Description |
+|------|-------------|
+| `train_sql_agent.py` | GRPO training launcher (v15 configuration) |
+| `sql_agent.py` | Agent + reward function (v15, working tree) |
+| `tools_embedding.py` | 4-way vector search tool (with 1500-char truncation) |
