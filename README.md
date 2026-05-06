@@ -126,7 +126,7 @@ Center point: `-3.4` (scores above -3.4 map to rm_score > 0.5)
 - Training **ran to completion** at step 336 — the model fully converged.
 - Asymmetric PPO clip (`high=0.28`) allowed larger positive gradient steps than negative ones, facilitating faster adaptation.
 - Low KL coeff (0.02) gave the model room to deviate from the reference model and specialize.
-- `tools_embedding.py` had **no document truncation** — full search result text was included in training context.
+- `tools_embedding.py` truncated each retrieved document to **1500 characters** — same truncation used during evaluation, so train/eval is consistent.
 - The RM model at `http://117.50.48.176:8400/score` contributed only modestly (max weight 0.3), keeping the training primarily driven by format/correctness rules.
 
 ---
@@ -137,4 +137,4 @@ Center point: `-3.4` (scores above -3.4 map to rm_score > 0.5)
 |------|-------------|
 | `train_sql_agent.py` | GRPO training launcher (v14 configuration) |
 | `sql_agent.py` | Agent + reward function (v14, committed state) |
-| `tools_embedding.py` | 4-way vector search tool (no truncation) |
+| `tools_embedding.py` | 4-way vector search tool (1500-char truncation per document) |
