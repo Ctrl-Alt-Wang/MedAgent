@@ -70,6 +70,9 @@ def fuzzy_search(keyword: str, content: str, idprefix="01", db_id="01") -> Dict[
     # 去除HTML标签
     content = re.sub(r'<[^>]+>', '', content).strip()
     
+    # 截断过长文档，防止第二轮 prompt 超过 max_model_len
+    if len(content) > 1500:
+        content = content[:1500] + "...(内容已截断)"
     # 不切割，直接是一整句
     sentences = [content] if content else []
 
