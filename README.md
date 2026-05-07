@@ -141,6 +141,69 @@ Center point: `-3.4` (scores above -3.4 map to rm_score > 0.5)
 
 
 
+actor
+<img width="2409" height="801" alt="image" src="https://github.com/user-attachments/assets/6677564a-a82d-441d-83e7-edc3006f208b" />
+<img width="2436" height="435" alt="image" src="https://github.com/user-attachments/assets/3e442942-2865-4886-b2e3-53576cee1913" />
+critic
+<img width="2418" height="789" alt="image" src="https://github.com/user-attachments/assets/76496bcc-1fee-494b-b631-18b755e7b18d" />
+<img width="2400" height="792" alt="image" src="https://github.com/user-attachments/assets/1b1b19c9-345d-4212-b30a-ba41044ae3ef" />
+<img width="2400" height="795" alt="image" src="https://github.com/user-attachments/assets/785f468f-70ed-4273-af9a-5bd5e453fe91" />
+<img width="2403" height="801" alt="image" src="https://github.com/user-attachments/assets/2b65b53c-8011-47a4-9abe-20c7760c6ada" />
+global_seqlen
+<img width="2418" height="804" alt="image" src="https://github.com/user-attachments/assets/01941f53-7a72-4409-852f-ed0b1fe3f19b" />
+perf
+<img width="2403" height="795" alt="image" src="https://github.com/user-attachments/assets/c1f2cc97-188e-44f6-9148-556934d1659c" />
+<img width="849" height="434" alt="image" src="https://github.com/user-attachments/assets/0fdfd51b-4ce2-4625-b2b4-597a8d7481b9" />
+prompt_length
+<img width="2421" height="792" alt="image" src="https://github.com/user-attachments/assets/1982563f-c0c8-40dd-b4bf-c37ef07ad5b8" />
+<img width="1641" height="423" alt="image" src="https://github.com/user-attachments/assets/ff5c3da5-bafb-4a20-9435-a4db800b32e2" />
+response_length
+<img width="2421" height="801" alt="image" src="https://github.com/user-attachments/assets/dbe09147-2a38-410c-87d0-38d79cebce49" />
+<img width="1614" height="423" alt="image" src="https://github.com/user-attachments/assets/4c67a191-e467-4e8d-9b1d-c4e9e8c51d52" />
+timing_per_token_ms
+<img width="2418" height="807" alt="image" src="https://github.com/user-attachments/assets/06da45c3-2685-4e05-9842-c2c08cd20f27" />
+timing_s
+<img width="2412" height="798" alt="image" src="https://github.com/user-attachments/assets/629c8803-f6eb-4975-ad57-198ccbd54e20" />
+<img width="822" height="434" alt="image" src="https://github.com/user-attachments/assets/27ebc431-2b4b-4e16-92a3-dcb82724c991" />
+training
+<img width="2424" height="813" alt="image" src="https://github.com/user-attachments/assets/aa3f0621-48f3-47ad-b2a3-355915d85eef" />
+<img width="2412" height="786" alt="image" src="https://github.com/user-attachments/assets/57fa8bc5-1407-4db0-9dc0-f3a499de4918" />
+
+val(不一定对，当时设置有点问题)
+<img width="2436" height="801" alt="image" src="https://github.com/user-attachments/assets/dc8a6821-4f38-45d9-9da9-fcf594bdd0d9" />
+<img width="909" height="435" alt="image" src="https://github.com/user-attachments/assets/6c853627-cd78-40e1-9aa2-1a0f251787c3" />
+System
+<img width="2408" height="783" alt="image" src="https://github.com/user-attachments/assets/4dbfa0e3-75fe-444e-b1a9-149197e5128e" />
+<img width="2403" height="792" alt="image" src="https://github.com/user-attachments/assets/c6cc98cc-0e93-4f15-b46e-a81c0f761897" />
+<img width="2388" height="789" alt="image" src="https://github.com/user-attachments/assets/7d834619-b449-447a-8814-87039b04da76" />
+<img width="2393" height="813" alt="image" src="https://github.com/user-attachments/assets/db045b38-248d-4355-a097-451b68936fe2" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
