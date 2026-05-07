@@ -200,3 +200,66 @@ These five changes together restored meaningful GRPO gradient signal. v14 ran to
 | `sqlagent_test.py` | Manual test script for the agent |
 | `start_vllm.sh` | vLLM server launch script |
 | `restart_ray.sh` | Ray cluster restart script |
+
+
+
+
+
+
+
+
+
+actor
+<img width="2397" height="806" alt="image" src="https://github.com/user-attachments/assets/f59cbfbb-b231-490d-98c3-e0c6013cbda8" />
+<img width="2439" height="468" alt="image" src="https://github.com/user-attachments/assets/278ba232-9a46-4deb-8ab8-b2309a51dd0a" />
+critic
+<img width="2415" height="792" alt="image" src="https://github.com/user-attachments/assets/059ff54e-f32d-4efc-87a5-16ef377b5dc5" />
+<img width="2400" height="783" alt="image" src="https://github.com/user-attachments/assets/d9d9c69a-5f48-4489-ba93-df2bc703ec1a" />
+<img width="2421" height="786" alt="image" src="https://github.com/user-attachments/assets/b1c8f230-5f05-47d0-9b3f-dd83a8742cf9" />
+<img width="2402" height="783" alt="image" src="https://github.com/user-attachments/assets/0023e7c0-9b3d-4afd-b8f6-0b7e8eb76cd4" />
+global_seqlen
+<img width="2409" height="797" alt="image" src="https://github.com/user-attachments/assets/97b7ebe9-bc63-44ac-81d6-0f4ba0c63444" />
+perf
+<img width="2409" height="804" alt="image" src="https://github.com/user-attachments/assets/66ee7111-e4f7-4ba2-ac86-34c4c199118c" />
+<img width="828" height="438" alt="image" src="https://github.com/user-attachments/assets/b28023c9-4517-4fcf-a72b-4c2da8d58118" />
+prompt_length
+<img width="2418" height="774" alt="image" src="https://github.com/user-attachments/assets/78fa9ed2-2a39-4555-97de-e0c9767e7db0" />
+<img width="1641" height="441" alt="image" src="https://github.com/user-attachments/assets/a1034ef9-0d05-4e98-96db-c2fe10097276" />
+response_length
+<img width="2427" height="800" alt="image" src="https://github.com/user-attachments/assets/3f513250-35d1-4dc1-af65-685037089109" />
+<img width="1616" height="438" alt="image" src="https://github.com/user-attachments/assets/e6229152-bdd4-445d-957e-0d147eb38c9e" />
+timing_per_token_ms
+<img width="2426" height="789" alt="image" src="https://github.com/user-attachments/assets/09eabb38-8b17-4ffb-b992-9f099a80f42d" />
+timing_s
+<img width="2397" height="801" alt="image" src="https://github.com/user-attachments/assets/af1d8190-c062-4df1-830e-4940d8e9baf1" />
+<img width="843" height="420" alt="image" src="https://github.com/user-attachments/assets/0c5130c1-50d8-47e4-b57e-8f58451dc43d" />
+training
+<img width="2433" height="795" alt="image" src="https://github.com/user-attachments/assets/56f34812-2a24-457d-ba5d-727a7a7156d0" />
+<img width="2427" height="798" alt="image" src="https://github.com/user-attachments/assets/35eed21a-ca55-41d4-9962-4723164c2d21" />
+System
+<img width="2454" height="807" alt="image" src="https://github.com/user-attachments/assets/4fa31596-e46a-4244-b5a1-3edee0c85b72" />
+<img width="2430" height="777" alt="image" src="https://github.com/user-attachments/assets/51d82b35-2384-4fd2-9f27-5f96a913520e" />
+<img width="2397" height="804" alt="image" src="https://github.com/user-attachments/assets/e0d55942-85a7-47f1-a9dc-441524459bbe" />
+<img width="2409" height="798" alt="image" src="https://github.com/user-attachments/assets/ccd59c43-2aea-4380-a2f6-3a13d1bb1189" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
