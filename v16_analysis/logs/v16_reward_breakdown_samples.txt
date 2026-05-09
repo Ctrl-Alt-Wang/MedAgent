@@ -1,0 +1,300 @@
+2026-05-07 02:06:56,185 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:06:56,185 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:06:56,185 - INFO - [PICO] P=
+2026-05-07 02:06:56,185 - INFO - [PICO] P=
+2026-05-07 02:06:56,185 - INFO - [PICO] I=
+2026-05-07 02:06:56,185 - INFO - [PICO] I=
+2026-05-07 02:06:56,185 - INFO - [PICO] C=
+2026-05-07 02:06:56,185 - INFO - [PICO] C=
+2026-05-07 02:06:56,185 - INFO - [PICO] O=
+2026-05-07 02:06:56,185 - INFO - [PICO] O=
+2026-05-07 02:06:56,185 - INFO - [PICO] filled=4/4
+2026-05-07 02:06:56,185 - INFO - [PICO] filled=4/4
+2026-05-07 02:06:56,185 - INFO - [Citations] valid_ids=7, cited_ids=7, fabricated=0
+2026-05-07 02:06:56,185 - INFO - [Citations] valid_ids=7, cited_ids=7, fabricated=0
+2026-05-07 02:06:56,185 - INFO - [Citations] sample_valid_ids=['01-9a15-0', '01-daac-0', '02-129d-0', '02-212b-0', '03-4190-0', '04-b458-0', '04-dee4-0']
+2026-05-07 02:06:56,185 - INFO - [Citations] sample_valid_ids=['01-9a15-0', '01-daac-0', '02-129d-0', '02-212b-0', '03-4190-0', '04-b458-0', '04-dee4-0']
+2026-05-07 02:06:56,185 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.420 x 1.200, subtotal=5.304
+2026-05-07 02:06:56,185 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.420 x 1.200, subtotal=5.304
+2026-05-07 02:06:56,185 - INFO - [RM] skip
+2026-05-07 02:06:56,185 - INFO - [RM] skip
+2026-05-07 02:07:12,671 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:07:12,671 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:07:12,671 - INFO - [PICO] P=
+2026-05-07 02:07:12,671 - INFO - [PICO] P=
+2026-05-07 02:07:12,671 - INFO - [PICO] I=
+2026-05-07 02:07:12,671 - INFO - [PICO] I=
+2026-05-07 02:07:12,671 - INFO - [PICO] C=
+2026-05-07 02:07:12,671 - INFO - [PICO] C=
+2026-05-07 02:07:12,671 - INFO - [PICO] O=
+2026-05-07 02:07:12,671 - INFO - [PICO] O=
+2026-05-07 02:07:12,672 - INFO - [PICO] filled=4/4
+2026-05-07 02:07:12,672 - INFO - [PICO] filled=4/4
+2026-05-07 02:07:12,672 - INFO - [Citations] valid_ids=8, cited_ids=8, fabricated=0
+2026-05-07 02:07:12,672 - INFO - [Citations] valid_ids=8, cited_ids=8, fabricated=0
+2026-05-07 02:07:12,672 - INFO - [Citations] sample_valid_ids=['01-54f0-0', '01-bd38-0', '02-71cc-0', '02-e455-0', '03-9cd5-0', '03-bbf8-0', '04-5f9e-0', '04-d1e4-0']
+2026-05-07 02:07:12,672 - INFO - [Citations] sample_valid_ids=['01-54f0-0', '01-bd38-0', '02-71cc-0', '02-e455-0', '03-9cd5-0', '03-bbf8-0', '04-5f9e-0', '04-d1e4-0']
+2026-05-07 02:07:12,672 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.420 x 1.200, subtotal=5.304
+2026-05-07 02:07:12,672 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.420 x 1.200, subtotal=5.304
+2026-05-07 02:07:12,672 - INFO - [RM] skip
+2026-05-07 02:07:12,672 - INFO - [RM] skip
+2026-05-07 02:07:18,388 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:07:18,388 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:07:18,388 - INFO - [PICO] P=
+2026-05-07 02:07:18,388 - INFO - [PICO] P=
+2026-05-07 02:07:18,388 - INFO - [PICO] I=
+2026-05-07 02:07:18,388 - INFO - [PICO] I=
+2026-05-07 02:07:18,388 - INFO - [PICO] C=
+2026-05-07 02:07:18,388 - INFO - [PICO] C=
+2026-05-07 02:07:18,388 - INFO - [PICO] O=
+2026-05-07 02:07:18,388 - INFO - [PICO] O=
+2026-05-07 02:07:18,388 - INFO - [PICO] filled=4/4
+2026-05-07 02:07:18,388 - INFO - [PICO] filled=4/4
+2026-05-07 02:07:18,389 - INFO - [Citations] valid_ids=8, cited_ids=8, fabricated=0
+2026-05-07 02:07:18,389 - INFO - [Citations] valid_ids=8, cited_ids=8, fabricated=0
+2026-05-07 02:07:18,389 - INFO - [Citations] sample_valid_ids=['01-1ffd-0', '01-8cf8-0', '02-37b5-0', '02-f697-0', '03-7865-0', '03-9644-0', '04-112a-0', '04-d7cb-0']
+2026-05-07 02:07:18,389 - INFO - [Citations] sample_valid_ids=['01-1ffd-0', '01-8cf8-0', '02-37b5-0', '02-f697-0', '03-7865-0', '03-9644-0', '04-112a-0', '04-d7cb-0']
+2026-05-07 02:07:18,389 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.420 x 1.200, subtotal=5.304
+2026-05-07 02:07:18,389 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.420 x 1.200, subtotal=5.304
+2026-05-07 02:07:18,389 - INFO - [RM] skip
+2026-05-07 02:07:18,389 - INFO - [RM] skip
+2026-05-07 02:07:21,224 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:07:21,224 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:07:21,224 - INFO - [PICO] P=
+2026-05-07 02:07:21,224 - INFO - [PICO] P=
+2026-05-07 02:07:21,224 - INFO - [PICO] I=
+2026-05-07 02:07:21,224 - INFO - [PICO] I=
+2026-05-07 02:07:21,224 - INFO - [PICO] C=
+2026-05-07 02:07:21,224 - INFO - [PICO] C=
+2026-05-07 02:07:21,224 - INFO - [PICO] O=
+2026-05-07 02:07:21,224 - INFO - [PICO] O=
+2026-05-07 02:07:21,224 - INFO - [PICO] filled=4/4
+2026-05-07 02:07:21,224 - INFO - [PICO] filled=4/4
+2026-05-07 02:07:21,224 - INFO - [Citations] valid_ids=8, cited_ids=8, fabricated=0
+2026-05-07 02:07:21,224 - INFO - [Citations] valid_ids=8, cited_ids=8, fabricated=0
+2026-05-07 02:07:21,224 - INFO - [Citations] sample_valid_ids=['01-c1a3-0', '01-cdaf-0', '02-a39e-0', '02-d6f3-0', '03-8365-0', '03-c48c-0', '04-2489-0', '04-6206-0']
+2026-05-07 02:07:21,224 - INFO - [Citations] sample_valid_ids=['01-c1a3-0', '01-cdaf-0', '02-a39e-0', '02-d6f3-0', '03-8365-0', '03-c48c-0', '04-2489-0', '04-6206-0']
+2026-05-07 02:07:21,225 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.420 x 1.200, subtotal=5.304
+2026-05-07 02:07:21,225 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.420 x 1.200, subtotal=5.304
+2026-05-07 02:07:21,225 - INFO - [RM] skip
+2026-05-07 02:07:21,225 - INFO - [RM] skip
+2026-05-07 02:07:36,351 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:07:36,351 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:07:36,351 - INFO - [PICO] P=
+2026-05-07 02:07:36,351 - INFO - [PICO] P=
+2026-05-07 02:07:36,351 - INFO - [PICO] I=
+2026-05-07 02:07:36,351 - INFO - [PICO] I=
+2026-05-07 02:07:36,351 - INFO - [PICO] C=
+2026-05-07 02:07:36,351 - INFO - [PICO] C=
+2026-05-07 02:07:36,352 - INFO - [PICO] O=48
+2026-05-07 02:07:36,352 - INFO - [PICO] O=48
+2026-05-07 02:07:36,352 - INFO - [PICO] filled=4/4
+2026-05-07 02:07:36,352 - INFO - [PICO] filled=4/4
+2026-05-07 02:07:36,352 - INFO - [Citations] valid_ids=17, cited_ids=8, fabricated=0
+2026-05-07 02:07:36,352 - INFO - [Citations] valid_ids=17, cited_ids=8, fabricated=0
+2026-05-07 02:07:36,352 - INFO - [Citations] sample_valid_ids=['01-0e95-0', '01-1aa7-0', '01-36ea-0', '01-3c01-0', '01-61b2-0', '01-6337-0', '01-6c19-0', '01-8817-0', '01-8dba-0', '01-a19a-0']
+2026-05-07 02:07:36,352 - INFO - [Citations] sample_valid_ids=['01-0e95-0', '01-1aa7-0', '01-36ea-0', '01-3c01-0', '01-61b2-0', '01-6337-0', '01-6c19-0', '01-8817-0', '01-8dba-0', '01-a19a-0']
+2026-05-07 02:07:36,352 - INFO - [Reward Breakdown] hard=0.000, format=0.967 x 1.200, correct=2.716 x 1.200, subtotal=4.419
+2026-05-07 02:07:36,352 - INFO - [Reward Breakdown] hard=0.000, format=0.967 x 1.200, correct=2.716 x 1.200, subtotal=4.419
+2026-05-07 02:07:36,352 - INFO - [RM] skip
+2026-05-07 02:07:36,352 - INFO - [RM] skip
+2026-05-07 02:07:51,146 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:07:51,146 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:07:51,146 - INFO - [PICO] P=
+2026-05-07 02:07:51,146 - INFO - [PICO] P=
+2026-05-07 02:07:51,146 - INFO - [PICO] I=
+2026-05-07 02:07:51,146 - INFO - [PICO] I=
+2026-05-07 02:07:51,146 - INFO - [PICO] C=
+2026-05-07 02:07:51,146 - INFO - [PICO] C=
+2026-05-07 02:07:51,146 - INFO - [PICO] O=48
+2026-05-07 02:07:51,146 - INFO - [PICO] O=48
+2026-05-07 02:07:51,146 - INFO - [PICO] filled=4/4
+2026-05-07 02:07:51,146 - INFO - [PICO] filled=4/4
+2026-05-07 02:07:51,146 - INFO - [Citations] valid_ids=17, cited_ids=8, fabricated=0
+2026-05-07 02:07:51,146 - INFO - [Citations] valid_ids=17, cited_ids=8, fabricated=0
+2026-05-07 02:07:51,146 - INFO - [Citations] sample_valid_ids=['01-1785-0', '01-2c0b-0', '01-2d53-0', '01-3837-0', '01-3855-0', '01-5afe-0', '01-6699-0', '01-a7a2-0', '01-c2d4-0', '01-dc15-0']
+2026-05-07 02:07:51,146 - INFO - [Citations] sample_valid_ids=['01-1785-0', '01-2c0b-0', '01-2d53-0', '01-3837-0', '01-3855-0', '01-5afe-0', '01-6699-0', '01-a7a2-0', '01-c2d4-0', '01-dc15-0']
+2026-05-07 02:07:51,147 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.049 x 1.200, subtotal=4.859
+2026-05-07 02:07:51,147 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.049 x 1.200, subtotal=4.859
+2026-05-07 02:07:51,147 - INFO - [RM] skip
+2026-05-07 02:07:51,147 - INFO - [RM] skip
+2026-05-07 02:07:55,687 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:07:55,687 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:07:55,687 - INFO - [PICO] P=
+2026-05-07 02:07:55,687 - INFO - [PICO] P=
+2026-05-07 02:07:55,687 - INFO - [PICO] I=
+2026-05-07 02:07:55,687 - INFO - [PICO] I=
+2026-05-07 02:07:55,687 - INFO - [PICO] C=
+2026-05-07 02:07:55,687 - INFO - [PICO] C=
+2026-05-07 02:07:55,687 - INFO - [PICO] O=48
+2026-05-07 02:07:55,687 - INFO - [PICO] O=48
+2026-05-07 02:07:55,687 - INFO - [PICO] filled=4/4
+2026-05-07 02:07:55,687 - INFO - [PICO] filled=4/4
+2026-05-07 02:07:55,687 - INFO - [Citations] valid_ids=8, cited_ids=8, fabricated=0
+2026-05-07 02:07:55,687 - INFO - [Citations] valid_ids=8, cited_ids=8, fabricated=0
+2026-05-07 02:07:55,687 - INFO - [Citations] sample_valid_ids=['01-9de4-0', '01-b3c5-0', '02-0b87-0', '02-8b23-0', '03-aa51-0', '03-d923-0', '04-bea2-0', '04-fac3-0']
+2026-05-07 02:07:55,687 - INFO - [Citations] sample_valid_ids=['01-9de4-0', '01-b3c5-0', '02-0b87-0', '02-8b23-0', '03-aa51-0', '03-d923-0', '04-bea2-0', '04-fac3-0']
+2026-05-07 02:07:55,688 - INFO - [Reward Breakdown] hard=0.000, format=0.967 x 1.200, correct=3.087 x 1.200, subtotal=4.864
+2026-05-07 02:07:55,688 - INFO - [Reward Breakdown] hard=0.000, format=0.967 x 1.200, correct=3.087 x 1.200, subtotal=4.864
+2026-05-07 02:07:55,688 - INFO - [RM] skip
+2026-05-07 02:07:55,688 - INFO - [RM] skip
+2026-05-07 02:08:07,512 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:08:07,512 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:08:07,512 - INFO - [PICO] P=
+2026-05-07 02:08:07,512 - INFO - [PICO] P=
+2026-05-07 02:08:07,512 - INFO - [PICO] I=
+2026-05-07 02:08:07,512 - INFO - [PICO] I=
+2026-05-07 02:08:07,512 - INFO - [PICO] C=
+2026-05-07 02:08:07,512 - INFO - [PICO] C=
+2026-05-07 02:08:07,513 - INFO - [PICO] O=48
+2026-05-07 02:08:07,513 - INFO - [PICO] O=48
+2026-05-07 02:08:07,513 - INFO - [PICO] filled=4/4
+2026-05-07 02:08:07,513 - INFO - [PICO] filled=4/4
+2026-05-07 02:08:07,513 - INFO - [Citations] valid_ids=17, cited_ids=9, fabricated=0
+2026-05-07 02:08:07,513 - INFO - [Citations] valid_ids=17, cited_ids=9, fabricated=0
+2026-05-07 02:08:07,513 - INFO - [Citations] sample_valid_ids=['01-0661-0', '01-08e6-0', '01-304b-0', '01-3786-0', '01-575e-0', '01-634c-0', '01-6651-0', '01-9a54-0', '01-9ab5-0', '01-a752-0']
+2026-05-07 02:08:07,513 - INFO - [Citations] sample_valid_ids=['01-0661-0', '01-08e6-0', '01-304b-0', '01-3786-0', '01-575e-0', '01-634c-0', '01-6651-0', '01-9a54-0', '01-9ab5-0', '01-a752-0']
+2026-05-07 02:08:07,513 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.091 x 1.200, subtotal=4.909
+2026-05-07 02:08:07,513 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.091 x 1.200, subtotal=4.909
+2026-05-07 02:08:07,513 - INFO - [RM] skip
+2026-05-07 02:08:07,513 - INFO - [RM] skip
+2026-05-07 02:08:20,642 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:08:20,642 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:08:20,642 - INFO - [PICO] P=
+2026-05-07 02:08:20,642 - INFO - [PICO] P=
+2026-05-07 02:08:20,642 - INFO - [PICO] I=BCMA
+CAR-T
+2026-05-07 02:08:20,642 - INFO - [PICO] I=BCMA
+CAR-T
+2026-05-07 02:08:20,642 - INFO - [PICO] C=
+2026-05-07 02:08:20,642 - INFO - [PICO] C=
+2026-05-07 02:08:20,642 - INFO - [PICO] O=
+2026-05-07 02:08:20,642 - INFO - [PICO] O=
+2026-05-07 02:08:20,642 - INFO - [PICO] filled=4/4
+2026-05-07 02:08:20,642 - INFO - [PICO] filled=4/4
+2026-05-07 02:08:20,642 - INFO - [Citations] valid_ids=14, cited_ids=14, fabricated=0
+2026-05-07 02:08:20,642 - INFO - [Citations] valid_ids=14, cited_ids=14, fabricated=0
+2026-05-07 02:08:20,642 - INFO - [Citations] sample_valid_ids=['01-088d-0', '01-255e-0', '01-6b1d-0', '01-7f16-0', '01-c392-0', '01-ebf0-0', '01-f582-0', '01-f5b9-0', '02-4153-0', '02-be3f-0']
+2026-05-07 02:08:20,642 - INFO - [Citations] sample_valid_ids=['01-088d-0', '01-255e-0', '01-6b1d-0', '01-7f16-0', '01-c392-0', '01-ebf0-0', '01-f582-0', '01-f5b9-0', '02-4153-0', '02-be3f-0']
+2026-05-07 02:08:20,643 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.295 x 1.200, subtotal=5.154
+2026-05-07 02:08:20,643 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.295 x 1.200, subtotal=5.154
+2026-05-07 02:08:20,643 - INFO - [RM] skip
+2026-05-07 02:08:20,643 - INFO - [RM] skip
+2026-05-07 02:08:35,866 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:08:35,866 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:08:35,866 - INFO - [PICO] P=
+2026-05-07 02:08:35,866 - INFO - [PICO] P=
+2026-05-07 02:08:35,866 - INFO - [PICO] I=BCMA
+CAR-T
+Ciltacabtagene Autoleucel
+2026-05-07 02:08:35,866 - INFO - [PICO] I=BCMA
+CAR-T
+Ciltacabtagene Autoleucel
+2026-05-07 02:08:35,866 - INFO - [PICO] C=
+2026-05-07 02:08:35,866 - INFO - [PICO] C=
+2026-05-07 02:08:35,866 - INFO - [PICO] O=
+2026-05-07 02:08:35,866 - INFO - [PICO] O=
+2026-05-07 02:08:35,866 - INFO - [PICO] filled=4/4
+2026-05-07 02:08:35,866 - INFO - [PICO] filled=4/4
+2026-05-07 02:08:35,866 - INFO - [Citations] valid_ids=12, cited_ids=8, fabricated=0
+2026-05-07 02:08:35,866 - INFO - [Citations] valid_ids=12, cited_ids=8, fabricated=0
+2026-05-07 02:08:35,866 - INFO - [Citations] sample_valid_ids=['01-042c-0', '01-2252-0', '01-5179-0', '01-665e-0', '01-8811-0', '01-b42a-0', '02-6215-0', '02-a70c-0', '03-6cfb-0', '03-c87f-0']
+2026-05-07 02:08:35,866 - INFO - [Citations] sample_valid_ids=['01-042c-0', '01-2252-0', '01-5179-0', '01-665e-0', '01-8811-0', '01-b42a-0', '02-6215-0', '02-a70c-0', '03-6cfb-0', '03-c87f-0']
+2026-05-07 02:08:35,867 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.187 x 1.200, subtotal=5.024
+2026-05-07 02:08:35,867 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.187 x 1.200, subtotal=5.024
+2026-05-07 02:08:35,867 - INFO - [RM] skip
+2026-05-07 02:08:35,867 - INFO - [RM] skip
+2026-05-07 02:09:03,784 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:09:03,784 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:09:03,784 - INFO - [PICO] P=
+2026-05-07 02:09:03,784 - INFO - [PICO] P=
+2026-05-07 02:09:03,784 - INFO - [PICO] I=BCMA
+CAR-T
+2026-05-07 02:09:03,784 - INFO - [PICO] I=BCMA
+CAR-T
+2026-05-07 02:09:03,785 - INFO - [PICO] C=
+2026-05-07 02:09:03,785 - INFO - [PICO] C=
+2026-05-07 02:09:03,785 - INFO - [PICO] O=
+2026-05-07 02:09:03,785 - INFO - [PICO] O=
+2026-05-07 02:09:03,785 - INFO - [PICO] filled=4/4
+2026-05-07 02:09:03,785 - INFO - [PICO] filled=4/4
+2026-05-07 02:09:03,785 - INFO - [Citations] valid_ids=14, cited_ids=8, fabricated=0
+2026-05-07 02:09:03,785 - INFO - [Citations] valid_ids=14, cited_ids=8, fabricated=0
+2026-05-07 02:09:03,785 - INFO - [Citations] sample_valid_ids=['01-04d1-0', '01-1321-0', '01-2671-0', '01-2804-0', '01-4420-0', '01-5024-0', '01-bfd4-0', '01-f741-0', '02-7e82-0', '02-f208-0']
+2026-05-07 02:09:03,785 - INFO - [Citations] sample_valid_ids=['01-04d1-0', '01-1321-0', '01-2671-0', '01-2804-0', '01-4420-0', '01-5024-0', '01-bfd4-0', '01-f741-0', '02-7e82-0', '02-f208-0']
+2026-05-07 02:09:03,786 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.009 x 1.200, subtotal=4.811
+2026-05-07 02:09:03,786 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.009 x 1.200, subtotal=4.811
+2026-05-07 02:09:03,786 - INFO - [RM] skip
+2026-05-07 02:09:03,786 - INFO - [RM] skip
+2026-05-07 02:09:10,131 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:09:10,131 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:09:10,131 - INFO - [PICO] P=
+2026-05-07 02:09:10,131 - INFO - [PICO] P=
+2026-05-07 02:09:10,131 - INFO - [PICO] I=
+2026-05-07 02:09:10,131 - INFO - [PICO] I=
+2026-05-07 02:09:10,131 - INFO - [PICO] C=
+2026-05-07 02:09:10,131 - INFO - [PICO] C=
+2026-05-07 02:09:10,131 - INFO - [PICO] O=
+2026-05-07 02:09:10,131 - INFO - [PICO] O=
+2026-05-07 02:09:10,131 - INFO - [PICO] filled=4/4
+2026-05-07 02:09:10,131 - INFO - [PICO] filled=4/4
+2026-05-07 02:09:10,131 - INFO - [Citations] valid_ids=9, cited_ids=5, fabricated=0
+2026-05-07 02:09:10,131 - INFO - [Citations] valid_ids=9, cited_ids=5, fabricated=0
+2026-05-07 02:09:10,131 - INFO - [Citations] sample_valid_ids=['01-a284-0', '01-c5f4-0', '02-b33e-0', '02-b943-0', '02-f4bf-0', '03-38c8-0', '03-60dd-0', '04-2606-0', '04-57a2-0']
+2026-05-07 02:09:10,131 - INFO - [Citations] sample_valid_ids=['01-a284-0', '01-c5f4-0', '02-b33e-0', '02-b943-0', '02-f4bf-0', '03-38c8-0', '03-60dd-0', '04-2606-0', '04-57a2-0']
+2026-05-07 02:09:10,132 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.109 x 1.200, subtotal=4.931
+2026-05-07 02:09:10,132 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.109 x 1.200, subtotal=4.931
+2026-05-07 02:09:10,132 - INFO - [RM] skip
+2026-05-07 02:09:10,132 - INFO - [RM] skip
+2026-05-07 02:09:17,644 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:09:17,644 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:09:17,644 - INFO - [PICO] P=
+2026-05-07 02:09:17,644 - INFO - [PICO] P=
+2026-05-07 02:09:17,644 - INFO - [PICO] I=
+2026-05-07 02:09:17,644 - INFO - [PICO] I=
+2026-05-07 02:09:17,644 - INFO - [PICO] C=
+2026-05-07 02:09:17,644 - INFO - [PICO] C=
+2026-05-07 02:09:17,644 - INFO - [PICO] O=
+2026-05-07 02:09:17,644 - INFO - [PICO] O=
+2026-05-07 02:09:17,645 - INFO - [PICO] filled=4/4
+2026-05-07 02:09:17,645 - INFO - [PICO] filled=4/4
+2026-05-07 02:09:17,645 - INFO - [Citations] valid_ids=9, cited_ids=8, fabricated=0
+2026-05-07 02:09:17,645 - INFO - [Citations] valid_ids=9, cited_ids=8, fabricated=0
+2026-05-07 02:09:17,645 - INFO - [Citations] sample_valid_ids=['01-706a-0', '01-e48d-0', '02-21e2-0', '02-2a23-0', '02-6d39-0', '03-dca3-0', '03-f74a-0', '04-8b5f-0', '04-b1f8-0']
+2026-05-07 02:09:17,645 - INFO - [Citations] sample_valid_ids=['01-706a-0', '01-e48d-0', '02-21e2-0', '02-2a23-0', '02-6d39-0', '03-dca3-0', '03-f74a-0', '04-8b5f-0', '04-b1f8-0']
+2026-05-07 02:09:17,645 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.342 x 1.200, subtotal=5.211
+2026-05-07 02:09:17,645 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.342 x 1.200, subtotal=5.211
+2026-05-07 02:09:17,645 - INFO - [RM] skip
+2026-05-07 02:09:17,645 - INFO - [RM] skip
+2026-05-07 02:09:35,744 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:09:35,744 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:09:35,744 - INFO - [PICO] P=
+2026-05-07 02:09:35,744 - INFO - [PICO] P=
+2026-05-07 02:09:35,744 - INFO - [PICO] I=BCMA
+CAR-T
+2026-05-07 02:09:35,744 - INFO - [PICO] I=BCMA
+CAR-T
+2026-05-07 02:09:35,744 - INFO - [PICO] C=
+2026-05-07 02:09:35,744 - INFO - [PICO] C=
+2026-05-07 02:09:35,744 - INFO - [PICO] O=
+2026-05-07 02:09:35,744 - INFO - [PICO] O=
+2026-05-07 02:09:35,744 - INFO - [PICO] filled=4/4
+2026-05-07 02:09:35,744 - INFO - [PICO] filled=4/4
+2026-05-07 02:09:35,745 - INFO - [Citations] valid_ids=14, cited_ids=13, fabricated=0
+2026-05-07 02:09:35,745 - INFO - [Citations] valid_ids=14, cited_ids=13, fabricated=0
+2026-05-07 02:09:35,745 - INFO - [Citations] sample_valid_ids=['01-3211-0', '01-5432-0', '01-7b43-0', '01-ba12-0', '01-c33f-0', '01-d595-0', '01-d5cf-0', '01-ded0-0', '02-1610-0', '02-8984-0']
+2026-05-07 02:09:35,745 - INFO - [Citations] sample_valid_ids=['01-3211-0', '01-5432-0', '01-7b43-0', '01-ba12-0', '01-c33f-0', '01-d595-0', '01-d5cf-0', '01-ded0-0', '02-1610-0', '02-8984-0']
+2026-05-07 02:09:35,745 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.370 x 1.200, subtotal=5.244
+2026-05-07 02:09:35,745 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=3.370 x 1.200, subtotal=5.244
+2026-05-07 02:09:35,745 - INFO - [RM] skip
+2026-05-07 02:09:35,745 - INFO - [RM] skip
+2026-05-07 02:09:38,247 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:09:38,247 - INFO - [Schedule] mode=train, step=0/339, p=0.000, format_scale=1.200, correct_scale=1.200, rm_weight=0.000
+2026-05-07 02:09:38,247 - INFO - [PICO] P=
+2026-05-07 02:09:38,247 - INFO - [PICO] P=
+2026-05-07 02:09:38,247 - INFO - [PICO] I=
+2026-05-07 02:09:38,247 - INFO - [PICO] I=
+2026-05-07 02:09:38,247 - INFO - [PICO] C=
+2026-05-07 02:09:38,247 - INFO - [PICO] C=
+2026-05-07 02:09:38,247 - INFO - [PICO] O=
+2026-05-07 02:09:38,247 - INFO - [PICO] O=

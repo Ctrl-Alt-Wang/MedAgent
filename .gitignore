@@ -6,3 +6,5 @@ agentops.log
 *.pyc
 .DS_Store
 wandb/**/*.wandb
+# 保留 v16_analysis 中的分析文件（.txt 格式，不受 *.log 影响）
+!v16_analysis/
