@@ -1,0 +1,61 @@
+# v18 Reward 函数配置摘录（脱敏版）
+# 文件来源：/workspace/post_train/sql_agent/sql_agent_v18.py
+# 最后修改：2026-05-19 07:52
+# 注意：REWARD_MODEL_URL 部分脱敏
+# [CHANGED] 标注与 v17 不同的部分
+
+# =============================================
+# 基础配置
+# =============================================
+
+REWARD_MODEL_URL = "[REDACTED_URL]/score"  # 与 v17 相同端点
+MAX_COMPLETION_TOKENS = 1536               # 与 v17 相同
+MAX_TURNS = 2                               # 与 v17 相同
+
+# =============================================
+# 动态权重调度（v18 变更）
+# =============================================
+
+format_scale = 0.7          # [CHANGED] v17: 1.2 → 降低 41.7%
+correct_scale = 1.0         # 与 v17 相同
+rm_weight = 0.25 * (progress - 0.3) / 0.7  # [CHANGED] v17: 0.3 → 最大值降至 0.25
+
+# =============================================
+# Reward 函数架构（主要变更）
+# =============================================
+
+# compute_hard_reward():      与 v17 完全相同
+# compute_format_reward():    与 v17 完全相同（但乘以更小的 format_scale）
+# compute_correctness_reward(): 与 v17 完全相同（无 v17 专有的 recall/diversity bonus）
+
+# [NEW] check_evidence_safety() - v18 完全新增：
+#   条件触发说明：
+#   strong_claim && !real_ids            → -0.35
+#   strong_claim && !has_sr_or_rct       → -0.12
+#   cautious && !has_sr_or_rct           → +0.15
+#   cautious && has_guideline && !sr_rct → +0.05
+#   clip: [-0.5, 0.25]
+#
+#   STRONG_CLAIM_PATTERN: 明确优于|显著降低|显著改善|强烈推荐|一线首选|必须|证实|确定可以|应当优先
+#   CAUTION_PATTERN: 证据有限|间接证据|不能得出强结论|不能得出强推荐|需谨慎|谨慎解释|尚不明确|缺乏直接比较
+
+# Total Reward 计算（v18）：
+# total = hard_reward
+#       + 0.7 × format_reward          # [CHANGED from 1.2]
+#       + 1.0 × correctness_reward
+#       + evidence_safety_reward        # [NEW]
+#       + rm_weight × rm_score
+
+# =============================================
+# v18 未保留的 v17 专有特性
+# =============================================
+
+# v17 的 recall_bonus（0.10 × recall）在 v18 中无对应代码
+# v17 的 diversity_bonus（0.02 × min(N,3)）在 v18 中无对应代码
+
+# =============================================
+# 敏感信息占位
+# =============================================
+
+# REWARD_MODEL_URL = [REDACTED]
+# WANDB_API_KEY = [REDACTED]

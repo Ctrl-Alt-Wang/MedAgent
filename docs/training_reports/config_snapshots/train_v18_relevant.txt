@@ -1,0 +1,67 @@
+# v18 训练配置摘录（脱敏版）
+# 文件来源：/workspace/post_train/sql_agent/train_sql_agent_v18.py
+# 最后修改：2026-05-19 09:09
+# 版本标识：v18_full_grpo
+# 注意：敏感信息（密码、API Key 等）已替换为 [REDACTED]
+
+# =============================================
+# 核心超参数（与 v17 相比的变更项用 [CHANGED] 标注）
+# =============================================
+
+base_lr = 5e-7         # [CHANGED] v17: 7e-7
+lr_clamp = max(3e-7, min(lr, 3e-6))  # [CHANGED] 下限: v17: 8e-7
+
+kl_loss_coef = 0.10    # [CHANGED] v17: 0.08
+entropy_coeff = 0.005  # 与 v17 相同
+clip_ratio_low = 0.20  # 与 v17 相同
+clip_ratio_high = 0.20 # 与 v17 相同
+
+train_batch_size = 8 * dp  # dp=1 时 = 8（与 v17 相同）
+n_rollouts = 4
+rollouts_per_update = 32
+
+max_prompt_length = 12288
+max_response_length = 2048
+max_model_len = 16384
+
+total_epochs = 3
+save_freq = 100        # [CHANGED] v17: 50（checkpoint 目录确认为每100步保存）
+test_freq = 25
+
+val_before_train = True   # [CHANGED] v17: False
+
+# =============================================
+# GPU 配置（4GPU，与 v17 相同）
+# =============================================
+
+n_gpus = 4
+tp = 4
+dp = 1
+gpu_memory_utilization = 0.40
+offload_policy = True
+
+# =============================================
+# 进度追踪
+# =============================================
+
+progress_file = "/tmp/sql_agent_progress_v18_full_grpo.json"
+schedule_steps = min(150, total_updates)
+
+# =============================================
+# 训练状态（2026-05-26 读取，训练仍在进行）
+# =============================================
+
+# total_updates = 460
+# rollout_count = 13024
+# global_step = 407
+# 评测使用版本 = global_step_300（val_peak）
+# 当前最新 = global_step_400
+
+# =============================================
+# 敏感信息占位
+# =============================================
+
+# WANDB_API_KEY = [REDACTED]
+# DEFAULT_MODEL_PATH = /workspace/models/Qwen2.5-14B-Instruct-SFT-Agent
+# GitHub token = [REDACTED]
+# 服务器凭据 = [REDACTED]

@@ -1,0 +1,65 @@
+# v17 Reward 函数配置摘录（脱敏版）
+# 文件来源：/workspace/post_train/sql_agent/sql_agent.py
+# 最后修改：2026-05-09 06:39
+# 注意：REWARD_MODEL_URL 部分脱敏
+
+# =============================================
+# 基础配置
+# =============================================
+
+REWARD_MODEL_URL = "[REDACTED_URL]/score"  # 实际值从环境变量读取
+MAX_COMPLETION_TOKENS = 1536
+MAX_TURNS = 2
+
+# =============================================
+# 动态权重调度（v17_plus_small）
+# =============================================
+
+format_scale = 1.2          # 固定（不再动态衰减，v17 关键简化）
+correct_scale = 1.0         # 固定
+rm_weight = 0.3 * (progress - 0.3) / 0.7  # progress ∈ [0.3, 1.0] → rm_weight ∈ [0, 0.3]
+
+# =============================================
+# Reward 函数架构
+# =============================================
+
+# compute_hard_reward():
+#   is_medical && !tool_called → -1.0
+#   REF_LIST at tail           → -0.5
+#   cited_ids && !valid_ids    → -1.2
+#   fabricated_ids             → -min(2.0, 0.8 + 0.5*N)
+
+# compute_format_reward():
+#   pico_filled range [0,1]:   PICO完整度最高 +0.15
+#   main_section_presence:     × 0.35
+#   main_section_order:        × 0.15
+#   sub_section_presence:      × 0.25
+#   sub_section_order:         × 0.10
+
+# compute_correctness_reward():
+#   precision × 1.4            (real_ids/cited_ids)
+#   real_ids count bonus:      ≥4: +0.50, ≥2: +0.30, ≥1: +0.12
+#   section_prefix_alignment:  [-0.5, +0.5]
+#   honest_abstention:         最高 +0.35
+#   recall_bonus (v17专有):    0.10 × recall  ← 关键差异
+#   diversity_bonus (v17专有): 0.02 × min(cited_db_count, 3)  ← 关键差异
+#   clip: [-3.0, 3.2]
+
+# compute_reward_model_score():
+#   外部 RM，输出 [0,1]
+#   sigmoid 归一化：z = (raw_score - (-3.4)) / 8.0
+
+# =============================================
+# 非医学样本处理
+# =============================================
+
+# tool_called:   -0.20
+# !tool_called:  +0.20
+# answer.strip: +0.10
+
+# =============================================
+# 敏感信息占位
+# =============================================
+
+# REWARD_MODEL_URL = [REDACTED]
+# WANDB_API_KEY = [REDACTED]

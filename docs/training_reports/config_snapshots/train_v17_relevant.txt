@@ -1,0 +1,65 @@
+# v17 训练配置摘录（脱敏版）
+# 文件来源：/workspace/post_train/sql_agent/train_sql_agent.py
+# 最后修改：2026-05-12 02:38
+# 版本标识：v17_plus_small
+# 注意：敏感信息（密码、API Key 等）已替换为 [REDACTED]
+
+# =============================================
+# 核心超参数
+# =============================================
+
+base_lr = 7e-7
+lr_clamp = max(8e-7, min(lr, 3e-6))
+
+kl_loss_coef = 0.08
+entropy_coeff = 0.005
+clip_ratio_low = 0.20
+clip_ratio_high = 0.20
+
+train_batch_size = 8 * dp  # dp=1 时 = 8
+n_rollouts = 4
+rollouts_per_update = 32
+
+max_prompt_length = 12288
+max_response_length = 2048
+max_model_len = 16384  # vLLM engine
+
+total_epochs = 3
+save_freq = 50
+test_freq = 25
+
+val_before_train = False
+
+# =============================================
+# GPU 配置（4GPU）
+# =============================================
+
+n_gpus = 4
+tp = 4   # tensor parallelism
+dp = 1   # data parallelism
+gpu_memory_utilization = 0.40
+offload_policy = True
+
+# =============================================
+# 进度追踪
+# =============================================
+
+progress_file = "/tmp/sql_agent_progress_v17_plus_small.json"
+schedule_steps = min(150, total_updates)
+
+# =============================================
+# 训练完成状态（2026-05-15）
+# =============================================
+
+# total_updates = 339
+# rollout_count = 10750
+# global_step = 335
+# 最终 checkpoint = global_step_336
+
+# =============================================
+# 敏感信息占位
+# =============================================
+
+# WANDB_API_KEY = [REDACTED]
+# DEFAULT_MODEL_PATH = /workspace/models/Qwen2.5-14B-Instruct-SFT-Agent
+# GitHub token = [REDACTED]
