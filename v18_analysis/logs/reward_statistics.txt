@@ -1,0 +1,300 @@
+2026-05-19 09:15:21,142 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:15:21,142 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:15:21,144 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:15:21,144 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:15:21,144 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.515 x 1.000, subtotal=3.215
+2026-05-19 09:15:21,144 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.515 x 1.000, subtotal=3.215
+2026-05-19 09:15:21,144 - INFO - [Total Reward] 3.215
+2026-05-19 09:15:21,144 - INFO - [Total Reward] 3.215
+2026-05-19 09:15:35,291 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:15:35,291 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:15:35,292 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:15:35,292 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:15:35,292 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.560 x 1.000, subtotal=3.260
+2026-05-19 09:15:35,292 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.560 x 1.000, subtotal=3.260
+2026-05-19 09:15:35,292 - INFO - [Total Reward] 3.260
+2026-05-19 09:15:35,292 - INFO - [Total Reward] 3.260
+2026-05-19 09:15:39,540 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:15:39,540 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:15:39,541 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:15:39,541 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:15:39,541 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.547 x 1.000, subtotal=3.247
+2026-05-19 09:15:39,541 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.547 x 1.000, subtotal=3.247
+2026-05-19 09:15:39,541 - INFO - [Total Reward] 3.247
+2026-05-19 09:15:39,541 - INFO - [Total Reward] 3.247
+2026-05-19 09:15:41,354 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:15:41,354 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:15:41,355 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:15:41,355 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:15:41,356 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.550 x 1.000, subtotal=3.250
+2026-05-19 09:15:41,356 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.550 x 1.000, subtotal=3.250
+2026-05-19 09:15:41,356 - INFO - [Total Reward] 3.250
+2026-05-19 09:15:41,356 - INFO - [Total Reward] 3.250
+2026-05-19 09:15:58,736 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:15:58,736 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:15:58,737 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:15:58,737 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:15:58,737 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.549 x 1.000, subtotal=3.249
+2026-05-19 09:15:58,737 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.549 x 1.000, subtotal=3.249
+2026-05-19 09:15:58,737 - INFO - [Total Reward] 3.249
+2026-05-19 09:15:58,737 - INFO - [Total Reward] 3.249
+2026-05-19 09:16:18,758 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:16:18,758 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:16:18,760 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:16:18,760 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:16:18,760 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.560 x 1.000, subtotal=3.260
+2026-05-19 09:16:18,760 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.560 x 1.000, subtotal=3.260
+2026-05-19 09:16:18,761 - INFO - [Total Reward] 3.260
+2026-05-19 09:16:18,761 - INFO - [Total Reward] 3.260
+2026-05-19 09:16:22,067 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:16:22,067 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:16:22,068 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:16:22,068 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:16:22,068 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.527 x 1.000, subtotal=3.227
+2026-05-19 09:16:22,068 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.527 x 1.000, subtotal=3.227
+2026-05-19 09:16:22,068 - INFO - [Total Reward] 3.227
+2026-05-19 09:16:22,068 - INFO - [Total Reward] 3.227
+2026-05-19 09:16:25,336 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:16:25,336 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:16:25,338 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:16:25,338 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:16:25,338 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.538 x 1.000, subtotal=3.238
+2026-05-19 09:16:25,338 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.538 x 1.000, subtotal=3.238
+2026-05-19 09:16:25,338 - INFO - [Total Reward] 3.238
+2026-05-19 09:16:25,338 - INFO - [Total Reward] 3.238
+2026-05-19 09:16:40,656 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:16:40,656 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:16:40,657 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:16:40,657 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:16:40,657 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.449 x 1.000, subtotal=3.149
+2026-05-19 09:16:40,657 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.449 x 1.000, subtotal=3.149
+2026-05-19 09:16:40,657 - INFO - [Total Reward] 3.149
+2026-05-19 09:16:40,657 - INFO - [Total Reward] 3.149
+2026-05-19 09:16:59,158 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:16:59,158 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:16:59,159 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:16:59,159 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:16:59,159 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:16:59,159 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:16:59,159 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.513 x 1.000, subtotal=3.213
+2026-05-19 09:16:59,159 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.513 x 1.000, subtotal=3.213
+2026-05-19 09:16:59,159 - INFO - [Total Reward] 3.213
+2026-05-19 09:16:59,159 - INFO - [Total Reward] 3.213
+2026-05-19 09:16:59,160 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:16:59,160 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:16:59,160 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.549 x 1.000, subtotal=3.249
+2026-05-19 09:16:59,160 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.549 x 1.000, subtotal=3.249
+2026-05-19 09:16:59,160 - INFO - [Total Reward] 3.249
+2026-05-19 09:16:59,160 - INFO - [Total Reward] 3.249
+2026-05-19 09:17:09,389 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:17:09,389 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:17:09,390 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:17:09,390 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:17:09,390 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.538 x 1.000, subtotal=3.238
+2026-05-19 09:17:09,390 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.538 x 1.000, subtotal=3.238
+2026-05-19 09:17:09,390 - INFO - [Total Reward] 3.238
+2026-05-19 09:17:09,390 - INFO - [Total Reward] 3.238
+2026-05-19 09:17:38,461 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:17:38,461 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:17:38,462 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:17:38,462 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:17:38,462 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.560 x 1.000, subtotal=3.260
+2026-05-19 09:17:38,462 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.560 x 1.000, subtotal=3.260
+2026-05-19 09:17:38,462 - INFO - [Total Reward] 3.260
+2026-05-19 09:17:38,462 - INFO - [Total Reward] 3.260
+2026-05-19 09:17:46,341 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:17:46,341 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:17:46,342 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:17:46,342 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:17:46,342 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.540 x 1.000, subtotal=3.240
+2026-05-19 09:17:46,342 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.540 x 1.000, subtotal=3.240
+2026-05-19 09:17:46,342 - INFO - [Total Reward] 3.240
+2026-05-19 09:17:46,342 - INFO - [Total Reward] 3.240
+[{'id': 36833041, 'title': 'Human Rabies Despite Post-Exposure Prophylaxis: A Systematic Review Of Fatal Breakthrough Infections After Zoonotic Exposures', 'key': 'search_meta_db', 'match_sentence': '', 'match_sentences': [{'id': '03-8d99-0', 'sentence': 'Post-exposure prophylaxis (PEP) for rabies is widely administered and highly effective. Nevertheless, sporadic breakthrough infections (ie, rabies in people who have started PEP) have been reported. We conducted a systematic review of articles published between Jan 1, 1980 and June 1, 2022 to characterise breakthrough infections. After reviewing 3380 articles from across all continents, we identified 52 articles, which included a total of 122 breakthrough infections. We classified breakthrough infections on the basis of adherence to core practices (ie, wound cleaning and vaccine administration). Of 86 breakthrough infections with data, median time from exposure to symptom onset was 20 days (IQR 16-24). Most (89 [77%] of 115) participants received PEP within 2 days of an exposure. Severe wounds (defined as those involving multiple wound sites or bites to the head, face, or neck) were common (80 [69%] of 116 [with data]). Deviations from core practices were reported in 68 (56%) of 122 cases. Other possible causes for breakthrough infections included errors in the administration of rabies immunoglobulin, delays in seeking health care, and comorbidities or immunosuppression. Cold-chain integrity assessments and potency testing of PEP biologics were only rarely assessed (8 [7%] of 122 cases), neither of which were found to be a cause of breakthrough infections. Timely and appropriate administration of PEP is crucial to prevent rabies, and although people with high-risk exposures o...(内容已截断)', 'db_id': 36833041, 'prefix_sentence': '', 'tail_sentence': ''}], 'url': 'https://www.infox-med.com/#/articleDetails?id=36833041', '_matched_keywords': ['有开放性创伤且未完成破伤风免疫的患者 及时接种破伤风疫苗 破伤风发病风险'], 'publish_time': '2023-05-01', 'doc_source': 'Lancet Infectious Diseases', 'zky_area': '医学 1区', 'docIf': 31.0, 'weight': 4, 'reranker_score': 0.21190567091756088}, {'id': 36599175, 'title': 'Thromboprophylaxis Timing After Blunt Solid Organ Injury: A Systematic Review And Meta-Analysis', 'key': 'search_meta_db', 'match_sentence': '', 'match_sentences': [{'id': '03-18a2-0', 'sentence': 'Introduction: Trauma patients with blunt abdominal solid organ injuries are at high risk for venous thromboembolism (VTE), but the optimal time to safely administer chemical thromboprophylaxis is controversial, especially for patients who are managed nonoperatively due to increased risk of hemorrhage. We sought to compare failure of nonoperative management (NOM) and VTE events based on timing of chemical thromboprophylaxis initiation. \nMethods: A systematic review was conducted in PubMed and Embase databases. Studies were included if they evaluated timing of initiation of chemical thromboprophylaxis in trauma patients who underwent NOM of blunt solid organ injuries. Outcomes included failure of NOM and incidence of VTE. A random-effects meta-analysis was performed comparing patients who received late (&gt;48 h) versus early thromboprophylaxis initiation. \nResults: Twelve retrospective cohort studies, comprising 21,909 patients, were included. Three studies, including 6375 patients, provided data on adjusted outcomes. Pooled adjusted analysis demonstrated no difference in failure of NOM in patients receiving late versus early thromboprophylaxis (odds ratio [OR] 0.92, 95% confidence interval [CI]:0.4-2.14). When including all unadjusted studies, even those at high risk of bias, there remained no difference in failure of NOM (OR 1.16, 95% CI:0.72-1.86). In the adjusted analysis for VTE events, which had 6259 patients between two studies, patients receiving late chemical thrombop...(内容已截断)', 'db_id': 36599175, 'prefix_sentence': '', 'tail_sentence': ''}], 'url': 'https://www.infox-med.com/#/articleDetails?id=36599175', '_matched_keywords': ['有开放性创伤且未完成破伤风免疫的患者 及时接种破伤风疫苗'], 'publish_time': '2023-02-01', 'doc_source': 'Journal of Surgical Research', 'zky_area': '医学 3区', 'docIf': 1.7, 'weight': 1, 'reranker_score': 0.2755194131298318}, {'id': 34749448, 'title': 'Optimal Timing Of Venous Thromboembolic Chemoprophylaxis Initiation Following Blunt Solid Organ Injury: Meta-Analysis And Systematic Review', 'key': 'search_meta_db', 'match_sentence': '', 'match_sentences': [{'id': '03-4b73-0', 'sentence': 'Purpose: The need to prevent venous thromboembolism (VTE) following blunt solid organ injury must be balanced against the concern for exacerbation of hemorrhage. The optimal timing for initiation of VTE chemoprophylaxis is not known. The objective was to determine the safety and efficacy of early (≤ 48 h) VTE chemoprophylaxis initiation following blunt solid organ injury. \nMethods: An electronic search was performed of medical libraries for English language studies on timing of VTE chemoprophylaxis initiation following blunt solid organ injury published from inception to April 2020. Included studies compared early (≤ 48 h) versus late (&gt; 48 h) initiation of VTE chemoprophylaxis in adults with blunt splenic, liver, and/or kidney injury. Estimates were pooled using random-effects meta-analysis. Odds ratios were utilized to quantify differences in failure of nonoperative management, need for blood transfusion and rates of VTE. \nResults: The search identified 2,111 studies. Of these, ten studies comprising 14,675 patients were included. All studies were non-randomized and only one was prospective. The overall odds of failure of nonoperative management were no different between early and late groups, OR 1.09 (95%CI 0.92-1.29). Similarly, there was no difference in the need for blood transfusion either during overall hospital stay, OR 0.91 (95%CI 0.70-1.18), or post prophylaxis initiation, OR 1.23 (95%CI 0.55-2.73). There were significantly lower odds of VTE when patients receiv...(内容已截断)', 'db_id': 34749448, 'prefix_sentence': '', 'tail_sentence': ''}], 'url': 'https://www.infox-med.com/#/articleDetails?id=34749448', '_matched_keywords': ['有开放性创伤且未完成破伤风免疫的患者 及时接种破伤风疫苗'], 'publish_time': '2022-06-01', 'doc_source': 'European Journal of Trauma and Emergency Surgery', 'zky_area': '医学 3区', 'docIf': 2.2, 'weight': 1, 'reranker_score': 0.2536760752679234}, {'id': 35482348, 'title': 'Efficacy, Immunogenicity, And Evidence For Best-Timing Of Pneumococcal Vaccination In Splenectomized Adults: A Systematic Review', 'key': 'search_meta_db', 'match_sentence': '', 'match_sentences': [{'id': '03-73bc-0', 'sentence': 'Introduction: Streptococcus pneumoniae is the most frequent cause of overwhelming post-splenectomy infections. Pneumococcal vaccination is generally recommended for splenectomized individuals. However, most of our knowledge comes from a few observational studies or small randomized clinical trials. We conducted this systematic review to assess the evidence of efficacy, antibody response, and the best timing for pneumococcal vaccination in splenectomized individuals. Areas covered: The systematic review was conducted according to the PRISMA guidelines. We screened 489 articles, included 21 articles, and assessed the risk of bias using Cochrane RoB 2 and ROBINS-I. We summarized the findings narratively due to the heterogeneity of the studies. Expert opinion: Splenectomized individuals seem to have adequate antibody responses to pneumococcal vaccines. No differences in antibody responses were observed compared to healthy controls, except in one study. The studies were heterogeneous, and the majority had moderate to high degree of bias. There is a lack of clinical evidence for efficacy and best timing of pneumococcal vaccination in splenectomized individuals. Randomized clinical trials addressing these issues are needed.\nIntroduction: Streptococcus pneumoniae is the most frequent cause of overwhelming post-splenectomy infections. Pneumococcal vaccination is generally recommended for splenectomized individuals. However, most of our knowledge comes from a few observational studies ...(内容已截断)', 'db_id': 35482348, 'prefix_sentence': '', 'tail_sentence': ''}], 'url': 'https://www.infox-med.com/#/articleDetails?id=35482348', '_matched_keywords': ['及时接种破伤风疫苗'], 'publish_time': '2022-05-01', 'doc_source': 'Expert Review of Vaccines', 'zky_area': '医学 3区', 'docIf': 4.8, 'weight': 1, 'reranker_score': 0.21568095536429607}, {'id': 35298037, 'title': 'Sars-Cov-2 Mrna Vaccine Breakthrough Infections In Fully Vaccinated Healthcare Personnel: A Systematic Review', 'key': 'search_meta_db', 'match_sentence': '', 'match_sentences': [{'id': '03-96aa-0', 'sentence': 'The number of people vaccinated against COVID-19 increases worldwide every day; however, it is important to study the risk of breakthrough infections in vaccinated individuals at high risk of exposure such as healthcare personnel (HCP). A systematic literature review (SLR) applying the PRISMA declaration and the PECOS format using the following entry terms was used: "Health Personnel OR Healthcare Worker OR Healthcare Provider OR Healthcare Personnel AND breakthrough OR infection after vaccine*". The research was carried out utilizing the following databases: SCOPUS, PubMed, Embase, and Web of Sciences. An overall very low incidence of post-vaccination breakthrough infections was found, ranging from 0.011 to 0.001 (per 100 individuals at risk). Our findings further support the published high effectiveness rates of mRNA vaccines in preventing SARS-CoV-2 infections among fully vaccinated HCP. Additional studies are needed to define the duration of the vaccine-induced protection among HCP.\nThe number of people vaccinated against COVID-19 increases worldwide every day; however, it is important to study the risk of breakthrough infections in vaccinated individuals at high risk of exposure such as healthcare personnel (HCP). A systematic literature review (SLR) applying the PRISMA declaration and the PECOS format using the following entry terms was used: "Health Personnel OR Healthcare Worker OR Healthcare Provider OR Healthcare Personnel AND breakthrough OR infection after vaccine...(内容已截断)', 'db_id': 35298037, 'prefix_sentence': '', 'tail_sentence': ''}], 'url': 'https://www.infox-med.com/#/articleDetails?id=35298037', '_matched_keywords': ['有开放性创伤且未完成破伤风免疫的患者 及时接种破伤风疫苗 破伤风发病风险'], 'publish_time': '2022-01-13', 'doc_source': 'Tropical medicine and infectious disease', 'zky_area': '', 'docIf': 2.6, 'weight': 1, 'reranker_score': 0.21551580330224446}, {'id': 39017103, 'title': 'Immunocompromised Individuals Are At Increased Risk Of Covid-19 Breakthrough Infection, Hospitalization, And Death In The Post-Vaccination Era: A Systematic Review', 'key': 'search_meta_db', 'match_sentence': '', 'match_sentences': [{'id': '03-8838-0', 'sentence': 'Introduction: Immunocompromised individuals have been shown to mount a reduced response to vaccination, resulting in reduced vaccine effectiveness in this cohort. Therefore, in the postvaccination era, immunocompromised individuals remain at high risk of breakthrough infection and COVID-19 related hospitalization and death, which persist despite vaccination efforts. There has been a marked paucity of systematic reviews evaluating existing data describing the clinical measures of efficacy of COVID-19 vaccination, specifically in immunocompromised populations. In particular, there is a scarcity of comprehensive evaluations exploring breakthrough infections and severe COVID-19 in this patient population. \nMethods: To address this gap, we conducted a systematic review which aimed to provide a summary of current clinical evidence of the effectiveness of COVID-19 vaccination in the immunocompromised population. Using PRISMA guidelines, we conducted a literature search on PubMed and the Cochrane database published between January 1, 2021 to September 1, 2022. \nResults: Our findings demonstrated that despite vaccination, immunocompromised patients remained at high risk of new breakthrough COVID-19 infection and severe COVID-19 outcomes compared to the general population. We found increased average relative risk (RR) of breakthrough infections in the immunocompromised population, including patients with cancer (RR = 1.4), HIV (RR = 1.92), chronic kidney disease (RR = 2.26), immunodefi...(内容已截断)', 'db_id': 39017103, 'prefix_sentence': '', 'tail_sentence': ''}], 'url': 'https://www.infox-med.com/#/articleDetails?id=39017103', '_matched_keywords': ['有开放性创伤且未完成破伤风免疫的患者 及时接种破伤风疫苗'], 'publish_time': '2024-04-01', 'doc_source': 'Immunity Inflammation and Disease', 'zky_area': '', 'docIf': 2.7, 'weight': 1, 'reranker_score': 0.1076249145299522}, {'id': 21172436, 'title': 'Recommendations For Influenza Vaccination In Burns Patients Based On A Systematic Review Of The Evidence', 'key': 'search_meta_db', 'match_sentence': '', 'match_sentences': [{'id': '03-f916-0', 'sentence': 'Severe burn injury is a serious systemic insult that can lead to life-threatening secondary infections. Immunosuppression, inhalation injury, and prolonged length of hospital stay are factors that predispose patients to severe respiratory tract infections. Furthermore, evidence shows that burns can put one at risk of infection long after the original injury. Currently in the United Kingdom, the annual National Flu Immunisation programme outlines guidance for groups who are deemed high risk and, therefore, eligible for the influenza vaccine. At present, no guidance exists for the administration of the influenza vaccine in burn-injured patients, despite knowledge of immunosuppression. The aim of this literature review is to examine the evidence for associations between burn injury and influenza and, where available, evaluate efficacy of influenza vaccines in this cohort. In addition, literature was searched for the effectiveness of the influenza vaccine in patients 65 years and above and in patients admitted to the intensive care unit (ICU), two domains common to patients with severe burns. Three papers were found to suggest increased susceptibility to influenza following burn injury; however, no papers studying the effectiveness of the influenza vaccine in this group were found. Several studies demonstrated improved outcomes in patients over 65 years and patients admitted to ICU. Following the evaluation of the evidence, this review advocates for the consideration of hospitali...(内容已截断)', 'db_id': 21172436, 'prefix_sentence': '', 'tail_sentence': ''}], 'url': 'https://www.infox-med.com/#/articleDetails?id=21172436', '_matched_keywords': ['及时接种破伤风疫苗'], 'publish_time': '2022-01-05', 'doc_source': 'Journal of Burn Care & Research', 'zky_area': '医学 4区', 'docIf': 1.8, 'weight': 1, 'reranker_score': 0.10669059394565118}]
+2026-05-19 09:17:47,547 - INFO - 系统评价和Meta分析排序过滤结果: | 标题: Human Rabies Despite Post-Exposure Prophylaxis: A Systematic Review Of Fatal Breakthrough Infections After Zoonotic Exposures | 发布时间: 2023-05-01 | ID: 36833041 | 权重: 4
+2026-05-19 09:17:52,785 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:17:52,785 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:17:52,786 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:17:52,786 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:17:52,786 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.546 x 1.000, subtotal=3.246
+2026-05-19 09:17:52,786 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.546 x 1.000, subtotal=3.246
+2026-05-19 09:17:52,786 - INFO - [Total Reward] 3.246
+2026-05-19 09:17:52,786 - INFO - [Total Reward] 3.246
+2026-05-19 09:17:53,543 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:17:53,543 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:17:53,544 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:17:53,544 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:17:53,545 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.520 x 1.000, subtotal=3.220
+2026-05-19 09:17:53,545 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.520 x 1.000, subtotal=3.220
+2026-05-19 09:17:53,545 - INFO - [Total Reward] 3.220
+2026-05-19 09:17:53,545 - INFO - [Total Reward] 3.220
+2026-05-19 09:18:16,708 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:18:16,708 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:18:16,709 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:18:16,709 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:18:16,709 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.535 x 1.000, subtotal=3.235
+2026-05-19 09:18:16,709 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.535 x 1.000, subtotal=3.235
+2026-05-19 09:18:16,709 - INFO - [Total Reward] 3.235
+2026-05-19 09:18:16,709 - INFO - [Total Reward] 3.235
+2026-05-19 09:18:25,497 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:18:25,497 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:18:25,498 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:18:25,498 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:18:25,498 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.527 x 1.000, subtotal=3.227
+2026-05-19 09:18:25,498 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.527 x 1.000, subtotal=3.227
+2026-05-19 09:18:25,498 - INFO - [Total Reward] 3.227
+2026-05-19 09:18:25,498 - INFO - [Total Reward] 3.227
+2026-05-19 09:18:30,290 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:18:30,290 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:18:30,290 - INFO - [EvidenceSafety] strong=False, cautious=True, prefixes=set(), score=0.150
+2026-05-19 09:18:30,290 - INFO - [EvidenceSafety] strong=False, cautious=True, prefixes=set(), score=0.150
+2026-05-19 09:18:30,290 - INFO - [Reward Breakdown] hard=0.000, format=0.967 x 0.700, correct=-0.100 x 1.000, subtotal=0.577
+2026-05-19 09:18:30,290 - INFO - [Reward Breakdown] hard=0.000, format=0.967 x 0.700, correct=-0.100 x 1.000, subtotal=0.577
+2026-05-19 09:18:30,290 - INFO - [Total Reward] 0.577
+2026-05-19 09:18:30,290 - INFO - [Total Reward] 0.577
+2026-05-19 09:18:34,090 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:18:34,090 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:18:34,091 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:18:34,091 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:18:34,091 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.546 x 1.000, subtotal=3.246
+2026-05-19 09:18:34,091 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.546 x 1.000, subtotal=3.246
+2026-05-19 09:18:34,091 - INFO - [Total Reward] 3.246
+2026-05-19 09:18:34,091 - INFO - [Total Reward] 3.246
+2026-05-19 09:18:59,734 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:18:59,734 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:18:59,735 - INFO - [EvidenceSafety] strong=True, cautious=True, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:18:59,735 - INFO - [EvidenceSafety] strong=True, cautious=True, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:18:59,735 - INFO - [Reward Breakdown] hard=0.000, format=0.967 x 0.700, correct=2.196 x 1.000, subtotal=2.873
+2026-05-19 09:18:59,735 - INFO - [Reward Breakdown] hard=0.000, format=0.967 x 0.700, correct=2.196 x 1.000, subtotal=2.873
+2026-05-19 09:18:59,735 - INFO - [Total Reward] 2.873
+2026-05-19 09:18:59,735 - INFO - [Total Reward] 2.873
+2026-05-19 09:19:06,191 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:19:06,191 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:19:06,191 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:19:06,191 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:19:06,192 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.538 x 1.000, subtotal=3.238
+2026-05-19 09:19:06,192 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.538 x 1.000, subtotal=3.238
+2026-05-19 09:19:06,192 - INFO - [Total Reward] 3.238
+2026-05-19 09:19:06,192 - INFO - [Total Reward] 3.238
+2026-05-19 09:19:21,952 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:19:21,952 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:19:21,954 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:19:21,954 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:19:21,954 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.549 x 1.000, subtotal=3.249
+2026-05-19 09:19:21,954 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.549 x 1.000, subtotal=3.249
+2026-05-19 09:19:21,954 - INFO - [Total Reward] 3.249
+2026-05-19 09:19:21,954 - INFO - [Total Reward] 3.249
+2026-05-19 09:19:23,413 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:19:23,413 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:19:23,415 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:19:23,415 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:19:23,415 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.560 x 1.000, subtotal=3.260
+2026-05-19 09:19:23,415 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.560 x 1.000, subtotal=3.260
+2026-05-19 09:19:23,415 - INFO - [Total Reward] 3.260
+2026-05-19 09:19:23,415 - INFO - [Total Reward] 3.260
+2026-05-19 09:19:42,576 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:19:42,576 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:19:42,577 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:19:42,577 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:19:42,577 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.549 x 1.000, subtotal=3.249
+2026-05-19 09:19:42,577 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.549 x 1.000, subtotal=3.249
+2026-05-19 09:19:42,577 - INFO - [Total Reward] 3.249
+2026-05-19 09:19:42,577 - INFO - [Total Reward] 3.249
+2026-05-19 09:19:50,937 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:19:50,937 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:19:50,938 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:19:50,938 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:19:50,939 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.547 x 1.000, subtotal=3.247
+2026-05-19 09:19:50,939 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.547 x 1.000, subtotal=3.247
+2026-05-19 09:19:50,939 - INFO - [Total Reward] 3.247
+2026-05-19 09:19:50,939 - INFO - [Total Reward] 3.247
+2026-05-19 09:20:05,910 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:20:05,910 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:20:05,911 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:20:05,911 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:20:05,912 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.560 x 1.000, subtotal=3.260
+2026-05-19 09:20:05,912 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.560 x 1.000, subtotal=3.260
+2026-05-19 09:20:05,912 - INFO - [Total Reward] 3.260
+2026-05-19 09:20:05,912 - INFO - [Total Reward] 3.260
+2026-05-19 09:20:14,455 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:20:14,455 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:20:14,456 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:20:14,456 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:20:14,456 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.560 x 1.000, subtotal=3.260
+2026-05-19 09:20:14,456 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.560 x 1.000, subtotal=3.260
+2026-05-19 09:20:14,456 - INFO - [Total Reward] 3.260
+2026-05-19 09:20:14,456 - INFO - [Total Reward] 3.260
+2026-05-19 09:20:26,932 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:20:26,932 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:20:26,933 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:20:26,933 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:20:26,933 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.524 x 1.000, subtotal=3.224
+2026-05-19 09:20:26,933 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.524 x 1.000, subtotal=3.224
+2026-05-19 09:20:26,933 - INFO - [Total Reward] 3.224
+2026-05-19 09:20:26,933 - INFO - [Total Reward] 3.224
+2026-05-19 09:20:37,053 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:20:37,053 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:20:37,054 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:20:37,054 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:20:37,055 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.538 x 1.000, subtotal=3.238
+2026-05-19 09:20:37,055 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.538 x 1.000, subtotal=3.238
+2026-05-19 09:20:37,055 - INFO - [Total Reward] 3.238
+2026-05-19 09:20:37,055 - INFO - [Total Reward] 3.238
+2026-05-19 09:20:44,710 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:20:44,710 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:20:44,710 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:20:44,710 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:20:44,711 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.535 x 1.000, subtotal=3.235
+2026-05-19 09:20:44,711 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.535 x 1.000, subtotal=3.235
+2026-05-19 09:20:44,711 - INFO - [Total Reward] 3.235
+2026-05-19 09:20:44,711 - INFO - [Total Reward] 3.235
+2026-05-19 09:20:47,491 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:20:47,491 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:20:47,492 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:20:47,492 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:20:47,492 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.538 x 1.000, subtotal=3.238
+2026-05-19 09:20:47,492 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.538 x 1.000, subtotal=3.238
+2026-05-19 09:20:47,492 - INFO - [Total Reward] 3.238
+2026-05-19 09:20:47,492 - INFO - [Total Reward] 3.238
+2026-05-19 09:21:09,402 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:21:09,402 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:21:09,402 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:21:09,402 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:21:09,403 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.546 x 1.000, subtotal=3.246
+2026-05-19 09:21:09,403 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.546 x 1.000, subtotal=3.246
+2026-05-19 09:21:09,403 - INFO - [Total Reward] 3.246
+2026-05-19 09:21:09,403 - INFO - [Total Reward] 3.246
+2026-05-19 09:21:21,870 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:21:21,870 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:21:21,872 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:21:21,872 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:21:21,872 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.560 x 1.000, subtotal=3.260
+2026-05-19 09:21:21,872 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.560 x 1.000, subtotal=3.260
+2026-05-19 09:21:21,872 - INFO - [Total Reward] 3.260
+2026-05-19 09:21:21,872 - INFO - [Total Reward] 3.260
+2026-05-19 09:21:30,870 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:21:30,870 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:21:30,871 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:21:30,871 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'04', '01', '02', '03'}, score=0.000
+2026-05-19 09:21:30,871 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.533 x 1.000, subtotal=3.233
+2026-05-19 09:21:30,871 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.533 x 1.000, subtotal=3.233
+2026-05-19 09:21:30,871 - INFO - [Total Reward] 3.233
+2026-05-19 09:21:30,871 - INFO - [Total Reward] 3.233
+2026-05-19 09:21:30,959 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:21:30,959 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:21:30,960 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:21:30,960 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:21:30,960 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.547 x 1.000, subtotal=3.247
+2026-05-19 09:21:30,960 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.547 x 1.000, subtotal=3.247
+2026-05-19 09:21:30,960 - INFO - [Total Reward] 3.247
+2026-05-19 09:21:30,960 - INFO - [Total Reward] 3.247
+2026-05-19 09:21:42,025 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:21:42,025 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:21:42,027 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:21:42,027 - INFO - [EvidenceSafety] strong=True, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-19 09:21:42,027 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.560 x 1.000, subtotal=3.260
+2026-05-19 09:21:42,027 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.560 x 1.000, subtotal=3.260
+2026-05-19 09:21:42,027 - INFO - [Total Reward] 3.260
+2026-05-19 09:21:42,027 - INFO - [Total Reward] 3.260
+2026-05-19 09:22:00,395 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000
+2026-05-19 09:22:00,395 - INFO - [Schedule] mode=val, step=0/460, p=0.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.000

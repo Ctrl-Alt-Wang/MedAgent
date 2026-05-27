@@ -1,0 +1,21 @@
+/workspace/post_train/sql_agent/checkpoints/AgentLightning/ebm_agent_14b_grpo_4gpu_v18_full_grpo
+/workspace/post_train/sql_agent/checkpoints/AgentLightning/ebm_agent_14b_grpo_4gpu_v18_full_grpo/global_step_100
+/workspace/post_train/sql_agent/checkpoints/AgentLightning/ebm_agent_14b_grpo_4gpu_v18_full_grpo/global_step_100/data.pt
+/workspace/post_train/sql_agent/checkpoints/AgentLightning/ebm_agent_14b_grpo_4gpu_v18_full_grpo/global_step_200
+/workspace/post_train/sql_agent/checkpoints/AgentLightning/ebm_agent_14b_grpo_4gpu_v18_full_grpo/global_step_200/data.pt
+/workspace/post_train/sql_agent/checkpoints/AgentLightning/ebm_agent_14b_grpo_4gpu_v18_full_grpo/global_step_300
+/workspace/post_train/sql_agent/checkpoints/AgentLightning/ebm_agent_14b_grpo_4gpu_v18_full_grpo/global_step_300/actor
+/workspace/post_train/sql_agent/checkpoints/AgentLightning/ebm_agent_14b_grpo_4gpu_v18_full_grpo/global_step_300/data.pt
+/workspace/post_train/sql_agent/checkpoints/AgentLightning/ebm_agent_14b_grpo_4gpu_v18_full_grpo/latest_checkpointed_iteration.txt
+---
+total 16K
+drwxr-xr-x 2 root root 4.0K May 23 22:52 global_step_100
+drwxr-xr-x 2 root root 4.0K May 25 11:15 global_step_200
+drwxr-xr-x 3 root root 4.0K May 23 22:57 global_step_300
+-rw-r--r-- 1 root root    3 May 25 11:21 latest_checkpointed_iteration.txt
+=== KEEP_step300 ===
+total 8.0K
+drwxr-xr-x 3 root root 4.0K May 23 22:57 actor
+-rw-r--r-- 2 root root 1.5K May 23 22:57 data.pt
+=== KEEP_step400 ===
+400

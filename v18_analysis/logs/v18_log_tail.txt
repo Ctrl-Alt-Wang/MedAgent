@@ -1,0 +1,300 @@
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[20] name='ro-030ca9414949.session' attrs=['agentops.span.kind', 'operation.name']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[21] name='agentlightning.annotation' attrs=['agentlightning.reward.0.name', 'agentlightning.reward.0.value']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   triplet[0] reward=3.405278232572075
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   triplet[1] reward=3.405278232572075
+[36m(TaskRunner pid=20817)[0m Completed 29/32 tasks...
+[36m(PatchedvLLMServer pid=22971)[0m WARNING 05-25 13:33:49 protocol.py:70] The following fields were present in the request but ignored: {'return_token_ids'}
+[36m(TaskRunner pid=20817)[0m Completed 29/32 tasks...
+[36m(TaskRunner pid=20817)[0m [DEBUG_TOKEN] RAW span[5] seq=1 p_type=str p_val=[151644, 8948, 198, 99335, 104211, 5122, 100644, 45785, 20412, 25, 220, 17, 15,  r_type=str r_val=[[151657, 198, 4913, 606, 788, 330, 1836, 51502, 8685, 497, 330, 16370, 788, 521
+[36m(TaskRunner pid=20817)[0m [DEBUG_TOKEN] RAW span[13] seq=3 p_type=str p_val=[151644, 8948, 198, 99335, 104211, 5122, 100644, 45785, 20412, 25, 220, 17, 15,  r_type=str r_val=[[14374, 220, 14777, 5373, 101041, 106073, 2303, 100002, 62112, 115610, 39762, 1
+[36m(TaskRunner pid=20817)[0m [DEBUG_TOKEN] REWARD span[19] seq=8 name=primary value=3.4183123153165598
+[36m(TaskRunner pid=20817)[0m [DEBUG_TOKEN] REWARD span[21] seq=10 name=primary value=3.4183123153165598
+[36m(TaskRunner pid=20817)[0m [DEBUG_PARSE] prompt parsed OK, type=list, len=1362
+[36m(TaskRunner pid=20817)[0m [DEBUG_PARSE] resp parsed OK, type=list, len=1
+[36m(TaskRunner pid=20817)[0m [DEBUG_PARSE] resp[0] type=list, len=61
+[36m(TaskRunner pid=20817)[0m [DEBUG_ADAPTER] adapter type=LlmProxyTraceToTriplet id=139811072022032
+[36m(TaskRunner pid=20817)[0m [DEBUG_MANUAL] RAW span seq=1 p_len=1362 r_len=61
+[36m(TaskRunner pid=20817)[0m [DEBUG_MANUAL] RAW span seq=3 p_len=7285 r_len=713
+[36m(TaskRunner pid=20817)[0m [DEBUG_MANUAL] REWARD span seq=8 val=3.41831231531655982026-05-25 13:34:09,645 - INFO - 
+========================================================================
+2026-05-25 13:34:09,645 - INFO - 
+========================================================================
+2026-05-25 13:34:09,645 - INFO - [train] 问题: 对于因呼吸道合胞病毒导致重症肺炎住院的成人患者，使用利巴韦林抗病毒治疗相比单纯支持治疗，能否降低住院期间的死亡风险？
+2026-05-25 13:34:09,645 - INFO - [train] 问题: 对于因呼吸道合胞病毒导致重症肺炎住院的成人患者，使用利巴韦林抗病毒治疗相比单纯支持治疗，能否降低住院期间的死亡风险？
+2026-05-25 13:34:09,645 - INFO - [train] 工具调用次数: 1
+2026-05-25 13:34:09,645 - INFO - [train] 工具调用次数: 1
+2026-05-25 13:34:09,646 - INFO - [train] 回答长度: 1068 字
+2026-05-25 13:34:09,646 - INFO - [train] 回答长度: 1068 字
+2026-05-25 13:34:09,646 - INFO - ----------------------------------------
+2026-05-25 13:34:09,646 - INFO - ----------------------------------------
+2026-05-25 13:34:09,646 - INFO - ### 一、直接结论  
+对于因呼吸道合胞病毒（RSV）导致重症肺炎住院的成人患者，目前尚无高质量证据支持利巴韦林抗病毒治疗可降低住院期间死亡风险，指南和循证综述均未推荐利巴韦林用于成人RSV重症感染的治疗[^01-9017-0][^02-f775-0][^03-5800-0]。
+
+### 二、循证分层证据总结  
+#### （一）中文指南证据层  
+最新中国指南和专家共识明确指出，RSV感染在成人中主要见于高危人群（如老年人、慢性病患者），重症病例可导致较高死亡率，但未推荐利巴韦林等抗病毒药物用于成人RSV重症肺炎的治疗，仅建议对症支持和基础疾病管理。指南强调，目前缺乏针对成人RSV重症感染的有效抗病毒药物，支持治疗为主要措施[^01-9017-0][^01-2aa6-0][^01-f14f-0][^01-46a6-0][^01-8ffe-0][^01-27e7-0][^01-5fd5-0][^01-3b35-0]。
+
+#### （二）英文指南证据层  
+美国疾控中心等权威机构推荐RSV疫苗用于高危成人，但对于重症RSV肺炎的抗病毒治疗未提出利巴韦林等药物的应用，指南主要聚焦疫苗预防和高危人群管理，未涉及利巴韦林疗效或死亡率降低的推荐[^02-f775-0]。其他国际指南亦未见利巴韦林在成人RSV重症肺炎中的推荐[^02-75b7-0]。
+
+#### （三）系统评价/Meta分析证据层  
+未检索到关于成人RSV重症肺炎利巴韦林抗病毒治疗与单纯支持治疗对住院死亡率影响的系统评价或Meta分析。现有系统评价主要关注流感、新冠等病毒的住院率和死亡率，未涉及RSV重症及利巴韦林疗效[^03-5800-0][^03-6448-0]。
+
+#### （四）临床试验证据层  
+未检索到针对成人RSV重症肺炎人群，比较利巴韦林抗病毒治疗与单纯支持治疗对住院死亡率影响的随机对照试验。部分RCT关注其他病毒（如新冠、流感）相关抗病毒药物，但未涉及RSV或利巴韦林[^04-c86f-0][^04-bd1b-0]。
+
+### 三、临床实践决策  
+基于当前循证证据，成人RSV重症肺炎住院患者建议以对症支持治疗为主，包括维持气道通畅、营养支持、氧疗和机械通气等。利巴韦林在成人RSV重症肺炎中的抗病毒疗效和降低死亡率作用尚无明确证据支持，临床不应常规使用利巴韦林进行抗病毒治疗。对于高危或重症患者，应加强监护和多学科协作管理，及时处理并发症，优化支持治疗[^01-9017-0][^01-3b35-0][^02-f775-0]。
+2026-05-25 13:34:09,646 - INFO - ### 一、直接结论  
+对于因呼吸道合胞病毒（RSV）导致重症肺炎住院的成人患者，目前尚无高质量证据支持利巴韦林抗病毒治疗可降低住院期间死亡风险，指南和循证综述均未推荐利巴韦林用于成人RSV重症感染的治疗[^01-9017-0][^02-f775-0][^03-5800-0]。
+
+### 二、循证分层证据总结  
+#### （一）中文指南证据层  
+最新中国指南和专家共识明确指出，RSV感染在成人中主要见于高危人群（如老年人、慢性病患者），重症病例可导致较高死亡率，但未推荐利巴韦林等抗病毒药物用于成人RSV重症肺炎的治疗，仅建议对症支持和基础疾病管理。指南强调，目前缺乏针对成人RSV重症感染的有效抗病毒药物，支持治疗为主要措施[^01-9017-0][^01-2aa6-0][^01-f14f-0][^01-46a6-0][^01-8ffe-0][^01-27e7-0][^01-5fd5-0][^01-3b35-0]。
+
+#### （二）英文指南证据层  
+美国疾控中心等权威机构推荐RSV疫苗用于高危成人，但对于重症RSV肺炎的抗病毒治疗未提出利巴韦林等药物的应用，指南主要聚焦疫苗预防和高危人群管理，未涉及利巴韦林疗效或死亡率降低的推荐[^02-f775-0]。其他国际指南亦未见利巴韦林在成人RSV重症肺炎中的推荐[^02-75b7-0]。
+
+#### （三）系统评价/Meta分析证据层  
+未检索到关于成人RSV重症肺炎利巴韦林抗病毒治疗与单纯支持治疗对住院死亡率影响的系统评价或Meta分析。现有系统评价主要关注流感、新冠等病毒的住院率和死亡率，未涉及RSV重症及利巴韦林疗效[^03-5800-0][^03-6448-0]。
+
+#### （四）临床试验证据层  
+未检索到针对成人RSV重症肺炎人群，比较利巴韦林抗病毒治疗与单纯支持治疗对住院死亡率影响的随机对照试验。部分RCT关注其他病毒（如新冠、流感）相关抗病毒药物，但未涉及RSV或利巴韦林[^04-c86f-0][^04-bd1b-0]。
+
+### 三、临床实践决策  
+基于当前循证证据，成人RSV重症肺炎住院患者建议以对症支持治疗为主，包括维持气道通畅、营养支持、氧疗和机械通气等。利巴韦林在成人RSV重症肺炎中的抗病毒疗效和降低死亡率作用尚无明确证据支持，临床不应常规使用利巴韦林进行抗病毒治疗。对于高危或重症患者，应加强监护和多学科协作管理，及时处理并发症，优化支持治疗[^01-9017-0][^01-3b35-0][^02-f775-0]。
+2026-05-25 13:34:09,646 - INFO - ----------------------------------------
+2026-05-25 13:34:09,646 - INFO - ----------------------------------------
+2026-05-25 13:34:09,646 - INFO - [Schedule] mode=train, step=406/460, p=1.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.250
+2026-05-25 13:34:09,646 - INFO - [Schedule] mode=train, step=406/460, p=1.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.250
+2026-05-25 13:34:09,647 - INFO - [PICO] P=因呼吸道合胞病毒导致重症肺炎住院的成人患者
+2026-05-25 13:34:09,647 - INFO - [PICO] P=因呼吸道合胞病毒导致重症肺炎住院的成人患者
+2026-05-25 13:34:09,647 - INFO - [PICO] I=利巴韦林抗病毒治疗
+2026-05-25 13:34:09,647 - INFO - [PICO] I=利巴韦林抗病毒治疗
+2026-05-25 13:34:09,647 - INFO - [PICO] C=单纯支持治疗
+2026-05-25 13:34:09,647 - INFO - [PICO] C=单纯支持治疗
+2026-05-25 13:34:09,647 - INFO - [PICO] O=住院期间死亡率
+2026-05-25 13:34:09,647 - INFO - [PICO] O=住院期间死亡率
+2026-05-25 13:34:09,647 - INFO - [PICO] filled=4/4
+2026-05-25 13:34:09,647 - INFO - [PICO] filled=4/4
+2026-05-25 13:34:09,647 - INFO - [Citations] valid_ids=14, cited_ids=14, fabricated=0
+2026-05-25 13:34:09,647 - INFO - [Citations] valid_ids=14, cited_ids=14, fabricated=0
+2026-05-25 13:34:09,647 - INFO - [Citations] sample_valid_ids=['01-27e7-0', '01-2aa6-0', '01-3b35-0', '01-46a6-0', '01-5fd5-0', '01-8ffe-0', '01-9017-0', '01-f14f-0', '02-75b7-0', '02-f775-0']
+2026-05-25 13:34:09,647 - INFO - [Citations] sample_valid_ids=['01-27e7-0', '01-2aa6-0', '01-3b35-0', '01-46a6-0', '01-5fd5-0', '01-8ffe-0', '01-9017-0', '01-f14f-0', '02-75b7-0', '02-f775-0']
+2026-05-25 13:34:09,647 - INFO - [Correctness] cited=14, real=14, precision=1.00
+2026-05-25 13:34:09,647 - INFO - [Correctness] cited=14, real=14, precision=1.00
+2026-05-25 13:34:09,647 - INFO - [SectionPrefix] checks=14, aligned=14, rate=1.00, score=0.50
+2026-05-25 13:34:09,647 - INFO - [SectionPrefix] checks=14, aligned=14, rate=1.00, score=0.50
+2026-05-25 13:34:09,647 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-25 13:34:09,647 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-25 13:34:09,647 - INFO - [RecallSmall] real=14, total_valid=14, recall=1.00, bonus=0.100
+2026-05-25 13:34:09,647 - INFO - [RecallSmall] real=14, total_valid=14, recall=1.00, bonus=0.100
+2026-05-25 13:34:09,647 - INFO - [CiteDiversitySmall] prefixes={'02', '01', '04', '03'}, db_count=4, bonus=0.060
+2026-05-25 13:34:09,647 - INFO - [CiteDiversitySmall] prefixes={'02', '01', '04', '03'}, db_count=4, bonus=0.060
+2026-05-25 13:34:09,647 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.560 x 1.000, subtotal=3.260
+2026-05-25 13:34:09,647 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.560 x 1.000, subtotal=3.260
+2026-05-25 13:34:09,767 - INFO - [RM] raw=1.3750, z=0.60, score=0.645
+2026-05-25 13:34:09,767 - INFO - [RM] raw=1.3750, z=0.60, score=0.645
+2026-05-25 13:34:09,767 - INFO - [RM Contribution] score=0.645, weight=0.250, contribution=0.161
+2026-05-25 13:34:09,767 - INFO - [RM Contribution] score=0.645, weight=0.250, contribution=0.161
+2026-05-25 13:34:09,767 - INFO - [Total Reward] 3.421
+2026-05-25 13:34:09,767 - INFO - [Total Reward] 3.421
+2026-05-25 13:34:09,767 - INFO - [train] reward = 3.421
+2026-05-25 13:34:09,767 - INFO - [train] reward = 3.421
+2026-05-25 13:34:09,767 - INFO - ========================================================================
+
+2026-05-25 13:34:09,767 - INFO - ========================================================================
+
+🖇 AgentOps: [34mSession Replay for ro-cf6cd7bf5515.session trace: https://app.agentops.ai/sessions?trace_id=3d788ed053ef560825d4aad5d2b8cca9[0m
+[05/25/26 13:34:09] INFO     [Worker 0 | Rollout ro-cf6cd7bf5515] Completed in 37.44s. Collected 7 span(s). Final reward: 3.4212352576200344                                                agent.py:704
+
+[36m(TaskRunner pid=20817)[0m [DEBUG_MANUAL] REWARD span seq=10 val=3.4183123153165598
+[36m(TaskRunner pid=20817)[0m [DEBUG_MANUAL] llm_items=2 rewards=2
+[36m(TaskRunner pid=20817)[0m [DEBUG_MANUAL] matched seq=3 -> reward=3.4183123153165598
+[36m(TaskRunner pid=20817)[0m [DEBUG_MANUAL] matched seq=1 -> reward=3.4183123153165598
+[36m(TaskRunner pid=20817)[0m [DEBUG_MANUAL] assigned=2 (expected triplets)
+[36m(TaskRunner pid=20817)[0m [DEBUG_ADAPT] llm_items=2 rewards=2 assigned=2
+[36m(TaskRunner pid=20817)[0m [DEBUG_ADAPT]   llm[0] seq=1 prompt_len=1362 resp_len=61
+[36m(TaskRunner pid=20817)[0m [DEBUG_ADAPT]   llm[1] seq=3 prompt_len=7285 resp_len=713
+[36m(TaskRunner pid=20817)[0m [DEBUG_ADAPT]   reward[0] seq=8 val=3.4183123153165598
+[36m(TaskRunner pid=20817)[0m [DEBUG_ADAPT]   reward[1] seq=10 val=3.4183123153165598
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON] rollout=ro-8d62967d284f spans=22 triplets=2
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[0] name='proxy_pre_call' attrs=['call_type', 'service']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[1] name='router' attrs=['call_type', 'service']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[2] name='self' attrs=['call_type', 'service']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[3] name='router' attrs=['call_type', 'service']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[4] name='litellm_request' attrs=['metadata.user_api_key_hash', 'metadata.user_api_key_alias', 'metadata.user_api_key_spend', 'metadata.user_api_key_max_budget', 'metadata.user_api_key_budget_reset_at', 'metadata.user_api_key_team_id', 'metadata.user_api_key_org_id', 'metadata.user_api_key_project_id', 'metadata.user_api_key_project_alias', 'metadata.user_api_key_user_id']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[5] name='raw_gen_ai_request' attrs=['llm.hosted_vllm.messages', 'llm.hosted_vllm.temperature', 'llm.hosted_vllm.stream', 'llm.hosted_vllm.max_tokens', 'llm.hosted_vllm.tools', 'llm.hosted_vllm.return_token_ids', 'llm.hosted_vllm.id', 'llm.hosted_vllm.object', 'llm.hosted_vllm.created', 'llm.hosted_vllm.model']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]     FULL_ATTRS=['llm.hosted_vllm.messages', 'llm.hosted_vllm.temperature', 'llm.hosted_vllm.stream', 'llm.hosted_vllm.max_tokens', 'llm.hosted_vllm.tools', 'llm.hosted_vllm.return_token_ids', 'llm.hosted_vllm.id', 'llm.hosted_vllm.object', 'llm.hosted_vllm.created', 'llm.hosted_vllm.model', 'llm.hosted_vllm.choices', 'llm.hosted_vllm.usage', 'llm.hosted_vllm.prompt_logprobs', 'llm.hosted_vllm.prompt_token_ids', 'llm.hosted_vllm.response_token_ids']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[6] name='Received Proxy Server Request' attrs=[]
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[7] name='generation' attrs=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'gen_ai.prompt.0.role', 'gen_ai.prompt.0.content', 'gen_ai.request.model', 'gen_ai.response.model', 'gen_ai.system']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]     FULL_ATTRS=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'gen_ai.prompt.0.role', 'gen_ai.prompt.0.content', 'gen_ai.request.model', 'gen_ai.response.model', 'gen_ai.system', 'gen_ai.request.temperature', 'gen_ai.request.max_tokens', 'agentops.span.kind']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[8] name='proxy_pre_call' attrs=['call_type', 'service']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[9] name='router' attrs=['call_type', 'service']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[10] name='self' attrs=['call_type', 'service']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[11] name='router' attrs=['call_type', 'service']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[12] name='litellm_request' attrs=['metadata.user_api_key_hash', 'metadata.user_api_key_alias', 'metadata.user_api_key_spend', 'metadata.user_api_key_max_budget', 'metadata.user_api_key_budget_reset_at', 'metadata.user_api_key_team_id', 'metadata.user_api_key_org_id', 'metadata.user_api_key_project_id', 'metadata.user_api_key_project_alias', 'metadata.user_api_key_user_id']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[13] name='raw_gen_ai_request' attrs=['llm.hosted_vllm.messages', 'llm.hosted_vllm.temperature', 'llm.hosted_vllm.stream', 'llm.hosted_vllm.max_tokens', 'llm.hosted_vllm.tools', 'llm.hosted_vllm.return_token_ids', 'llm.hosted_vllm.id', 'llm.hosted_vllm.object', 'llm.hosted_vllm.created', 'llm.hosted_vllm.model']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]     FULL_ATTRS=['llm.hosted_vllm.messages', 'llm.hosted_vllm.temperature', 'llm.hosted_vllm.stream', 'llm.hosted_vllm.max_tokens', 'llm.hosted_vllm.tools', 'llm.hosted_vllm.return_token_ids', 'llm.hosted_vllm.id', 'llm.hosted_vllm.object', 'llm.hosted_vllm.created', 'llm.hosted_vllm.model', 'llm.hosted_vllm.choices', 'llm.hosted_vllm.usage', 'llm.hosted_vllm.prompt_logprobs', 'llm.hosted_vllm.prompt_token_ids', 'llm.hosted_vllm.response_token_ids']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[14] name='Received Proxy Server Request' attrs=[]
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[15] name='search_embedding_db' attrs=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'tool.name', 'tool.parameters', 'tool.result', 'agentops.span.kind', 'tool.status']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[16] name='generation' attrs=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'gen_ai.prompt.0.role', 'gen_ai.prompt.0.content', 'gen_ai.request.model', 'gen_ai.response.model', 'gen_ai.system']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]     FULL_ATTRS=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'gen_ai.prompt.0.role', 'gen_ai.prompt.0.content', 'gen_ai.request.model', 'gen_ai.response.model', 'gen_ai.system', 'gen_ai.request.temperature', 'gen_ai.request.max_tokens', 'agentops.span.kind']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[17] name='ebm_agent' attrs=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'agentops.span.kind', 'agent.name', 'agent.tools']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[18] name='Agent workflow' attrs=['workflow.name', 'trace.id', 'workflow.step.type', 'instrumentation.name', 'instrumentation.version', 'agentops.tags']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[19] name='agentlightning.annotation' attrs=['agentlightning.reward.0.name', 'agentlightning.reward.0.value']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[20] name='ro-8d62967d284f.session' attrs=['agentops.span.kind', 'operation.name']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[21] name='agentlightning.annotation' attrs=['agentlightning.reward.0.name', 'agentlightning.reward.0.value']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   triplet[0] reward=3.4183123153165598
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   triplet[1] reward=3.4183123153165598
+[36m(TaskRunner pid=20817)[0m Completed 30/32 tasks...
+[36m(TaskRunner pid=20817)[0m Completed 30/32 tasks...
+[36m(TaskRunner pid=20817)[0m Completed 30/32 tasks...
+[36m(TaskRunner pid=20817)[0m [DEBUG_TOKEN] RAW span[5] seq=1 p_type=str p_val=[151644, 8948, 198, 99335, 104211, 5122, 100644, 45785, 20412, 25, 220, 17, 15,  r_type=str r_val=[[151657, 198, 4913, 606, 788, 330, 1836, 51502, 8685, 497, 330, 16370, 788, 521
+[36m(TaskRunner pid=20817)[0m [DEBUG_TOKEN] RAW span[13] seq=3 p_type=str p_val=[151644, 8948, 198, 99335, 104211, 5122, 100644, 45785, 20412, 25, 220, 17, 15,  r_type=str r_val=[[14374, 220, 14777, 5373, 101041, 106073, 2303, 100002, 62112, 115610, 39762, 1
+[36m(TaskRunner pid=20817)[0m [DEBUG_TOKEN] REWARD span[19] seq=8 name=primary value=3.4212352576200344
+[36m(TaskRunner pid=20817)[0m [DEBUG_TOKEN] REWARD span[21] seq=10 name=primary value=3.4212352576200344
+[36m(TaskRunner pid=20817)[0m [DEBUG_PARSE] prompt parsed OK, type=list, len=1362
+[36m(TaskRunner pid=20817)[0m [DEBUG_PARSE] resp parsed OK, type=list, len=12026-05-25 13:34:15,621 - INFO - 
+========================================================================
+2026-05-25 13:34:15,621 - INFO - 
+========================================================================
+2026-05-25 13:34:15,621 - INFO - [train] 问题: 对于因呼吸道合胞病毒导致重症肺炎住院的成人患者，使用利巴韦林抗病毒治疗相比单纯支持治疗，能否降低住院期间的死亡风险？
+2026-05-25 13:34:15,621 - INFO - [train] 问题: 对于因呼吸道合胞病毒导致重症肺炎住院的成人患者，使用利巴韦林抗病毒治疗相比单纯支持治疗，能否降低住院期间的死亡风险？
+2026-05-25 13:34:15,621 - INFO - [train] 工具调用次数: 1
+2026-05-25 13:34:15,621 - INFO - [train] 工具调用次数: 1
+2026-05-25 13:34:15,621 - INFO - [train] 回答长度: 1187 字
+2026-05-25 13:34:15,621 - INFO - [train] 回答长度: 1187 字
+2026-05-25 13:34:15,621 - INFO - ----------------------------------------
+2026-05-25 13:34:15,621 - INFO - ----------------------------------------
+2026-05-25 13:34:15,621 - INFO - ### 一、直接结论  
+对于因呼吸道合胞病毒（RSV）导致重症肺炎住院的成人患者，目前尚无高质量证据支持利巴韦林抗病毒治疗可降低住院期间死亡风险，指南和研究均未推荐常规使用利巴韦林，建议以支持治疗为主[^01-7eaf-0][^01-64c1-0]。
+
+### 二、循证分层证据总结  
+#### （一）中文指南证据层  
+《人呼吸道合胞病毒下呼吸道感染治疗及预防指南（2024版）》指出，RSV感染在成人高危人群（如老年人、慢性基础疾病者）中可导致重症，需住院治疗，但未推荐利巴韦林作为重症RSV肺炎的标准治疗药物，强调对重症患者应给予支持治疗和对症处理，包括氧疗、营养支持、合并症管理等[^01-7eaf-0][^01-9415-0][^01-5080-0]。指南也未提出利巴韦林可降低住院死亡率的数据或推荐[^01-1d15-0][^01-5080-0]。  
+对于重症病毒感染（如流感），指南强调重症管理以支持治疗为主，未推荐抗病毒药物常规用于降低死亡率[^01-c041-0][^01-dbe9-0]。此外，其他重症病毒感染（如HIV、EBV等）指南也未提出利巴韦林可降低住院死亡率的证据[^01-5080-0]。
+
+#### （二）英文指南证据层  
+美国疾病控制与预防中心（CDC）和亚太肝病学会等指南主要聚焦于RSV疫苗和高危人群管理，未推荐利巴韦林用于重症RSV肺炎住院患者的抗病毒治疗。指南强调高危人群（如老年人、慢性病患者）感染RSV后重症和死亡风险增加，需密切监测和对症支持治疗，但未提出抗病毒药物（包括利巴韦林）可降低死亡率的证据[^02-6ac0-0][^02-c017-0]。
+
+#### （三）系统评价/Meta分析证据层  
+未检索到直接针对RSV重症肺炎住院成人患者，比较利巴韦林抗病毒治疗与单纯支持治疗对住院死亡率影响的系统评价或Meta分析。现有系统评价主要关注流感、新冠等病毒，未涉及RSV或利巴韦林[^03-d163-0][^03-ccc8-0]。
+
+#### （四）临床试验证据层  
+目前无高质量RCT直接评估利巴韦林在RSV重症肺炎住院成人患者中降低住院死亡率的效果。部分相关病毒感染（如新冠、流感）RCT显示，特异性抗病毒治疗（如单克隆抗体、抗流感药物）可降低重症或住院死亡率，但未涉及利巴韦林[^04-1c5a-0][^04-3c86-0]。
+
+### 三、临床实践决策  
+对于因RSV导致重症肺炎住院的成人患者，建议以支持治疗为主，密切监测生命体征、氧合及器官功能，积极处理并发症。目前无证据支持常规使用利巴韦林可降低住院死亡率，故不推荐作为标准治疗方案。若患者存在特殊临床情况或新证据出现，可考虑个体化用药，但需权衡潜在获益与不良反应风险[^01-7eaf-0][^01-64c1-0][^02-6ac0-0]。
+2026-05-25 13:34:15,621 - INFO - ### 一、直接结论  
+对于因呼吸道合胞病毒（RSV）导致重症肺炎住院的成人患者，目前尚无高质量证据支持利巴韦林抗病毒治疗可降低住院期间死亡风险，指南和研究均未推荐常规使用利巴韦林，建议以支持治疗为主[^01-7eaf-0][^01-64c1-0]。
+
+### 二、循证分层证据总结  
+#### （一）中文指南证据层  
+《人呼吸道合胞病毒下呼吸道感染治疗及预防指南（2024版）》指出，RSV感染在成人高危人群（如老年人、慢性基础疾病者）中可导致重症，需住院治疗，但未推荐利巴韦林作为重症RSV肺炎的标准治疗药物，强调对重症患者应给予支持治疗和对症处理，包括氧疗、营养支持、合并症管理等[^01-7eaf-0][^01-9415-0][^01-5080-0]。指南也未提出利巴韦林可降低住院死亡率的数据或推荐[^01-1d15-0][^01-5080-0]。  
+对于重症病毒感染（如流感），指南强调重症管理以支持治疗为主，未推荐抗病毒药物常规用于降低死亡率[^01-c041-0][^01-dbe9-0]。此外，其他重症病毒感染（如HIV、EBV等）指南也未提出利巴韦林可降低住院死亡率的证据[^01-5080-0]。
+
+#### （二）英文指南证据层  
+美国疾病控制与预防中心（CDC）和亚太肝病学会等指南主要聚焦于RSV疫苗和高危人群管理，未推荐利巴韦林用于重症RSV肺炎住院患者的抗病毒治疗。指南强调高危人群（如老年人、慢性病患者）感染RSV后重症和死亡风险增加，需密切监测和对症支持治疗，但未提出抗病毒药物（包括利巴韦林）可降低死亡率的证据[^02-6ac0-0][^02-c017-0]。
+
+#### （三）系统评价/Meta分析证据层  
+未检索到直接针对RSV重症肺炎住院成人患者，比较利巴韦林抗病毒治疗与单纯支持治疗对住院死亡率影响的系统评价或Meta分析。现有系统评价主要关注流感、新冠等病毒，未涉及RSV或利巴韦林[^03-d163-0][^03-ccc8-0]。
+
+#### （四）临床试验证据层  
+目前无高质量RCT直接评估利巴韦林在RSV重症肺炎住院成人患者中降低住院死亡率的效果。部分相关病毒感染（如新冠、流感）RCT显示，特异性抗病毒治疗（如单克隆抗体、抗流感药物）可降低重症或住院死亡率，但未涉及利巴韦林[^04-1c5a-0][^04-3c86-0]。
+
+### 三、临床实践决策  
+对于因RSV导致重症肺炎住院的成人患者，建议以支持治疗为主，密切监测生命体征、氧合及器官功能，积极处理并发症。目前无证据支持常规使用利巴韦林可降低住院死亡率，故不推荐作为标准治疗方案。若患者存在特殊临床情况或新证据出现，可考虑个体化用药，但需权衡潜在获益与不良反应风险[^01-7eaf-0][^01-64c1-0][^02-6ac0-0]。
+2026-05-25 13:34:15,621 - INFO - ----------------------------------------
+2026-05-25 13:34:15,621 - INFO - ----------------------------------------
+2026-05-25 13:34:15,622 - INFO - [Schedule] mode=train, step=407/460, p=1.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.250
+2026-05-25 13:34:15,622 - INFO - [Schedule] mode=train, step=407/460, p=1.000, format_scale=0.700, correct_scale=1.000, rm_weight=0.250
+2026-05-25 13:34:15,622 - INFO - [PICO] P=因呼吸道合胞病毒导致重症肺炎住院的成人患者
+2026-05-25 13:34:15,622 - INFO - [PICO] P=因呼吸道合胞病毒导致重症肺炎住院的成人患者
+2026-05-25 13:34:15,622 - INFO - [PICO] I=利巴韦林抗病毒治疗
+2026-05-25 13:34:15,622 - INFO - [PICO] I=利巴韦林抗病毒治疗
+2026-05-25 13:34:15,622 - INFO - [PICO] C=单纯支持治疗
+2026-05-25 13:34:15,622 - INFO - [PICO] C=单纯支持治疗
+2026-05-25 13:34:15,622 - INFO - [PICO] O=住院期间死亡率
+2026-05-25 13:34:15,622 - INFO - [PICO] O=住院期间死亡率
+2026-05-25 13:34:15,622 - INFO - [PICO] filled=4/4
+2026-05-25 13:34:15,622 - INFO - [PICO] filled=4/4
+2026-05-25 13:34:15,622 - INFO - [Citations] valid_ids=14, cited_ids=13, fabricated=0
+2026-05-25 13:34:15,622 - INFO - [Citations] valid_ids=14, cited_ids=13, fabricated=0
+2026-05-25 13:34:15,622 - INFO - [Citations] sample_valid_ids=['01-1d15-0', '01-5080-0', '01-64c1-0', '01-7eaf-0', '01-9415-0', '01-c041-0', '01-dbe9-0', '01-fb0e-0', '02-6ac0-0', '02-c017-0']
+2026-05-25 13:34:15,622 - INFO - [Citations] sample_valid_ids=['01-1d15-0', '01-5080-0', '01-64c1-0', '01-7eaf-0', '01-9415-0', '01-c041-0', '01-dbe9-0', '01-fb0e-0', '02-6ac0-0', '02-c017-0']
+2026-05-25 13:34:15,622 - INFO - [Correctness] cited=13, real=13, precision=1.00
+2026-05-25 13:34:15,622 - INFO - [Correctness] cited=13, real=13, precision=1.00
+2026-05-25 13:34:15,623 - INFO - [SectionPrefix] checks=12, aligned=12, rate=1.00, score=0.50
+2026-05-25 13:34:15,623 - INFO - [SectionPrefix] checks=12, aligned=12, rate=1.00, score=0.50
+2026-05-25 13:34:15,623 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-25 13:34:15,623 - INFO - [EvidenceSafety] strong=False, cautious=False, prefixes={'02', '01', '04', '03'}, score=0.000
+2026-05-25 13:34:15,623 - INFO - [RecallSmall] real=13, total_valid=14, recall=0.93, bonus=0.093
+2026-05-25 13:34:15,623 - INFO - [RecallSmall] real=13, total_valid=14, recall=0.93, bonus=0.093
+2026-05-25 13:34:15,623 - INFO - [CiteDiversitySmall] prefixes={'02', '01', '04', '03'}, db_count=4, bonus=0.060
+2026-05-25 13:34:15,623 - INFO - [CiteDiversitySmall] prefixes={'02', '01', '04', '03'}, db_count=4, bonus=0.060
+2026-05-25 13:34:15,623 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.553 x 1.000, subtotal=3.253
+2026-05-25 13:34:15,623 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 0.700, correct=2.553 x 1.000, subtotal=3.253
+2026-05-25 13:34:15,747 - INFO - [RM] raw=-0.5781, z=0.35, score=0.587
+2026-05-25 13:34:15,747 - INFO - [RM] raw=-0.5781, z=0.35, score=0.587
+2026-05-25 13:34:15,747 - INFO - [RM Contribution] score=0.587, weight=0.250, contribution=0.147
+2026-05-25 13:34:15,747 - INFO - [RM Contribution] score=0.587, weight=0.250, contribution=0.147
+2026-05-25 13:34:15,747 - INFO - [Total Reward] 3.400
+2026-05-25 13:34:15,747 - INFO - [Total Reward] 3.400
+2026-05-25 13:34:15,747 - INFO - [train] reward = 3.400
+2026-05-25 13:34:15,747 - INFO - [train] reward = 3.400
+2026-05-25 13:34:15,747 - INFO - ========================================================================
+
+2026-05-25 13:34:15,747 - INFO - ========================================================================
+
+🖇 AgentOps: [34mSession Replay for ro-89ed1763b6f9.session trace: https://app.agentops.ai/sessions?trace_id=27ed74f8f94d81dade60c44f535737e7[0m
+[05/25/26 13:34:15] INFO     [Worker 2 | Rollout ro-89ed1763b6f9] Completed in 40.18s. Collected 7 span(s). Final reward: 3.399677267934448                                                 agent.py:704
+
+[36m(TaskRunner pid=20817)[0m [DEBUG_PARSE] resp[0] type=list, len=61
+[36m(TaskRunner pid=20817)[0m [DEBUG_ADAPTER] adapter type=LlmProxyTraceToTriplet id=139811072022032
+[36m(TaskRunner pid=20817)[0m [DEBUG_MANUAL] RAW span seq=1 p_len=1362 r_len=61
+[36m(TaskRunner pid=20817)[0m [DEBUG_MANUAL] RAW span seq=3 p_len=7283 r_len=725
+[36m(TaskRunner pid=20817)[0m [DEBUG_MANUAL] REWARD span seq=8 val=3.4212352576200344
+[36m(TaskRunner pid=20817)[0m [DEBUG_MANUAL] REWARD span seq=10 val=3.4212352576200344
+[36m(TaskRunner pid=20817)[0m [DEBUG_MANUAL] llm_items=2 rewards=2
+[36m(TaskRunner pid=20817)[0m [DEBUG_MANUAL] matched seq=3 -> reward=3.4212352576200344
+[36m(TaskRunner pid=20817)[0m [DEBUG_MANUAL] matched seq=1 -> reward=3.4212352576200344
+[36m(TaskRunner pid=20817)[0m [DEBUG_MANUAL] assigned=2 (expected triplets)
+[36m(TaskRunner pid=20817)[0m [DEBUG_ADAPT] llm_items=2 rewards=2 assigned=2
+[36m(TaskRunner pid=20817)[0m [DEBUG_ADAPT]   llm[0] seq=1 prompt_len=1362 resp_len=61
+[36m(TaskRunner pid=20817)[0m [DEBUG_ADAPT]   llm[1] seq=3 prompt_len=7283 resp_len=725
+[36m(TaskRunner pid=20817)[0m [DEBUG_ADAPT]   reward[0] seq=8 val=3.4212352576200344
+[36m(TaskRunner pid=20817)[0m [DEBUG_ADAPT]   reward[1] seq=10 val=3.4212352576200344
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON] rollout=ro-cf6cd7bf5515 spans=22 triplets=2
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[0] name='proxy_pre_call' attrs=['call_type', 'service']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[1] name='router' attrs=['call_type', 'service']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[2] name='self' attrs=['call_type', 'service']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[3] name='router' attrs=['call_type', 'service']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[4] name='litellm_request' attrs=['metadata.user_api_key_hash', 'metadata.user_api_key_alias', 'metadata.user_api_key_spend', 'metadata.user_api_key_max_budget', 'metadata.user_api_key_budget_reset_at', 'metadata.user_api_key_team_id', 'metadata.user_api_key_org_id', 'metadata.user_api_key_project_id', 'metadata.user_api_key_project_alias', 'metadata.user_api_key_user_id']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[5] name='raw_gen_ai_request' attrs=['llm.hosted_vllm.messages', 'llm.hosted_vllm.temperature', 'llm.hosted_vllm.stream', 'llm.hosted_vllm.max_tokens', 'llm.hosted_vllm.tools', 'llm.hosted_vllm.return_token_ids', 'llm.hosted_vllm.id', 'llm.hosted_vllm.object', 'llm.hosted_vllm.created', 'llm.hosted_vllm.model']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]     FULL_ATTRS=['llm.hosted_vllm.messages', 'llm.hosted_vllm.temperature', 'llm.hosted_vllm.stream', 'llm.hosted_vllm.max_tokens', 'llm.hosted_vllm.tools', 'llm.hosted_vllm.return_token_ids', 'llm.hosted_vllm.id', 'llm.hosted_vllm.object', 'llm.hosted_vllm.created', 'llm.hosted_vllm.model', 'llm.hosted_vllm.choices', 'llm.hosted_vllm.usage', 'llm.hosted_vllm.prompt_logprobs', 'llm.hosted_vllm.prompt_token_ids', 'llm.hosted_vllm.response_token_ids']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[6] name='Received Proxy Server Request' attrs=[]
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[7] name='generation' attrs=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'gen_ai.prompt.0.role', 'gen_ai.prompt.0.content', 'gen_ai.request.model', 'gen_ai.response.model', 'gen_ai.system']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]     FULL_ATTRS=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'gen_ai.prompt.0.role', 'gen_ai.prompt.0.content', 'gen_ai.request.model', 'gen_ai.response.model', 'gen_ai.system', 'gen_ai.request.temperature', 'gen_ai.request.max_tokens', 'agentops.span.kind']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[8] name='proxy_pre_call' attrs=['call_type', 'service']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[9] name='router' attrs=['call_type', 'service']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[10] name='self' attrs=['call_type', 'service']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[11] name='router' attrs=['call_type', 'service']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[12] name='litellm_request' attrs=['metadata.user_api_key_hash', 'metadata.user_api_key_alias', 'metadata.user_api_key_spend', 'metadata.user_api_key_max_budget', 'metadata.user_api_key_budget_reset_at', 'metadata.user_api_key_team_id', 'metadata.user_api_key_org_id', 'metadata.user_api_key_project_id', 'metadata.user_api_key_project_alias', 'metadata.user_api_key_user_id']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[13] name='raw_gen_ai_request' attrs=['llm.hosted_vllm.messages', 'llm.hosted_vllm.temperature', 'llm.hosted_vllm.stream', 'llm.hosted_vllm.max_tokens', 'llm.hosted_vllm.tools', 'llm.hosted_vllm.return_token_ids', 'llm.hosted_vllm.id', 'llm.hosted_vllm.object', 'llm.hosted_vllm.created', 'llm.hosted_vllm.model']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]     FULL_ATTRS=['llm.hosted_vllm.messages', 'llm.hosted_vllm.temperature', 'llm.hosted_vllm.stream', 'llm.hosted_vllm.max_tokens', 'llm.hosted_vllm.tools', 'llm.hosted_vllm.return_token_ids', 'llm.hosted_vllm.id', 'llm.hosted_vllm.object', 'llm.hosted_vllm.created', 'llm.hosted_vllm.model', 'llm.hosted_vllm.choices', 'llm.hosted_vllm.usage', 'llm.hosted_vllm.prompt_logprobs', 'llm.hosted_vllm.prompt_token_ids', 'llm.hosted_vllm.response_token_ids']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[14] name='Received Proxy Server Request' attrs=[]
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[15] name='search_embedding_db' attrs=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'tool.name', 'tool.parameters', 'tool.result', 'agentops.span.kind', 'tool.status']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[16] name='generation' attrs=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'gen_ai.prompt.0.role', 'gen_ai.prompt.0.content', 'gen_ai.request.model', 'gen_ai.response.model', 'gen_ai.system']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]     FULL_ATTRS=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'gen_ai.prompt.0.role', 'gen_ai.prompt.0.content', 'gen_ai.request.model', 'gen_ai.response.model', 'gen_ai.system', 'gen_ai.request.temperature', 'gen_ai.request.max_tokens', 'agentops.span.kind']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[17] name='ebm_agent' attrs=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'agentops.span.kind', 'agent.name', 'agent.tools']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[18] name='Agent workflow' attrs=['workflow.name', 'trace.id', 'workflow.step.type', 'instrumentation.name', 'instrumentation.version', 'agentops.tags']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[19] name='agentlightning.annotation' attrs=['agentlightning.reward.0.name', 'agentlightning.reward.0.value']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[20] name='ro-cf6cd7bf5515.session' attrs=['agentops.span.kind', 'operation.name']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   span[21] name='agentlightning.annotation' attrs=['agentlightning.reward.0.name', 'agentlightning.reward.0.value']
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   triplet[0] reward=3.4212352576200344
+[36m(TaskRunner pid=20817)[0m [DEBUG_DAEMON]   triplet[1] reward=3.4212352576200344
+[36m(TaskRunner pid=20817)[0m Completed 31/32 tasks...
+[36m(TaskRunner pid=20817)[0m Completed 31/32 tasks...
+[36m(TaskRunner pid=20817)[0m [DEBUG_TOKEN] RAW span[5] seq=1 p_type=str p_val=[151644, 8948, 198, 99335, 104211, 5122, 100644, 45785, 20412, 25, 220, 17, 15,  r_type=str r_val=[[151657, 198, 4913, 606, 788, 330, 1836, 51502, 8685, 497, 330, 16370, 788, 521
+[36m(TaskRunner pid=20817)[0m [DEBUG_TOKEN] RAW span[13] seq=3 p_type=str p_val=[151644, 8948, 198, 99335, 104211, 5122, 100644, 45785, 20412, 25, 220, 17, 15,  r_type=str r_val=[[14374, 220, 14777, 5373, 101041, 106073, 2303, 100002, 62112, 115610, 39762, 1

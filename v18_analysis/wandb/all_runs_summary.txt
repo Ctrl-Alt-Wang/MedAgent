@@ -1,0 +1,60 @@
+=== /workspace/post_train/sql_agent/wandb/run-20260413_131020-osg93if5/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-04-13T13:10:20.597294Z
+=== /workspace/post_train/sql_agent/wandb/run-20260413_134451-ipgjxg9e/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-04-13T13:44:51.346103Z
+=== /workspace/post_train/sql_agent/wandb/run-20260413_142920-nt69essr/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-04-13T14:29:20.505688Z
+=== /workspace/post_train/sql_agent/wandb/run-20260414_104009-3r6yvkps/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-04-14T10:40:09.806029Z
+=== /workspace/post_train/sql_agent/wandb/run-20260422_104302-4inpg6xi/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-04-22T10:43:02.064770Z
+=== /workspace/post_train/sql_agent/wandb/run-20260507_011837-dkbckcl0/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-05-07T01:18:37.550476Z
+=== /workspace/post_train/sql_agent/wandb/run-20260507_020604-kw3d3jpz/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-05-07T02:06:04.838164Z
+=== /workspace/post_train/sql_agent/wandb/run-20260509_083115-q2nc685e/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-05-09T08:31:15.462004Z
+=== /workspace/post_train/sql_agent/wandb/run-20260509_092637-lrgo50kc/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-05-09T09:26:37.948758Z
+=== /workspace/post_train/sql_agent/wandb/run-20260510_025035-jpctvk4m/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-05-10T02:50:35.759219Z
+=== /workspace/post_train/sql_agent/wandb/run-20260512_022449-hazhb33h/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-05-12T02:24:49.211905Z
+=== /workspace/post_train/sql_agent/wandb/run-20260512_030620-f3eurmrb/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-05-12T03:06:20.801256Z
+=== /workspace/post_train/sql_agent/wandb/run-20260519_084252-zqoid20f/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-05-19T08:42:52.728251Z
+=== /workspace/post_train/sql_agent/wandb/run-20260519_091431-7hrkwr68/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-05-19T09:14:31.037130Z
+=== /workspace/post_train/sql_agent/wandb/run-20260527_030643-pxl6edqq/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-05-27T03:06:43.024273Z
