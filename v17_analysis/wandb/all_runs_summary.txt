@@ -1,0 +1,132 @@
+debug-cli.root.log
+debug-internal.log
+debug.log
+latest-run
+run-20260409_061624-xxbelpty
+run-20260409_062215-mmk9aa3v
+run-20260409_062746-9fdi639r
+run-20260409_071746-sx0e9ngd
+run-20260409_074617-x6mudyv6
+run-20260409_084415-psybwn71
+run-20260409_085149-oye6pmpd
+run-20260413_081355-7hr8ze2u
+run-20260413_083849-c527wpci
+run-20260413_093505-1xu44g9k
+run-20260413_095031-haau4434
+run-20260413_121010-czl9pnwf
+run-20260413_130012-wpenm7kv
+run-20260413_131020-osg93if5
+run-20260413_134451-ipgjxg9e
+run-20260413_142920-nt69essr
+run-20260414_104009-3r6yvkps
+run-20260422_104302-4inpg6xi
+run-20260507_011837-dkbckcl0
+run-20260507_020604-kw3d3jpz
+run-20260509_083115-q2nc685e
+run-20260509_092637-lrgo50kc
+run-20260510_025035-jpctvk4m
+run-20260512_022449-hazhb33h
+run-20260512_030620-f3eurmrb
+run-20260519_084252-zqoid20f
+run-20260519_091431-7hrkwr68
+run-20260527_030643-pxl6edqq
+=== /workspace/post_train/sql_agent/wandb/run-20260409_062215-mmk9aa3v/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-04-09T06:22:15.350799Z
+=== /workspace/post_train/sql_agent/wandb/run-20260409_062746-9fdi639r/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-04-09T06:27:46.385567Z
+=== /workspace/post_train/sql_agent/wandb/run-20260409_071746-sx0e9ngd/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-04-09T07:17:46.263514Z
+=== /workspace/post_train/sql_agent/wandb/run-20260409_074617-x6mudyv6/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-04-09T07:46:17.413801Z
+=== /workspace/post_train/sql_agent/wandb/run-20260409_084415-psybwn71/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-04-09T08:44:15.210997Z
+=== /workspace/post_train/sql_agent/wandb/run-20260409_085149-oye6pmpd/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-04-09T08:51:49.664955Z
+=== /workspace/post_train/sql_agent/wandb/run-20260413_081355-7hr8ze2u/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-04-13T08:13:55.694837Z
+=== /workspace/post_train/sql_agent/wandb/run-20260413_083849-c527wpci/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-04-13T08:38:49.293120Z
+=== /workspace/post_train/sql_agent/wandb/run-20260413_093505-1xu44g9k/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-04-13T09:35:05.785215Z
+=== /workspace/post_train/sql_agent/wandb/run-20260413_095031-haau4434/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-04-13T09:50:31.164785Z
+=== /workspace/post_train/sql_agent/wandb/run-20260413_121010-czl9pnwf/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-04-13T12:10:10.844059Z
+=== /workspace/post_train/sql_agent/wandb/run-20260413_130012-wpenm7kv/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-04-13T13:00:12.070305Z
+=== /workspace/post_train/sql_agent/wandb/run-20260413_131020-osg93if5/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-04-13T13:10:20.597294Z
+=== /workspace/post_train/sql_agent/wandb/run-20260413_134451-ipgjxg9e/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-04-13T13:44:51.346103Z
+=== /workspace/post_train/sql_agent/wandb/run-20260413_142920-nt69essr/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-04-13T14:29:20.505688Z
+=== /workspace/post_train/sql_agent/wandb/run-20260414_104009-3r6yvkps/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-04-14T10:40:09.806029Z
+=== /workspace/post_train/sql_agent/wandb/run-20260422_104302-4inpg6xi/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-04-22T10:43:02.064770Z
+=== /workspace/post_train/sql_agent/wandb/run-20260507_011837-dkbckcl0/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-05-07T01:18:37.550476Z
+=== /workspace/post_train/sql_agent/wandb/run-20260507_020604-kw3d3jpz/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-05-07T02:06:04.838164Z
+=== /workspace/post_train/sql_agent/wandb/run-20260509_083115-q2nc685e/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-05-09T08:31:15.462004Z
+=== /workspace/post_train/sql_agent/wandb/run-20260509_092637-lrgo50kc/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-05-09T09:26:37.948758Z
+=== /workspace/post_train/sql_agent/wandb/run-20260510_025035-jpctvk4m/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-05-10T02:50:35.759219Z
+=== /workspace/post_train/sql_agent/wandb/run-20260512_022449-hazhb33h/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-05-12T02:24:49.211905Z
+=== /workspace/post_train/sql_agent/wandb/run-20260512_030620-f3eurmrb/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-05-12T03:06:20.801256Z
+=== /workspace/post_train/sql_agent/wandb/run-20260519_084252-zqoid20f/files/wandb-metadata.json ===
+run_id: 
+name: 
+startedAt: 2026-05-19T08:42:52.728251Z

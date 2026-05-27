@@ -1,0 +1,300 @@
+2026-05-10 02:51:25,642 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:51:25,642 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:51:25,643 - INFO - [Reward Breakdown] hard=-1.300, format=1.000 x 1.200, correct=2.385 x 1.000, subtotal=2.285
+2026-05-10 02:51:25,643 - INFO - [Reward Breakdown] hard=-1.300, format=1.000 x 1.200, correct=2.385 x 1.000, subtotal=2.285
+2026-05-10 02:51:25,643 - INFO - [Total Reward] 2.285
+2026-05-10 02:51:25,643 - INFO - [Total Reward] 2.285
+2026-05-10 02:51:39,623 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:51:39,623 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:51:39,624 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.560 x 1.000, subtotal=3.760
+2026-05-10 02:51:39,624 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.560 x 1.000, subtotal=3.760
+2026-05-10 02:51:39,624 - INFO - [Total Reward] 3.760
+2026-05-10 02:51:39,624 - INFO - [Total Reward] 3.760
+2026-05-10 02:51:41,851 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:51:41,851 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:51:41,852 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.547 x 1.000, subtotal=3.747
+2026-05-10 02:51:41,852 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.547 x 1.000, subtotal=3.747
+2026-05-10 02:51:41,852 - INFO - [Total Reward] 3.747
+2026-05-10 02:51:41,852 - INFO - [Total Reward] 3.747
+2026-05-10 02:51:48,127 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:51:48,127 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:51:48,128 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=-0.250 x 1.000, subtotal=0.950
+2026-05-10 02:51:48,128 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=-0.250 x 1.000, subtotal=0.950
+2026-05-10 02:51:48,128 - INFO - [Total Reward] 0.950
+2026-05-10 02:51:48,128 - INFO - [Total Reward] 0.950
+2026-05-10 02:52:00,452 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:52:00,452 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:52:00,453 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.507 x 1.000, subtotal=3.707
+2026-05-10 02:52:00,453 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.507 x 1.000, subtotal=3.707
+2026-05-10 02:52:00,453 - INFO - [Total Reward] 3.707
+2026-05-10 02:52:00,453 - INFO - [Total Reward] 3.707
+2026-05-10 02:52:18,949 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:52:18,949 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:52:18,950 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.501 x 1.000, subtotal=3.701
+2026-05-10 02:52:18,950 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.501 x 1.000, subtotal=3.701
+2026-05-10 02:52:18,950 - INFO - [Total Reward] 3.701
+2026-05-10 02:52:18,950 - INFO - [Total Reward] 3.701
+2026-05-10 02:52:24,964 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:52:24,964 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:52:24,965 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.507 x 1.000, subtotal=3.707
+2026-05-10 02:52:24,965 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.507 x 1.000, subtotal=3.707
+2026-05-10 02:52:24,965 - INFO - [Total Reward] 3.707
+2026-05-10 02:52:24,965 - INFO - [Total Reward] 3.707
+2026-05-10 02:52:32,547 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:52:32,547 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:52:32,548 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.507 x 1.000, subtotal=3.707
+2026-05-10 02:52:32,548 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.507 x 1.000, subtotal=3.707
+2026-05-10 02:52:32,548 - INFO - [Total Reward] 3.707
+2026-05-10 02:52:32,548 - INFO - [Total Reward] 3.707
+2026-05-10 02:52:40,824 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:52:40,824 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:52:40,825 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.410 x 1.000, subtotal=3.610
+2026-05-10 02:52:40,825 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.410 x 1.000, subtotal=3.610
+2026-05-10 02:52:40,825 - INFO - [Total Reward] 3.610
+2026-05-10 02:52:40,825 - INFO - [Total Reward] 3.610
+2026-05-10 02:53:04,378 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:53:04,378 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:53:04,379 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.522 x 1.000, subtotal=3.722
+2026-05-10 02:53:04,379 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.522 x 1.000, subtotal=3.722
+2026-05-10 02:53:04,379 - INFO - [Total Reward] 3.722
+2026-05-10 02:53:04,379 - INFO - [Total Reward] 3.722
+2026-05-10 02:53:09,444 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:53:09,444 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:53:09,445 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.537 x 1.000, subtotal=3.737
+2026-05-10 02:53:09,445 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.537 x 1.000, subtotal=3.737
+2026-05-10 02:53:09,445 - INFO - [Total Reward] 3.737
+2026-05-10 02:53:09,445 - INFO - [Total Reward] 3.737
+2026-05-10 02:53:13,244 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:53:13,244 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:53:13,245 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.514 x 1.000, subtotal=3.714
+2026-05-10 02:53:13,245 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.514 x 1.000, subtotal=3.714
+2026-05-10 02:53:13,245 - INFO - [Total Reward] 3.714
+2026-05-10 02:53:13,245 - INFO - [Total Reward] 3.714
+2026-05-10 02:53:18,092 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:53:18,092 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:53:18,093 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.560 x 1.000, subtotal=3.760
+2026-05-10 02:53:18,093 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.560 x 1.000, subtotal=3.760
+2026-05-10 02:53:18,093 - INFO - [Total Reward] 3.760
+2026-05-10 02:53:18,093 - INFO - [Total Reward] 3.760
+2026-05-10 02:53:41,517 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:53:41,517 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:53:41,519 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.527 x 1.000, subtotal=3.727
+2026-05-10 02:53:41,519 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.527 x 1.000, subtotal=3.727
+2026-05-10 02:53:41,519 - INFO - [Total Reward] 3.727
+2026-05-10 02:53:41,519 - INFO - [Total Reward] 3.727
+2026-05-10 02:53:47,350 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:53:47,350 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:53:47,351 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.549 x 1.000, subtotal=3.749
+2026-05-10 02:53:47,351 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.549 x 1.000, subtotal=3.749
+2026-05-10 02:53:47,351 - INFO - [Total Reward] 3.749
+2026-05-10 02:53:47,351 - INFO - [Total Reward] 3.749
+2026-05-10 02:53:57,034 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:53:57,034 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:53:57,035 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.538 x 1.000, subtotal=3.738
+2026-05-10 02:53:57,035 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.538 x 1.000, subtotal=3.738
+2026-05-10 02:53:57,036 - INFO - [Total Reward] 3.738
+2026-05-10 02:53:57,036 - INFO - [Total Reward] 3.738
+2026-05-10 02:54:01,602 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:54:01,602 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:54:01,603 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.560 x 1.000, subtotal=3.760
+2026-05-10 02:54:01,603 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.560 x 1.000, subtotal=3.760
+2026-05-10 02:54:01,603 - INFO - [Total Reward] 3.760
+2026-05-10 02:54:01,603 - INFO - [Total Reward] 3.760
+2026-05-10 02:54:18,448 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:54:18,448 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:54:18,449 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.535 x 1.000, subtotal=3.735
+2026-05-10 02:54:18,449 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.535 x 1.000, subtotal=3.735
+2026-05-10 02:54:18,449 - INFO - [Total Reward] 3.735
+2026-05-10 02:54:18,449 - INFO - [Total Reward] 3.735
+2026-05-10 02:54:22,280 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:54:22,280 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:54:22,281 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.522 x 1.000, subtotal=3.723
+2026-05-10 02:54:22,281 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.522 x 1.000, subtotal=3.723
+2026-05-10 02:54:22,281 - INFO - [Total Reward] 3.723
+2026-05-10 02:54:22,281 - INFO - [Total Reward] 3.723
+2026-05-10 02:54:43,058 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:54:43,058 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:54:43,059 - INFO - [Reward Breakdown] hard=0.000, format=0.967 x 1.200, correct=2.184 x 1.000, subtotal=3.344
+2026-05-10 02:54:43,059 - INFO - [Reward Breakdown] hard=0.000, format=0.967 x 1.200, correct=2.184 x 1.000, subtotal=3.344
+2026-05-10 02:54:43,059 - INFO - [Total Reward] 3.344
+2026-05-10 02:54:43,059 - INFO - [Total Reward] 3.344
+2026-05-10 02:54:50,514 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:54:50,514 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:54:50,516 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.550 x 1.000, subtotal=3.750
+2026-05-10 02:54:50,516 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.550 x 1.000, subtotal=3.750
+2026-05-10 02:54:50,516 - INFO - [Total Reward] 3.750
+2026-05-10 02:54:50,516 - INFO - [Total Reward] 3.750
+2026-05-10 02:55:03,257 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:55:03,257 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:55:03,258 - INFO - [Reward Breakdown] hard=0.000, format=0.967 x 1.200, correct=2.207 x 1.000, subtotal=3.367
+2026-05-10 02:55:03,258 - INFO - [Reward Breakdown] hard=0.000, format=0.967 x 1.200, correct=2.207 x 1.000, subtotal=3.367
+2026-05-10 02:55:03,258 - INFO - [Total Reward] 3.367
+2026-05-10 02:55:03,258 - INFO - [Total Reward] 3.367
+2026-05-10 02:55:06,629 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:55:06,629 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:55:06,630 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.550 x 1.000, subtotal=3.750
+2026-05-10 02:55:06,630 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.550 x 1.000, subtotal=3.750
+2026-05-10 02:55:06,630 - INFO - [Total Reward] 3.750
+2026-05-10 02:55:06,630 - INFO - [Total Reward] 3.750
+2026-05-10 02:55:24,036 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:55:24,036 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:55:24,037 - INFO - [Reward Breakdown] hard=0.000, format=0.967 x 1.200, correct=2.203 x 1.000, subtotal=3.363
+2026-05-10 02:55:24,037 - INFO - [Reward Breakdown] hard=0.000, format=0.967 x 1.200, correct=2.203 x 1.000, subtotal=3.363
+2026-05-10 02:55:24,037 - INFO - [Total Reward] 3.363
+2026-05-10 02:55:24,037 - INFO - [Total Reward] 3.363
+2026-05-10 02:55:29,044 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:55:29,044 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:55:29,045 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.560 x 1.000, subtotal=3.760
+2026-05-10 02:55:29,045 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.560 x 1.000, subtotal=3.760
+2026-05-10 02:55:29,045 - INFO - [Total Reward] 3.760
+2026-05-10 02:55:29,045 - INFO - [Total Reward] 3.760
+2026-05-10 02:55:48,470 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:55:48,470 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:55:48,472 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.560 x 1.000, subtotal=3.760
+2026-05-10 02:55:48,472 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.560 x 1.000, subtotal=3.760
+2026-05-10 02:55:48,472 - INFO - [Total Reward] 3.760
+2026-05-10 02:55:48,472 - INFO - [Total Reward] 3.760
+2026-05-10 02:55:49,696 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:55:49,696 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:55:49,697 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.560 x 1.000, subtotal=3.760
+2026-05-10 02:55:49,697 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.560 x 1.000, subtotal=3.760
+2026-05-10 02:55:49,697 - INFO - [Total Reward] 3.760
+2026-05-10 02:55:49,697 - INFO - [Total Reward] 3.760
+2026-05-10 02:56:00,499 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:56:00,499 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:56:00,500 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.560 x 1.000, subtotal=3.760
+2026-05-10 02:56:00,500 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.560 x 1.000, subtotal=3.760
+2026-05-10 02:56:00,500 - INFO - [Total Reward] 3.760
+2026-05-10 02:56:00,500 - INFO - [Total Reward] 3.760
+2026-05-10 02:56:06,567 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:56:06,567 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:56:06,568 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.560 x 1.000, subtotal=3.760
+2026-05-10 02:56:06,568 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.560 x 1.000, subtotal=3.760
+2026-05-10 02:56:06,568 - INFO - [Total Reward] 3.760
+2026-05-10 02:56:06,568 - INFO - [Total Reward] 3.760
+2026-05-10 02:56:24,837 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:56:24,837 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:56:24,839 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.546 x 1.000, subtotal=3.746
+2026-05-10 02:56:24,839 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.546 x 1.000, subtotal=3.746
+2026-05-10 02:56:24,839 - INFO - [Total Reward] 3.746
+2026-05-10 02:56:24,839 - INFO - [Total Reward] 3.746
+2026-05-10 02:56:28,489 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:56:28,489 - INFO - [Schedule] mode=train, step=0/113, p=0.000, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:56:28,490 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.546 x 1.000, subtotal=3.746
+2026-05-10 02:56:28,490 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.546 x 1.000, subtotal=3.746
+2026-05-10 02:56:28,490 - INFO - [Total Reward] 3.746
+2026-05-10 02:56:28,490 - INFO - [Total Reward] 3.746
+2026-05-10 02:56:38,575 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:56:38,575 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 02:56:38,576 - INFO - [Reward Breakdown] hard=0.000, format=0.967 x 1.200, correct=2.247 x 1.000, subtotal=3.407
+2026-05-10 02:56:38,576 - INFO - [Reward Breakdown] hard=0.000, format=0.967 x 1.200, correct=2.247 x 1.000, subtotal=3.407
+2026-05-10 02:56:38,576 - INFO - [Total Reward] 3.407
+2026-05-10 02:56:38,576 - INFO - [Total Reward] 3.407
+2026-05-10 03:11:58,694 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:11:58,694 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:11:58,695 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.522 x 1.000, subtotal=3.723
+2026-05-10 03:11:58,695 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.522 x 1.000, subtotal=3.723
+2026-05-10 03:11:58,695 - INFO - [Total Reward] 3.723
+2026-05-10 03:11:58,695 - INFO - [Total Reward] 3.723
+2026-05-10 03:12:06,362 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:12:06,362 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:12:06,363 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.547 x 1.000, subtotal=3.747
+2026-05-10 03:12:06,363 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.547 x 1.000, subtotal=3.747
+2026-05-10 03:12:06,364 - INFO - [Total Reward] 3.747
+2026-05-10 03:12:06,364 - INFO - [Total Reward] 3.747
+2026-05-10 03:12:13,586 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:12:13,586 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:12:13,587 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.535 x 1.000, subtotal=3.735
+2026-05-10 03:12:13,587 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.535 x 1.000, subtotal=3.735
+2026-05-10 03:12:13,587 - INFO - [Total Reward] 3.735
+2026-05-10 03:12:13,587 - INFO - [Total Reward] 3.735
+2026-05-10 03:12:15,630 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:12:15,630 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:12:15,631 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.547 x 1.000, subtotal=3.747
+2026-05-10 03:12:15,631 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.547 x 1.000, subtotal=3.747
+2026-05-10 03:12:15,631 - INFO - [Total Reward] 3.747
+2026-05-10 03:12:15,631 - INFO - [Total Reward] 3.747
+2026-05-10 03:12:38,427 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:12:38,427 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:12:38,428 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.560 x 1.000, subtotal=3.760
+2026-05-10 03:12:38,428 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.560 x 1.000, subtotal=3.760
+2026-05-10 03:12:38,429 - INFO - [Total Reward] 3.760
+2026-05-10 03:12:38,429 - INFO - [Total Reward] 3.760
+2026-05-10 03:12:52,069 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:12:52,069 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:12:52,070 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.429 x 1.000, subtotal=3.629
+2026-05-10 03:12:52,070 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.429 x 1.000, subtotal=3.629
+2026-05-10 03:12:52,070 - INFO - [Total Reward] 3.629
+2026-05-10 03:12:52,070 - INFO - [Total Reward] 3.629
+2026-05-10 03:12:53,518 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:12:53,518 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:12:53,519 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.530 x 1.000, subtotal=3.730
+2026-05-10 03:12:53,519 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.530 x 1.000, subtotal=3.730
+2026-05-10 03:12:53,519 - INFO - [Total Reward] 3.730
+2026-05-10 03:12:53,519 - INFO - [Total Reward] 3.730
+2026-05-10 03:12:58,753 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:12:58,753 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:12:58,754 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.538 x 1.000, subtotal=3.738
+2026-05-10 03:12:58,754 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.538 x 1.000, subtotal=3.738
+2026-05-10 03:12:58,754 - INFO - [Total Reward] 3.738
+2026-05-10 03:12:58,754 - INFO - [Total Reward] 3.738
+2026-05-10 03:13:18,708 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:13:18,708 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:13:18,709 - INFO - [Reward Breakdown] hard=0.000, format=0.967 x 1.200, correct=2.163 x 1.000, subtotal=3.323
+2026-05-10 03:13:18,709 - INFO - [Reward Breakdown] hard=0.000, format=0.967 x 1.200, correct=2.163 x 1.000, subtotal=3.323
+2026-05-10 03:13:18,709 - INFO - [Total Reward] 3.323
+2026-05-10 03:13:18,709 - INFO - [Total Reward] 3.323
+2026-05-10 03:13:37,930 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:13:37,930 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:13:37,932 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.522 x 1.000, subtotal=3.722
+2026-05-10 03:13:37,932 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.522 x 1.000, subtotal=3.722
+2026-05-10 03:13:37,932 - INFO - [Total Reward] 3.722
+2026-05-10 03:13:37,932 - INFO - [Total Reward] 3.722
+2026-05-10 03:13:43,452 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:13:43,452 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:13:43,453 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.537 x 1.000, subtotal=3.737
+2026-05-10 03:13:43,453 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.537 x 1.000, subtotal=3.737
+2026-05-10 03:13:43,454 - INFO - [Total Reward] 3.737
+2026-05-10 03:13:43,454 - INFO - [Total Reward] 3.737
+2026-05-10 03:13:46,089 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:13:46,089 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:13:46,090 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.538 x 1.000, subtotal=3.738
+2026-05-10 03:13:46,090 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.538 x 1.000, subtotal=3.738
+2026-05-10 03:13:46,090 - INFO - [Total Reward] 3.738
+2026-05-10 03:13:46,090 - INFO - [Total Reward] 3.738
+2026-05-10 03:13:53,461 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:13:53,461 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:13:53,462 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.524 x 1.000, subtotal=3.724
+2026-05-10 03:13:53,462 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.524 x 1.000, subtotal=3.724
+2026-05-10 03:13:53,462 - INFO - [Total Reward] 3.724
+2026-05-10 03:13:53,462 - INFO - [Total Reward] 3.724
+2026-05-10 03:14:14,235 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:14:14,235 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:14:14,236 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.533 x 1.000, subtotal=3.733
+2026-05-10 03:14:14,236 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.533 x 1.000, subtotal=3.733
+2026-05-10 03:14:14,236 - INFO - [Total Reward] 3.733
+2026-05-10 03:14:14,236 - INFO - [Total Reward] 3.733
+2026-05-10 03:14:20,599 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:14:20,599 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:14:20,599 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=-0.250 x 1.000, subtotal=0.950
+2026-05-10 03:14:20,599 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=-0.250 x 1.000, subtotal=0.950
+2026-05-10 03:14:20,600 - INFO - [Total Reward] 0.950
+2026-05-10 03:14:20,600 - INFO - [Total Reward] 0.950
+2026-05-10 03:14:29,810 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:14:29,810 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:14:29,811 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.515 x 1.000, subtotal=3.715
+2026-05-10 03:14:29,811 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.515 x 1.000, subtotal=3.715
+2026-05-10 03:14:29,812 - INFO - [Total Reward] 3.715
+2026-05-10 03:14:29,812 - INFO - [Total Reward] 3.715
+2026-05-10 03:14:39,540 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:14:39,540 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:14:39,542 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.516 x 1.000, subtotal=3.716
+2026-05-10 03:14:39,542 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.516 x 1.000, subtotal=3.716
+2026-05-10 03:14:39,542 - INFO - [Total Reward] 3.716
+2026-05-10 03:14:39,542 - INFO - [Total Reward] 3.716
+2026-05-10 03:14:54,475 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:14:54,475 - INFO - [Schedule] mode=train, step=1/113, p=0.009, format_scale=1.200, correct_scale=1.000, rm_weight=0.000
+2026-05-10 03:14:54,476 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.522 x 1.000, subtotal=3.723
+2026-05-10 03:14:54,476 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.522 x 1.000, subtotal=3.723
+2026-05-10 03:14:54,476 - INFO - [Total Reward] 3.723
+2026-05-10 03:14:54,476 - INFO - [Total Reward] 3.723

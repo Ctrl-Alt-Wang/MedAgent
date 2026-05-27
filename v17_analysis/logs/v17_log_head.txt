@@ -1,0 +1,200 @@
+[提醒] train_dataset 未包含 is_medical 字段，将默认按医学问题处理。
+[提醒] val_dataset 未包含 is_medical 字段，将默认按医学问题处理。
+
+训练集: 900 条
+验证集: 100 条
+训练数据前 3 条：
+  [0] 对于首次缓解后的急性淋巴细胞白血病患者，继续维持化疗相比于停止维持治疗，能否带来更长的无病生存期？...
+  [1] 对于长期感染幽门螺杆菌的患者，未进行根除治疗相比成功根除后，胃癌发生风险是否更高？...
+  [2] 在诊断为肥厚型心肌病的患者中，室性心律失常的出现是否会增加心源性猝死的发生率？...
+
+============================================================
+[自动配置]
+  GPUs: 4
+  TP: 4
+  DP: 1
+  train_batch_size: 8
+  learning_rate: 8.00e-07
+  need_offload: True
+  gpu_memory_utilization: 0.4
+  n_rollouts: 4
+============================================================
+
+[模型] 使用自定义模型: /workspace/models/Qwen2.5-14B-Instruct-SFT-Agent
+
+[Progress Tracking]
+  progress_file: /tmp/sql_agent_progress_v17_plus_small.json
+  total_updates: 113
+  rollouts_per_update: 32
+  schedule_steps: 113
+  resume_global_step: 0
+
+
+============================================================
+[训练摘要]
+  train_file: data/train.parquet
+  val_file: data/val.parquet
+  train_size: 900
+  val_size: 100
+  total_updates(estimated): 113
+  train_batch_size: 8
+  rollouts_per_query: 4
+  rollouts_per_update: 32
+  schedule_steps: 113
+  total_epochs: 1
+  total_training_steps: N/A
+  learning_rate: 8.00e-07
+  model_path: /workspace/models/Qwen2.5-14B-Instruct-SFT-Agent
+  project_name: AgentLightning
+  experiment_name: ebm_agent_14b_grpo_4gpu_v17_plus_small
+============================================================
+
+[Store] 使用内存 store
+[启动] 开始 GRPO 训练...
+[05/10/26 02:46:38] INFO     Starting client-server execution with 4 runner(s) [role=both, main_process=algorithm]                                                                  client_server.py:357
+                    INFO     Spawning runner processes...                                                                                                                           client_server.py:392
+                    INFO     [Worker 0] Setting up AgentOps tracer...                                                                                                                     agentops.py:71
+                    INFO     [Worker 1] Setting up AgentOps tracer...                                                                                                                     agentops.py:71
+                    INFO     Patched newer version of agentops using handle_chat_attributes                                                                                              agentops.py:151
+                    INFO     [Worker 0] Instrumentation applied.                                                                                                                          agentops.py:75
+                    INFO     [Worker 2] Setting up AgentOps tracer...                                                                                                                     agentops.py:71
+                    INFO     Patched newer version of agentops using handle_chat_attributes                                                                                              agentops.py:151
+                    INFO     [Worker 1] Instrumentation applied.                                                                                                                          agentops.py:75
+                    INFO     Running algorithm...                                                                                                                                   client_server.py:395
+                    INFO     Starting LightningStore server on localhost:4747                                                                                                       client_server.py:132
+                    INFO     [Worker 3] Setting up AgentOps tracer...                                                                                                                     agentops.py:71
+                    WARNING  No access host provided, using the host provided.                                                                                                    server_launcher.py:788
+                    INFO     Patched newer version of agentops using handle_chat_attributes                                                                                              agentops.py:151
+                    INFO     [Worker 2] Instrumentation applied.                                                                                                                          agentops.py:75
+                    INFO     Patched newer version of agentops using handle_chat_attributes                                                                                              agentops.py:151
+                    INFO     [Worker 3] Instrumentation applied.                                                                                                                          agentops.py:75
+                    ERROR    Dashboard directory not found at /workspace/post_train/agent-lightning/agentlightning/dashboard. Please build the dashboard first.                     client_server.py:976
+                    INFO     Serving the lightning store at http://localhost:4747, accessible at http://localhost:4747                                                              client_server.py:410
+                    INFO     Starting server fastapi.applications:app...                                                                                                          server_launcher.py:685
+                    INFO     Starting uvicorn thread server...                                                                                                                    server_launcher.py:849
+                    INFO     No serve_context provided, using noop_context.                                                                                                       server_launcher.py:809
+INFO:     Started server process [2175239]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://localhost:4747 (Press CTRL+C to quit)
+🖇 AgentOps: [OPENAI INSTRUMENTOR] Error setting up OpenAI streaming wrappers: No module named 'openai.resources.beta.chat'
+🖇 AgentOps: [OPENAI INSTRUMENTOR] Error setting up OpenAI streaming wrappers: No module named 'openai.resources.beta.chat'
+🖇 AgentOps: [OPENAI INSTRUMENTOR] Error setting up OpenAI streaming wrappers: No module named 'openai.resources.beta.chat'
+🖇 AgentOps: [OPENAI INSTRUMENTOR] Error setting up OpenAI streaming wrappers: No module named 'openai.resources.beta.chat'
+🖇 AgentOps: [OPENAI INSTRUMENTOR] Error setting up OpenAI streaming wrappers: No module named 'openai.resources.beta.chat'
+🖇 AgentOps: [OPENAI INSTRUMENTOR] Error setting up OpenAI streaming wrappers: No module named 'openai.resources.beta.chat'
+                    INFO     Server started up in 0.10 seconds.                                                                                                                   server_launcher.py:168
+                    INFO     Probing health endpoint http://localhost:4747/v1/agl/health...                                                                                       server_launcher.py:172
+🖇 AgentOps: [OPENAI INSTRUMENTOR] Error setting up OpenAI streaming wrappers: No module named 'openai.resources.beta.chat'
+🖇 AgentOps: [OPENAI INSTRUMENTOR] Error setting up OpenAI streaming wrappers: No module named 'openai.resources.beta.chat'
+                    INFO     [Worker 0] AgentOps client initialized.                                                                                                                      agentops.py:81
+                    INFO     [Worker 0] Started async rollouts (max: unlimited).                                                                                                            agent.py:754
+                    INFO     Server is healthy at http://localhost:4747/v1/agl/health in 0.11 seconds.                                                                            server_launcher.py:178
+                    INFO     Threaded server started successfully.                                                                                                                server_launcher.py:888
+                    INFO     [Worker 1] AgentOps client initialized.                                                                                                                      agentops.py:81
+                    INFO     Server fastapi.applications:app started at http://localhost:4747                                                                                     server_launcher.py:695
+                    INFO     [Worker 1] Started async rollouts (max: unlimited).                                                                                                            agent.py:754
+                    INFO     Lightning store server started in 0.13 seconds                                                                                                         client_server.py:417
+                    INFO     [Worker 3] AgentOps client initialized.                                                                                                                      agentops.py:81
+                    INFO     [Worker 2] AgentOps client initialized.                                                                                                                      agentops.py:81
+                    INFO     [Worker 3] Started async rollouts (max: unlimited).                                                                                                            agent.py:754
+                    INFO     [Worker 2] Started async rollouts (max: unlimited).                                                                                                            agent.py:754
+2026-05-10 02:46:40,013	INFO worker.py:1812 -- Started a local Ray instance. View the dashboard at [1m[32mhttp://127.0.0.1:8265 [39m[22m
+Store is set. Assuming v1 execution mode.
+[36m(TaskRunner pid=2179404)[0m {'actor_rollout_ref': {'actor': {'checkpoint': {'load_contents': ['model',
+[36m(TaskRunner pid=2179404)[0m                                                                   'optimizer',
+[36m(TaskRunner pid=2179404)[0m                                                                   'extra'],
+[36m(TaskRunner pid=2179404)[0m                                                 'save_contents': ['model']},
+[36m(TaskRunner pid=2179404)[0m                                  'clip_ratio': 0.2,
+[36m(TaskRunner pid=2179404)[0m                                  'clip_ratio_c': 3.0,
+[36m(TaskRunner pid=2179404)[0m                                  'clip_ratio_high': 0.2,
+[36m(TaskRunner pid=2179404)[0m                                  'clip_ratio_low': 0.2,
+[36m(TaskRunner pid=2179404)[0m                                  'entropy_checkpointing': False,
+[36m(TaskRunner pid=2179404)[0m                                  'entropy_coeff': 0.005,
+[36m(TaskRunner pid=2179404)[0m                                  'entropy_from_logits_with_chunking': False,
+[36m(TaskRunner pid=2179404)[0m                                  'fsdp_config': {'forward_prefetch': False,
+[36m(TaskRunner pid=2179404)[0m                                                  'fsdp_size': -1,
+[36m(TaskRunner pid=2179404)[0m                                                  'offload_policy': True,
+[36m(TaskRunner pid=2179404)[0m                                                  'optimizer_offload': False,
+[36m(TaskRunner pid=2179404)[0m                                                  'param_offload': False,
+[36m(TaskRunner pid=2179404)[0m                                                  'reshard_after_forward': True,
+[36m(TaskRunner pid=2179404)[0m                                                  'wrap_policy': {'min_num_params': 0}},
+[36m(TaskRunner pid=2179404)[0m                                  'grad_clip': 1.0,
+[36m(TaskRunner pid=2179404)[0m                                  'kl_loss_coef': 0.08,
+[36m(TaskRunner pid=2179404)[0m                                  'kl_loss_type': 'low_var_kl',
+[36m(TaskRunner pid=2179404)[0m                                  'loss_agg_mode': 'token-mean',
+[36m(TaskRunner pid=2179404)[0m                                  'optim': {'lr': 8e-07,
+[36m(TaskRunner pid=2179404)[0m                                            'lr_warmup_steps': -1,
+[36m(TaskRunner pid=2179404)[0m                                            'lr_warmup_steps_ratio': 0.0,
+[36m(TaskRunner pid=2179404)[0m                                            'min_lr_ratio': 0.0,
+[36m(TaskRunner pid=2179404)[0m                                            'num_cycles': 0.5,
+[36m(TaskRunner pid=2179404)[0m                                            'total_training_steps': -1,
+[36m(TaskRunner pid=2179404)[0m                                            'warmup_style': 'constant',
+[36m(TaskRunner pid=2179404)[0m                                            'weight_decay': 0.01},
+[36m(TaskRunner pid=2179404)[0m                                  'policy_loss': {'clip_cov_lb': 1.0,
+[36m(TaskRunner pid=2179404)[0m                                                  'clip_cov_ratio': 0.0002,
+[36m(TaskRunner pid=2179404)[0m                                                  'clip_cov_ub': 5.0,
+[36m(TaskRunner pid=2179404)[0m                                                  'kl_cov_ratio': 0.0002,
+[36m(TaskRunner pid=2179404)[0m                                                  'loss_mode': 'vanilla',
+[36m(TaskRunner pid=2179404)[0m                                                  'ppo_kl_coef': 0.1},
+[36m(TaskRunner pid=2179404)[0m                                  'ppo_epochs': 1,
+[36m(TaskRunner pid=2179404)[0m                                  'ppo_max_token_len_per_gpu': 16384,
+[36m(TaskRunner pid=2179404)[0m                                  'ppo_micro_batch_size': None,
+[36m(TaskRunner pid=2179404)[0m                                  'ppo_micro_batch_size_per_gpu': 1,
+[36m(TaskRunner pid=2179404)[0m                                  'ppo_mini_batch_size': 8,
+[36m(TaskRunner pid=2179404)[0m                                  'shuffle': False,
+[36m(TaskRunner pid=2179404)[0m                                  'strategy': 'fsdp2',
+[36m(TaskRunner pid=2179404)[0m                                  'ulysses_sequence_parallel_size': 1,
+[36m(TaskRunner pid=2179404)[0m                                  'use_dynamic_bsz': False,
+[36m(TaskRunner pid=2179404)[0m                                  'use_kl_loss': True,
+[36m(TaskRunner pid=2179404)[0m                                  'use_torch_compile': True},
+[36m(TaskRunner pid=2179404)[0m                        'hybrid_engine': True,
+[36m(TaskRunner pid=2179404)[0m                        'model': {'custom_chat_template': None,
+[36m(TaskRunner pid=2179404)[0m                                  'enable_activation_offload': False,
+[36m(TaskRunner pid=2179404)[0m                                  'enable_gradient_checkpointing': True,
+[36m(TaskRunner pid=2179404)[0m                                  'entropy_checkpointing': True,
+[36m(TaskRunner pid=2179404)[0m                                  'exclude_modules': None,
+[36m(TaskRunner pid=2179404)[0m                                  'external_lib': None,
+[36m(TaskRunner pid=2179404)[0m                                  'fused_kernel_options': {'impl_backend': 'torch'},
+[36m(TaskRunner pid=2179404)[0m                                  'lora_alpha': 16,
+[36m(TaskRunner pid=2179404)[0m                                  'lora_rank': 0,
+[36m(TaskRunner pid=2179404)[0m                                  'override_config': {},
+[36m(TaskRunner pid=2179404)[0m                                  'path': '/workspace/models/Qwen2.5-14B-Instruct-SFT-Agent',
+[36m(TaskRunner pid=2179404)[0m                                  'target_modules': 'all-linear',
+[36m(TaskRunner pid=2179404)[0m                                  'trust_remote_code': False,
+[36m(TaskRunner pid=2179404)[0m                                  'use_fused_kernels': False,
+[36m(TaskRunner pid=2179404)[0m                                  'use_liger': False,
+[36m(TaskRunner pid=2179404)[0m                                  'use_remove_padding': False,
+[36m(TaskRunner pid=2179404)[0m                                  'use_shm': False,
+[36m(TaskRunner pid=2179404)[0m                                  'use_torch_compile': False},
+[36m(TaskRunner pid=2179404)[0m                        'profiler': {'_target_': 'verl.utils.profiler.ProfilerConfig',
+[36m(TaskRunner pid=2179404)[0m                                     'all_ranks': False,
+[36m(TaskRunner pid=2179404)[0m                                     'discrete': False,
+[36m(TaskRunner pid=2179404)[0m                                     'ranks': []},
+[36m(TaskRunner pid=2179404)[0m                        'ref': {'entropy_checkpointing': False,
+[36m(TaskRunner pid=2179404)[0m                                'entropy_from_logits_with_chunking': False,
+[36m(TaskRunner pid=2179404)[0m                                'fsdp_config': {'forward_prefetch': False,
+[36m(TaskRunner pid=2179404)[0m                                                'param_offload': True,
+[36m(TaskRunner pid=2179404)[0m                                                'reshard_after_forward': True,
+[36m(TaskRunner pid=2179404)[0m                                                'wrap_policy': {'min_num_params': 0}},
+[36m(TaskRunner pid=2179404)[0m                                'log_prob_max_token_len_per_gpu': 16384,
+[36m(TaskRunner pid=2179404)[0m                                'log_prob_micro_batch_size': None,
+[36m(TaskRunner pid=2179404)[0m                                'log_prob_micro_batch_size_per_gpu': 1,
+[36m(TaskRunner pid=2179404)[0m                                'log_prob_use_dynamic_bsz': False,
+[36m(TaskRunner pid=2179404)[0m                                'strategy': 'fsdp2',
+[36m(TaskRunner pid=2179404)[0m                                'ulysses_sequence_parallel_size': 1,
+[36m(TaskRunner pid=2179404)[0m                                'use_torch_compile': True},
+[36m(TaskRunner pid=2179404)[0m                        'rollout': {'agent': {'agent_loop_config_path': None,
+[36m(TaskRunner pid=2179404)[0m                                              'custom_async_server': {'name': 'PatchedvLLMServer',
+[36m(TaskRunner pid=2179404)[0m                                                                      'path': 'pkg://agentlightning.verl.async_server'},
+[36m(TaskRunner pid=2179404)[0m                                              'num_workers': 8},
+[36m(TaskRunner pid=2179404)[0m                                    'calculate_log_probs': False,
+[36m(TaskRunner pid=2179404)[0m                                    'disable_log_stats': True,
+[36m(TaskRunner pid=2179404)[0m                                    'do_sample': True,
+[36m(TaskRunner pid=2179404)[0m                                    'dtype': 'bfloat16',
+[36m(TaskRunner pid=2179404)[0m                                    'enable_chunked_prefill': True,
+[36m(TaskRunner pid=2179404)[0m                                    'enforce_eager': True,
+[36m(TaskRunner pid=2179404)[0m                                    'engine_kwargs': {'sglang': {'attention_backend': None},
+[36m(TaskRunner pid=2179404)[0m                                                      'vllm': {'disable_mm_preprocessor_cache': False,
+[36m(TaskRunner pid=2179404)[0m                                                               'enable_auto_tool_choice': True,
+[36m(TaskRunner pid=2179404)[0m                                                               'max_model_len': 16384,

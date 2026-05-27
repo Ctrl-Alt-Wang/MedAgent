@@ -1,0 +1,101 @@
+[提醒] train_dataset 未包含 is_medical 字段，将默认按医学问题处理。
+[提醒] val_dataset 未包含 is_medical 字段，将默认按医学问题处理。
+
+训练集: 900 条
+验证集: 100 条
+训练数据前 3 条：
+  [0] 对于首次缓解后的急性淋巴细胞白血病患者，继续维持化疗相比于停止维持治疗，能否带来更长的无病生存期？...
+  [1] 对于长期感染幽门螺杆菌的患者，未进行根除治疗相比成功根除后，胃癌发生风险是否更高？...
+  [2] 在诊断为肥厚型心肌病的患者中，室性心律失常的出现是否会增加心源性猝死的发生率？...
+
+============================================================
+[自动配置]
+  GPUs: 4
+  TP: 4
+  DP: 1
+  train_batch_size: 8
+  learning_rate: 8.00e-07
+  need_offload: True
+  gpu_memory_utilization: 0.4
+  n_rollouts: 4
+============================================================
+
+[模型] 使用自定义模型: /workspace/models/Qwen2.5-14B-Instruct-SFT-Agent
+[Checkpoint] 从最近 checkpoint 恢复
+
+[Progress Tracking]
+  progress_file: /tmp/sql_agent_progress_v17_plus_small.json
+  total_updates: 339
+  rollouts_per_update: 32
+  schedule_steps: 113
+  resume_global_step: 112
+
+
+============================================================
+[训练摘要]
+  train_file: data/train.parquet
+  val_file: data/val.parquet
+  train_size: 900
+  val_size: 100
+  total_updates(estimated): 339
+  train_batch_size: 8
+  rollouts_per_query: 4
+  rollouts_per_update: 32
+  schedule_steps: 113
+  total_epochs: 3
+  total_training_steps: N/A
+  learning_rate: 8.00e-07
+  model_path: /workspace/models/Qwen2.5-14B-Instruct-SFT-Agent
+  project_name: AgentLightning
+  experiment_name: ebm_agent_14b_grpo_4gpu_v17_plus_small
+---
+[提醒] train_dataset 未包含 is_medical 字段，将默认按医学问题处理。
+[提醒] val_dataset 未包含 is_medical 字段，将默认按医学问题处理。
+
+训练集: 900 条
+验证集: 100 条
+训练数据前 3 条：
+  [0] 对于首次缓解后的急性淋巴细胞白血病患者，继续维持化疗相比于停止维持治疗，能否带来更长的无病生存期？...
+  [1] 对于长期感染幽门螺杆菌的患者，未进行根除治疗相比成功根除后，胃癌发生风险是否更高？...
+  [2] 在诊断为肥厚型心肌病的患者中，室性心律失常的出现是否会增加心源性猝死的发生率？...
+
+============================================================
+[自动配置]
+  GPUs: 4
+  TP: 4
+  DP: 1
+  train_batch_size: 8
+  learning_rate: 8.00e-07
+  need_offload: True
+  gpu_memory_utilization: 0.4
+  n_rollouts: 4
+============================================================
+
+[模型] 使用自定义模型: /workspace/models/Qwen2.5-14B-Instruct-SFT-Agent
+[Checkpoint] 从最近 checkpoint 恢复
+
+[Progress Tracking]
+  progress_file: /tmp/sql_agent_progress_v17_plus_small.json
+  total_updates: 339
+  rollouts_per_update: 32
+  schedule_steps: 113
+  resume_global_step: 112
+
+
+============================================================
+[训练摘要]
+  train_file: data/train.parquet
+  val_file: data/val.parquet
+  train_size: 900
+  val_size: 100
+  total_updates(estimated): 339
+  train_batch_size: 8
+  rollouts_per_query: 4
+  rollouts_per_update: 32
+  schedule_steps: 113
+  total_epochs: 3
+  total_training_steps: N/A
+  learning_rate: 8.00e-07
+  model_path: /workspace/models/Qwen2.5-14B-Instruct-SFT-Agent
+  project_name: AgentLightning
+  experiment_name: ebm_agent_14b_grpo_4gpu_v17_plus_small

@@ -1,0 +1,300 @@
+[36m(TaskRunner pid=2179404)[0m [DEBUG_MANUAL] assigned=2 (expected triplets)
+[36m(TaskRunner pid=2179404)[0m [DEBUG_ADAPT] llm_items=2 rewards=2 assigned=2
+[36m(TaskRunner pid=2179404)[0m [DEBUG_ADAPT]   llm[0] seq=1 prompt_len=1366 resp_len=62
+[36m(TaskRunner pid=2179404)[0m [DEBUG_ADAPT]   llm[1] seq=3 prompt_len=4323 resp_len=609
+[36m(TaskRunner pid=2179404)[0m [DEBUG_ADAPT]   reward[0] seq=8 val=3.76
+[36m(TaskRunner pid=2179404)[0m [DEBUG_ADAPT]   reward[1] seq=10 val=3.76
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON] rollout=ro-d0a38c91daf9 spans=22 triplets=2
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[0] name='proxy_pre_call' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[1] name='router' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[2] name='self' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[3] name='router' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[4] name='litellm_request' attrs=['metadata.user_api_key_hash', 'metadata.user_api_key_alias', 'metadata.user_api_key_spend', 'metadata.user_api_key_max_budget', 'metadata.user_api_key_budget_reset_at', 'metadata.user_api_key_team_id', 'metadata.user_api_key_org_id', 'metadata.user_api_key_project_id', 'metadata.user_api_key_project_alias', 'metadata.user_api_key_user_id']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[5] name='raw_gen_ai_request' attrs=['llm.hosted_vllm.messages', 'llm.hosted_vllm.temperature', 'llm.hosted_vllm.stream', 'llm.hosted_vllm.max_tokens', 'llm.hosted_vllm.tools', 'llm.hosted_vllm.return_token_ids', 'llm.hosted_vllm.id', 'llm.hosted_vllm.object', 'llm.hosted_vllm.created', 'llm.hosted_vllm.model']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]     FULL_ATTRS=['llm.hosted_vllm.messages', 'llm.hosted_vllm.temperature', 'llm.hosted_vllm.stream', 'llm.hosted_vllm.max_tokens', 'llm.hosted_vllm.tools', 'llm.hosted_vllm.return_token_ids', 'llm.hosted_vllm.id', 'llm.hosted_vllm.object', 'llm.hosted_vllm.created', 'llm.hosted_vllm.model', 'llm.hosted_vllm.choices', 'llm.hosted_vllm.usage', 'llm.hosted_vllm.prompt_logprobs', 'llm.hosted_vllm.prompt_token_ids', 'llm.hosted_vllm.response_token_ids']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[6] name='Received Proxy Server Request' attrs=[]
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[7] name='generation' attrs=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'gen_ai.prompt.0.role', 'gen_ai.prompt.0.content', 'gen_ai.request.model', 'gen_ai.response.model', 'gen_ai.system']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]     FULL_ATTRS=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'gen_ai.prompt.0.role', 'gen_ai.prompt.0.content', 'gen_ai.request.model', 'gen_ai.response.model', 'gen_ai.system', 'gen_ai.request.temperature', 'gen_ai.request.max_tokens', 'agentops.span.kind']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[8] name='proxy_pre_call' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[9] name='router' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[10] name='self' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[11] name='router' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[12] name='litellm_request' attrs=['metadata.user_api_key_hash', 'metadata.user_api_key_alias', 'metadata.user_api_key_spend', 'metadata.user_api_key_max_budget', 'metadata.user_api_key_budget_reset_at', 'metadata.user_api_key_team_id', 'metadata.user_api_key_org_id', 'metadata.user_api_key_project_id', 'metadata.user_api_key_project_alias', 'metadata.user_api_key_user_id']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[13] name='raw_gen_ai_request' attrs=['llm.hosted_vllm.messages', 'llm.hosted_vllm.temperature', 'llm.hosted_vllm.stream', 'llm.hosted_vllm.max_tokens', 'llm.hosted_vllm.tools', 'llm.hosted_vllm.return_token_ids', 'llm.hosted_vllm.id', 'llm.hosted_vllm.object', 'llm.hosted_vllm.created', 'llm.hosted_vllm.model']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]     FULL_ATTRS=['llm.hosted_vllm.messages', 'llm.hosted_vllm.temperature', 'llm.hosted_vllm.stream', 'llm.hosted_vllm.max_tokens', 'llm.hosted_vllm.tools', 'llm.hosted_vllm.return_token_ids', 'llm.hosted_vllm.id', 'llm.hosted_vllm.object', 'llm.hosted_vllm.created', 'llm.hosted_vllm.model', 'llm.hosted_vllm.choices', 'llm.hosted_vllm.usage', 'llm.hosted_vllm.prompt_logprobs', 'llm.hosted_vllm.prompt_token_ids', 'llm.hosted_vllm.response_token_ids']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[14] name='Received Proxy Server Request' attrs=[]
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[15] name='search_embedding_db' attrs=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'tool.name', 'tool.parameters', 'tool.result', 'agentops.span.kind', 'tool.status']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[16] name='generation' attrs=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'gen_ai.prompt.0.role', 'gen_ai.prompt.0.content', 'gen_ai.request.model', 'gen_ai.response.model', 'gen_ai.system']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]     FULL_ATTRS=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'gen_ai.prompt.0.role', 'gen_ai.prompt.0.content', 'gen_ai.request.model', 'gen_ai.response.model', 'gen_ai.system', 'gen_ai.request.temperature', 'gen_ai.request.max_tokens', 'agentops.span.kind']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[17] name='ebm_agent' attrs=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'agentops.span.kind', 'agent.name', 'agent.tools']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[18] name='Agent workflow' attrs=['workflow.name', 'trace.id', 'workflow.step.type', 'instrumentation.name', 'instrumentation.version', 'agentops.tags']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[19] name='agentlightning.annotation' attrs=['agentlightning.reward.0.name', 'agentlightning.reward.0.value']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[20] name='ro-d0a38c91daf9.session' attrs=['agentops.span.kind', 'operation.name']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[21] name='agentlightning.annotation' attrs=['agentlightning.reward.0.name', 'agentlightning.reward.0.value']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   triplet[0] reward=3.76
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   triplet[1] reward=3.76
+[36m(TaskRunner pid=2179404)[0m Completed 98/100 tasks...
+[36m(TaskRunner pid=2179404)[0m Completed 98/100 tasks...
+[36m(TaskRunner pid=2179404)[0m [DEBUG_TOKEN] RAW span[5] seq=1 p_type=str p_val=[151644, 8948, 198, 99335, 104211, 5122, 100644, 45785, 20412, 25, 220, 17, 15,  r_type=str r_val=[[151657, 198, 4913, 606, 788, 330, 1836, 51502, 8685, 497, 330, 16370, 788, 521
+[36m(TaskRunner pid=2179404)[0m [DEBUG_TOKEN] RAW span[13] seq=3 p_type=str p_val=[151644, 8948, 198, 99335, 104211, 5122, 100644, 45785, 20412, 25, 220, 17, 15,  r_type=str r_val=[[14374, 220, 14777, 5373, 101041, 106073, 2303, 18493, 110134, 62926, 105485, 4
+[36m(TaskRunner pid=2179404)[0m [DEBUG_TOKEN] REWARD span[19] seq=8 name=primary value=3.76
+[36m(TaskRunner pid=2179404)[0m [DEBUG_TOKEN] REWARD span[21] seq=10 name=primary value=3.76
+[36m(TaskRunner pid=2179404)[0m [DEBUG_PARSE] prompt parsed OK, type=list, len=1363
+[36m(TaskRunner pid=2179404)[0m [DEBUG_PARSE] resp parsed OK, type=list, len=1
+[36m(TaskRunner pid=2179404)[0m [DEBUG_PARSE] resp[0] type=list, len=56
+[36m(TaskRunner pid=2179404)[0m [DEBUG_ADAPTER] adapter type=LlmProxyTraceToTriplet id=139989294962192
+[36m(TaskRunner pid=2179404)[0m [DEBUG_MANUAL] RAW span seq=1 p_len=1363 r_len=56
+[36m(TaskRunner pid=2179404)[0m [DEBUG_MANUAL] RAW span seq=3 p_len=4823 r_len=774
+[36m(TaskRunner pid=2179404)[0m [DEBUG_MANUAL] REWARD span seq=8 val=3.76
+[36m(TaskRunner pid=2179404)[0m [DEBUG_MANUAL] REWARD span seq=10 val=3.76
+[36m(TaskRunner pid=2179404)[0m [DEBUG_MANUAL] llm_items=2 rewards=2
+[36m(TaskRunner pid=2179404)[0m [DEBUG_MANUAL] matched seq=3 -> reward=3.76
+[36m(TaskRunner pid=2179404)[0m [DEBUG_MANUAL] matched seq=1 -> reward=3.76
+[36m(TaskRunner pid=2179404)[0m [DEBUG_MANUAL] assigned=2 (expected triplets)
+[36m(TaskRunner pid=2179404)[0m [DEBUG_ADAPT] llm_items=2 rewards=2 assigned=2
+[36m(TaskRunner pid=2179404)[0m [DEBUG_ADAPT]   llm[0] seq=1 prompt_len=1363 resp_len=56
+[36m(TaskRunner pid=2179404)[0m [DEBUG_ADAPT]   llm[1] seq=3 prompt_len=4823 resp_len=774
+[36m(TaskRunner pid=2179404)[0m [DEBUG_ADAPT]   reward[0] seq=8 val=3.76
+[36m(TaskRunner pid=2179404)[0m [DEBUG_ADAPT]   reward[1] seq=10 val=3.76
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON] rollout=ro-2bb6463480bf spans=22 triplets=2
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[0] name='proxy_pre_call' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[1] name='router' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[2] name='self' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[3] name='router' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[4] name='litellm_request' attrs=['metadata.user_api_key_hash', 'metadata.user_api_key_alias', 'metadata.user_api_key_spend', 'metadata.user_api_key_max_budget', 'metadata.user_api_key_budget_reset_at', 'metadata.user_api_key_team_id', 'metadata.user_api_key_org_id', 'metadata.user_api_key_project_id', 'metadata.user_api_key_project_alias', 'metadata.user_api_key_user_id']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[5] name='raw_gen_ai_request' attrs=['llm.hosted_vllm.messages', 'llm.hosted_vllm.temperature', 'llm.hosted_vllm.stream', 'llm.hosted_vllm.max_tokens', 'llm.hosted_vllm.tools', 'llm.hosted_vllm.return_token_ids', 'llm.hosted_vllm.id', 'llm.hosted_vllm.object', 'llm.hosted_vllm.created', 'llm.hosted_vllm.model']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]     FULL_ATTRS=['llm.hosted_vllm.messages', 'llm.hosted_vllm.temperature', 'llm.hosted_vllm.stream', 'llm.hosted_vllm.max_tokens', 'llm.hosted_vllm.tools', 'llm.hosted_vllm.return_token_ids', 'llm.hosted_vllm.id', 'llm.hosted_vllm.object', 'llm.hosted_vllm.created', 'llm.hosted_vllm.model', 'llm.hosted_vllm.choices', 'llm.hosted_vllm.usage', 'llm.hosted_vllm.prompt_logprobs', 'llm.hosted_vllm.prompt_token_ids', 'llm.hosted_vllm.response_token_ids']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[6] name='Received Proxy Server Request' attrs=[]
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[7] name='generation' attrs=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'gen_ai.prompt.0.role', 'gen_ai.prompt.0.content', 'gen_ai.request.model', 'gen_ai.response.model', 'gen_ai.system']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]     FULL_ATTRS=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'gen_ai.prompt.0.role', 'gen_ai.prompt.0.content', 'gen_ai.request.model', 'gen_ai.response.model', 'gen_ai.system', 'gen_ai.request.temperature', 'gen_ai.request.max_tokens', 'agentops.span.kind']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[8] name='proxy_pre_call' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[9] name='router' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[10] name='self' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[11] name='router' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[12] name='litellm_request' attrs=['metadata.user_api_key_hash', 'metadata.user_api_key_alias', 'metadata.user_api_key_spend', 'metadata.user_api_key_max_budget', 'metadata.user_api_key_budget_reset_at', 'metadata.user_api_key_team_id', 'metadata.user_api_key_org_id', 'metadata.user_api_key_project_id', 'metadata.user_api_key_project_alias', 'metadata.user_api_key_user_id']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[13] name='raw_gen_ai_request' attrs=['llm.hosted_vllm.messages', 'llm.hosted_vllm.temperature', 'llm.hosted_vllm.stream', 'llm.hosted_vllm.max_tokens', 'llm.hosted_vllm.tools', 'llm.hosted_vllm.return_token_ids', 'llm.hosted_vllm.id', 'llm.hosted_vllm.object', 'llm.hosted_vllm.created', 'llm.hosted_vllm.model']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]     FULL_ATTRS=['llm.hosted_vllm.messages', 'llm.hosted_vllm.temperature', 'llm.hosted_vllm.stream', 'llm.hosted_vllm.max_tokens', 'llm.hosted_vllm.tools', 'llm.hosted_vllm.return_token_ids', 'llm.hosted_vllm.id', 'llm.hosted_vllm.object', 'llm.hosted_vllm.created', 'llm.hosted_vllm.model', 'llm.hosted_vllm.choices', 'llm.hosted_vllm.usage', 'llm.hosted_vllm.prompt_logprobs', 'llm.hosted_vllm.prompt_token_ids', 'llm.hosted_vllm.response_token_ids']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[14] name='Received Proxy Server Request' attrs=[]
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[15] name='search_embedding_db' attrs=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'tool.name', 'tool.parameters', 'tool.result', 'agentops.span.kind', 'tool.status']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[16] name='generation' attrs=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'gen_ai.prompt.0.role', 'gen_ai.prompt.0.content', 'gen_ai.request.model', 'gen_ai.response.model', 'gen_ai.system']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]     FULL_ATTRS=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'gen_ai.prompt.0.role', 'gen_ai.prompt.0.content', 'gen_ai.request.model', 'gen_ai.response.model', 'gen_ai.system', 'gen_ai.request.temperature', 'gen_ai.request.max_tokens', 'agentops.span.kind']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[17] name='ebm_agent' attrs=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'agentops.span.kind', 'agent.name', 'agent.tools']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[18] name='Agent workflow' attrs=['workflow.name', 'trace.id', 'workflow.step.type', 'instrumentation.name', 'instrumentation.version', 'agentops.tags']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[19] name='agentlightning.annotation' attrs=['agentlightning.reward.0.name', 'agentlightning.reward.0.value']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[20] name='ro-2bb6463480bf.session' attrs=['agentops.span.kind', 'operation.name']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[21] name='agentlightning.annotation' attrs=['agentlightning.reward.0.name', 'agentlightning.reward.0.value']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   triplet[0] reward=3.76
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   triplet[1] reward=3.76
+[36m(TaskRunner pid=2179404)[0m Completed 99/100 tasks...2026-05-11 18:04:40,018 - INFO - 
+========================================================================
+2026-05-11 18:04:40,018 - INFO - 
+========================================================================
+2026-05-11 18:04:40,019 - INFO - [val] 问题: 对于ANA阳性但没有临床症状的患者，较高的ANA滴度是否提示未来发展为系统性红斑狼疮的风险更高？
+2026-05-11 18:04:40,019 - INFO - [val] 问题: 对于ANA阳性但没有临床症状的患者，较高的ANA滴度是否提示未来发展为系统性红斑狼疮的风险更高？
+2026-05-11 18:04:40,019 - INFO - [val] 工具调用次数: 1
+2026-05-11 18:04:40,019 - INFO - [val] 工具调用次数: 1
+2026-05-11 18:04:40,019 - INFO - [val] 回答长度: 1189 字
+2026-05-11 18:04:40,019 - INFO - [val] 回答长度: 1189 字
+2026-05-11 18:04:40,019 - INFO - ----------------------------------------
+2026-05-11 18:04:40,019 - INFO - ----------------------------------------
+2026-05-11 18:04:40,019 - INFO - ### 一、直接结论  
+对于ANA阳性但无临床症状的患者，较高的ANA滴度本身并不直接提示未来发展为系统性红斑狼疮（SLE）的风险更高，但ANA阳性（无论滴度高低）均提示存在自身免疫背景，需结合其他危险因素和临床表现综合评估风险[^01-eebf-0][^03-062b-0]。
+
+### 二、循证分层证据总结  
+#### （一）中文指南证据层  
+目前中国指南和专家共识主要聚焦于ANA在自身免疫性肝病（如PBC、AIH）及其他自身免疫性疾病中的诊断价值，强调ANA阳性在排除其他疾病时具有一定的提示意义，但未明确指出ANA滴度与SLE发生风险的直接关联。指南建议对ANA阳性者需结合临床表现、其他自身抗体及影像学等综合判断，尤其在排除其他疾病后，若出现肝胆、关节、皮肤等多系统症状，才考虑SLE等自身免疫病的诊断[^01-eebf-0][^01-5dc4-0][^01-b4c0-0][^01-0fde-0]。
+
+#### （二）英文指南证据层  
+英文指南主要关注SLE的诊断标准和风险评估，明确指出SLE的诊断不能仅依赖ANA滴度，需结合临床表现、其他自身抗体及器官受累情况。指南未将ANA滴度作为SLE风险分层的独立指标，而是强调ANA阳性提示自身免疫背景，需动态随访和多因素评估[^02-c871-0][^02-6399-0]。
+
+#### （三）系统评价/Meta分析证据层  
+系统评价显示，ANA阳性（无论滴度高低）是SLE发生的重要危险因素，但ANA滴度升高本身并不直接提升SLE风险，而是阳性状态提示存在自身免疫倾向。Meta分析指出，ANA阳性者SLE风险显著高于阴性者，但风险提升主要与阳性状态相关，而非滴度递增[^03-062b-0]。此外，Meta分析在其他自身免疫性疾病（如ITP、AAGN）中也发现，ANA阳性与疾病进展或并发症风险增加相关，但未区分滴度高低[^03-f9fe-0][^03-062b-0]。
+
+#### （四）临床试验证据层  
+未检索到直接针对ANA滴度与SLE发生风险关系的随机对照试验。现有RCT多关注ANA在其他自身免疫性疾病（如AAGN、肿瘤免疫治疗相关肝损伤）中的预后价值，提示ANA阳性与部分不良结局相关，但未区分滴度高低对SLE风险的影响[^04-0fca-0][^04-42e0-0]。
+
+### 三、临床实践决策  
+对于ANA阳性但无临床症状的患者，建议定期随访并关注有无新发症状或器官受累表现。ANA滴度升高提示存在自身免疫背景，但不能作为SLE风险分层的唯一依据。临床决策应结合家族史、其他自身抗体（如抗dsDNA、抗Sm等）、多系统症状及动态随访结果，必要时可联合其他自身免疫性疾病风险评估工具，个体化制定随访和干预方案[^01-eebf-0][^02-c871-0][^03-062b-0]。
+2026-05-11 18:04:40,019 - INFO - ### 一、直接结论  
+对于ANA阳性但无临床症状的患者，较高的ANA滴度本身并不直接提示未来发展为系统性红斑狼疮（SLE）的风险更高，但ANA阳性（无论滴度高低）均提示存在自身免疫背景，需结合其他危险因素和临床表现综合评估风险[^01-eebf-0][^03-062b-0]。
+
+### 二、循证分层证据总结  
+#### （一）中文指南证据层  
+目前中国指南和专家共识主要聚焦于ANA在自身免疫性肝病（如PBC、AIH）及其他自身免疫性疾病中的诊断价值，强调ANA阳性在排除其他疾病时具有一定的提示意义，但未明确指出ANA滴度与SLE发生风险的直接关联。指南建议对ANA阳性者需结合临床表现、其他自身抗体及影像学等综合判断，尤其在排除其他疾病后，若出现肝胆、关节、皮肤等多系统症状，才考虑SLE等自身免疫病的诊断[^01-eebf-0][^01-5dc4-0][^01-b4c0-0][^01-0fde-0]。
+
+#### （二）英文指南证据层  
+英文指南主要关注SLE的诊断标准和风险评估，明确指出SLE的诊断不能仅依赖ANA滴度，需结合临床表现、其他自身抗体及器官受累情况。指南未将ANA滴度作为SLE风险分层的独立指标，而是强调ANA阳性提示自身免疫背景，需动态随访和多因素评估[^02-c871-0][^02-6399-0]。
+
+#### （三）系统评价/Meta分析证据层  
+系统评价显示，ANA阳性（无论滴度高低）是SLE发生的重要危险因素，但ANA滴度升高本身并不直接提升SLE风险，而是阳性状态提示存在自身免疫倾向。Meta分析指出，ANA阳性者SLE风险显著高于阴性者，但风险提升主要与阳性状态相关，而非滴度递增[^03-062b-0]。此外，Meta分析在其他自身免疫性疾病（如ITP、AAGN）中也发现，ANA阳性与疾病进展或并发症风险增加相关，但未区分滴度高低[^03-f9fe-0][^03-062b-0]。
+
+#### （四）临床试验证据层  
+未检索到直接针对ANA滴度与SLE发生风险关系的随机对照试验。现有RCT多关注ANA在其他自身免疫性疾病（如AAGN、肿瘤免疫治疗相关肝损伤）中的预后价值，提示ANA阳性与部分不良结局相关，但未区分滴度高低对SLE风险的影响[^04-0fca-0][^04-42e0-0]。
+
+### 三、临床实践决策  
+对于ANA阳性但无临床症状的患者，建议定期随访并关注有无新发症状或器官受累表现。ANA滴度升高提示存在自身免疫背景，但不能作为SLE风险分层的唯一依据。临床决策应结合家族史、其他自身抗体（如抗dsDNA、抗Sm等）、多系统症状及动态随访结果，必要时可联合其他自身免疫性疾病风险评估工具，个体化制定随访和干预方案[^01-eebf-0][^02-c871-0][^03-062b-0]。
+2026-05-11 18:04:40,019 - INFO - ----------------------------------------
+2026-05-11 18:04:40,019 - INFO - ----------------------------------------
+2026-05-11 18:04:40,020 - INFO - [Schedule] mode=val, step=112/113, p=0.991, format_scale=1.200, correct_scale=1.000, rm_weight=0.296
+2026-05-11 18:04:40,020 - INFO - [Schedule] mode=val, step=112/113, p=0.991, format_scale=1.200, correct_scale=1.000, rm_weight=0.296
+2026-05-11 18:04:40,020 - INFO - [PICO] P=ANA阳性但无临床症状的患者
+2026-05-11 18:04:40,020 - INFO - [PICO] P=ANA阳性但无临床症状的患者
+2026-05-11 18:04:40,020 - INFO - [PICO] I=高滴度ANA
+2026-05-11 18:04:40,020 - INFO - [PICO] I=高滴度ANA
+2026-05-11 18:04:40,020 - INFO - [PICO] C=低滴度ANA
+2026-05-11 18:04:40,020 - INFO - [PICO] C=低滴度ANA
+2026-05-11 18:04:40,020 - INFO - [PICO] O=未来发展为系统性红斑狼疮的风险
+2026-05-11 18:04:40,020 - INFO - [PICO] O=未来发展为系统性红斑狼疮的风险
+2026-05-11 18:04:40,020 - INFO - [PICO] filled=4/4
+2026-05-11 18:04:40,020 - INFO - [PICO] filled=4/4
+2026-05-11 18:04:40,020 - INFO - [Citations] valid_ids=10, cited_ids=10, fabricated=0
+2026-05-11 18:04:40,020 - INFO - [Citations] valid_ids=10, cited_ids=10, fabricated=0
+2026-05-11 18:04:40,020 - INFO - [Citations] sample_valid_ids=['01-0fde-0', '01-5dc4-0', '01-b4c0-0', '01-eebf-0', '02-6399-0', '02-c871-0', '03-062b-0', '03-f9fe-0', '04-0fca-0', '04-42e0-0']
+2026-05-11 18:04:40,020 - INFO - [Citations] sample_valid_ids=['01-0fde-0', '01-5dc4-0', '01-b4c0-0', '01-eebf-0', '02-6399-0', '02-c871-0', '03-062b-0', '03-f9fe-0', '04-0fca-0', '04-42e0-0']
+2026-05-11 18:04:40,020 - INFO - [Correctness] cited=10, real=10, precision=1.00
+2026-05-11 18:04:40,020 - INFO - [Correctness] cited=10, real=10, precision=1.00
+2026-05-11 18:04:40,020 - INFO - [SectionPrefix] checks=10, aligned=10, rate=1.00, score=0.50
+2026-05-11 18:04:40,020 - INFO - [SectionPrefix] checks=10, aligned=10, rate=1.00, score=0.50
+2026-05-11 18:04:40,020 - INFO - [RecallSmall] real=10, total_valid=10, recall=1.00, bonus=0.100
+2026-05-11 18:04:40,020 - INFO - [RecallSmall] real=10, total_valid=10, recall=1.00, bonus=0.100
+2026-05-11 18:04:40,021 - INFO - [CiteDiversitySmall] prefixes={'02', '04', '01', '03'}, db_count=4, bonus=0.060
+2026-05-11 18:04:40,021 - INFO - [CiteDiversitySmall] prefixes={'02', '04', '01', '03'}, db_count=4, bonus=0.060
+2026-05-11 18:04:40,021 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.560 x 1.000, subtotal=3.760
+2026-05-11 18:04:40,021 - INFO - [Reward Breakdown] hard=0.000, format=1.000 x 1.200, correct=2.560 x 1.000, subtotal=3.760
+2026-05-11 18:04:40,021 - INFO - [RM] skip
+2026-05-11 18:04:40,021 - INFO - [RM] skip
+2026-05-11 18:04:40,021 - INFO - [Total Reward] 3.760
+2026-05-11 18:04:40,021 - INFO - [Total Reward] 3.760
+2026-05-11 18:04:40,021 - INFO - [val] reward = 3.760
+2026-05-11 18:04:40,021 - INFO - [val] reward = 3.760
+2026-05-11 18:04:40,021 - INFO - ========================================================================
+
+2026-05-11 18:04:40,021 - INFO - ========================================================================
+
+🖇 AgentOps: [34mSession Replay for ro-94f123cb9cb9.session trace: https://app.agentops.ai/sessions?trace_id=f31701473837b3f3f0fa9f7d99d2063c[0m
+[05/11/26 18:04:40] INFO     [Worker 1 | Rollout ro-94f123cb9cb9] Completed in 41.39s. Collected 7 span(s). Final reward: 3.76                                                              agent.py:704
+
+[36m(TaskRunner pid=2179404)[0m Completed 99/100 tasks...
+[36m(TaskRunner pid=2179404)[0m [DEBUG_TOKEN] RAW span[5] seq=1 p_type=str p_val=[151644, 8948, 198, 99335, 104211, 5122, 100644, 45785, 20412, 25, 220, 17, 15,  r_type=str r_val=[[151657, 198, 4913, 606, 788, 330, 1836, 51502, 8685, 497, 330, 16370, 788, 521
+[36m(TaskRunner pid=2179404)[0m [DEBUG_TOKEN] RAW span[13] seq=3 p_type=str p_val=[151644, 8948, 198, 99335, 104211, 5122, 100644, 45785, 20412, 25, 220, 17, 15,  r_type=str r_val=[[14374, 220, 14777, 5373, 101041, 106073, 2303, 100002, 38774, 112758, 77288, 4
+[36m(TaskRunner pid=2179404)[0m [DEBUG_TOKEN] REWARD span[19] seq=8 name=primary value=3.76
+[36m(TaskRunner pid=2179404)[0m [DEBUG_TOKEN] REWARD span[21] seq=10 name=primary value=3.76
+[36m(TaskRunner pid=2179404)[0m [DEBUG_PARSE] prompt parsed OK, type=list, len=1354
+[36m(TaskRunner pid=2179404)[0m [DEBUG_PARSE] resp parsed OK, type=list, len=1
+[36m(TaskRunner pid=2179404)[0m [DEBUG_PARSE] resp[0] type=list, len=60
+[36m(TaskRunner pid=2179404)[0m [DEBUG_ADAPTER] adapter type=LlmProxyTraceToTriplet id=139989294962192
+[36m(TaskRunner pid=2179404)[0m [DEBUG_MANUAL] RAW span seq=1 p_len=1354 r_len=60
+[36m(TaskRunner pid=2179404)[0m [DEBUG_MANUAL] RAW span seq=3 p_len=6511 r_len=757
+[36m(TaskRunner pid=2179404)[0m [DEBUG_MANUAL] REWARD span seq=8 val=3.76
+[36m(TaskRunner pid=2179404)[0m [DEBUG_MANUAL] REWARD span seq=10 val=3.76
+[36m(TaskRunner pid=2179404)[0m [DEBUG_MANUAL] llm_items=2 rewards=2
+[36m(TaskRunner pid=2179404)[0m [DEBUG_MANUAL] matched seq=3 -> reward=3.76
+[36m(TaskRunner pid=2179404)[0m [DEBUG_MANUAL] matched seq=1 -> reward=3.76
+[36m(TaskRunner pid=2179404)[0m [DEBUG_MANUAL] assigned=2 (expected triplets)
+[36m(TaskRunner pid=2179404)[0m [DEBUG_ADAPT] llm_items=2 rewards=2 assigned=2
+[36m(TaskRunner pid=2179404)[0m [DEBUG_ADAPT]   llm[0] seq=1 prompt_len=1354 resp_len=60
+[36m(TaskRunner pid=2179404)[0m [DEBUG_ADAPT]   llm[1] seq=3 prompt_len=6511 resp_len=757
+[36m(TaskRunner pid=2179404)[0m [DEBUG_ADAPT]   reward[0] seq=8 val=3.76
+[36m(TaskRunner pid=2179404)[0m [DEBUG_ADAPT]   reward[1] seq=10 val=3.76
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON] rollout=ro-94f123cb9cb9 spans=22 triplets=2
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[0] name='proxy_pre_call' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[1] name='router' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[2] name='self' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[3] name='router' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[4] name='litellm_request' attrs=['metadata.user_api_key_hash', 'metadata.user_api_key_alias', 'metadata.user_api_key_spend', 'metadata.user_api_key_max_budget', 'metadata.user_api_key_budget_reset_at', 'metadata.user_api_key_team_id', 'metadata.user_api_key_org_id', 'metadata.user_api_key_project_id', 'metadata.user_api_key_project_alias', 'metadata.user_api_key_user_id']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[5] name='raw_gen_ai_request' attrs=['llm.hosted_vllm.messages', 'llm.hosted_vllm.temperature', 'llm.hosted_vllm.stream', 'llm.hosted_vllm.max_tokens', 'llm.hosted_vllm.tools', 'llm.hosted_vllm.return_token_ids', 'llm.hosted_vllm.id', 'llm.hosted_vllm.object', 'llm.hosted_vllm.created', 'llm.hosted_vllm.model']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]     FULL_ATTRS=['llm.hosted_vllm.messages', 'llm.hosted_vllm.temperature', 'llm.hosted_vllm.stream', 'llm.hosted_vllm.max_tokens', 'llm.hosted_vllm.tools', 'llm.hosted_vllm.return_token_ids', 'llm.hosted_vllm.id', 'llm.hosted_vllm.object', 'llm.hosted_vllm.created', 'llm.hosted_vllm.model', 'llm.hosted_vllm.choices', 'llm.hosted_vllm.usage', 'llm.hosted_vllm.prompt_logprobs', 'llm.hosted_vllm.prompt_token_ids', 'llm.hosted_vllm.response_token_ids']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[6] name='Received Proxy Server Request' attrs=[]
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[7] name='generation' attrs=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'gen_ai.prompt.0.role', 'gen_ai.prompt.0.content', 'gen_ai.request.model', 'gen_ai.response.model', 'gen_ai.system']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]     FULL_ATTRS=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'gen_ai.prompt.0.role', 'gen_ai.prompt.0.content', 'gen_ai.request.model', 'gen_ai.response.model', 'gen_ai.system', 'gen_ai.request.temperature', 'gen_ai.request.max_tokens', 'agentops.span.kind']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[8] name='proxy_pre_call' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[9] name='router' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[10] name='self' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[11] name='router' attrs=['call_type', 'service']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[12] name='litellm_request' attrs=['metadata.user_api_key_hash', 'metadata.user_api_key_alias', 'metadata.user_api_key_spend', 'metadata.user_api_key_max_budget', 'metadata.user_api_key_budget_reset_at', 'metadata.user_api_key_team_id', 'metadata.user_api_key_org_id', 'metadata.user_api_key_project_id', 'metadata.user_api_key_project_alias', 'metadata.user_api_key_user_id']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[13] name='raw_gen_ai_request' attrs=['llm.hosted_vllm.messages', 'llm.hosted_vllm.temperature', 'llm.hosted_vllm.stream', 'llm.hosted_vllm.max_tokens', 'llm.hosted_vllm.tools', 'llm.hosted_vllm.return_token_ids', 'llm.hosted_vllm.id', 'llm.hosted_vllm.object', 'llm.hosted_vllm.created', 'llm.hosted_vllm.model']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]     FULL_ATTRS=['llm.hosted_vllm.messages', 'llm.hosted_vllm.temperature', 'llm.hosted_vllm.stream', 'llm.hosted_vllm.max_tokens', 'llm.hosted_vllm.tools', 'llm.hosted_vllm.return_token_ids', 'llm.hosted_vllm.id', 'llm.hosted_vllm.object', 'llm.hosted_vllm.created', 'llm.hosted_vllm.model', 'llm.hosted_vllm.choices', 'llm.hosted_vllm.usage', 'llm.hosted_vllm.prompt_logprobs', 'llm.hosted_vllm.prompt_token_ids', 'llm.hosted_vllm.response_token_ids']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[14] name='Received Proxy Server Request' attrs=[]
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[15] name='search_embedding_db' attrs=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'tool.name', 'tool.parameters', 'tool.result', 'agentops.span.kind', 'tool.status']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[16] name='generation' attrs=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'gen_ai.prompt.0.role', 'gen_ai.prompt.0.content', 'gen_ai.request.model', 'gen_ai.response.model', 'gen_ai.system']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]     FULL_ATTRS=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'parent.id', 'gen_ai.prompt.0.role', 'gen_ai.prompt.0.content', 'gen_ai.request.model', 'gen_ai.response.model', 'gen_ai.system', 'gen_ai.request.temperature', 'gen_ai.request.max_tokens', 'agentops.span.kind']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[17] name='ebm_agent' attrs=['trace.id', 'span.id', 'instrumentation.name', 'instrumentation.version', 'agentops.span.kind', 'agent.name', 'agent.tools']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[18] name='Agent workflow' attrs=['workflow.name', 'trace.id', 'workflow.step.type', 'instrumentation.name', 'instrumentation.version', 'agentops.tags']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[19] name='agentlightning.annotation' attrs=['agentlightning.reward.0.name', 'agentlightning.reward.0.value']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[20] name='ro-94f123cb9cb9.session' attrs=['agentops.span.kind', 'operation.name']
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   span[21] name='agentlightning.annotation' attrs=['agentlightning.reward.0.name', 'agentlightning.reward.0.value'][36m(WorkerDict pid=2180707)[0m INFO:2026-05-11 18:05:09,948:[Rank 0] Saved model to /workspace/post_train/sql_agent/checkpoints/AgentLightning/ebm_agent_14b_grpo_4gpu_v17_plus_small/global_step_112/actor/model_world_size_4_rank_0.pt
+[36m(WorkerDict pid=2180849)[0m INFO:2026-05-11 18:05:09,858:[Rank 2] Saved model to /workspace/post_train/sql_agent/checkpoints/AgentLightning/ebm_agent_14b_grpo_4gpu_v17_plus_small/global_step_112/actor/model_world_size_4_rank_2.pt
+[36m(WorkerDict pid=2180707)[0m INFO:2026-05-11 18:05:10,133:[Rank 0] Saved model config and tokenizer class to /workspace/post_train/sql_agent/checkpoints/AgentLightning/ebm_agent_14b_grpo_4gpu_v17_plus_small/global_step_112/actor/huggingface
+[36m(TaskRunner pid=2179404)[0m Training Progress:  99%|█████████▉| 111/112 [39:14:33<21:12, 1272.74s/it]
+[36m(TaskRunner pid=2179404)[0m wandb: uploading output.log
+
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   triplet[0] reward=3.76
+[36m(TaskRunner pid=2179404)[0m [DEBUG_DAEMON]   triplet[1] reward=3.76
+[36m(TaskRunner pid=2179404)[0m Completed 100/100 tasks...
+[36m(TaskRunner pid=2179404)[0m All tasks finished.
+[36m(TaskRunner pid=2179404)[0m local_global_step_folder: checkpoints/AgentLightning/ebm_agent_14b_grpo_4gpu_v17_plus_small/global_step_112
+[36m(WorkerDict pid=2180707)[0m Checkpoint manager remove previous save local path: /workspace/post_train/sql_agent/checkpoints/AgentLightning/ebm_agent_14b_grpo_4gpu_v17_plus_small/global_step_100/actor
+[36m(TaskRunner pid=2179404)[0m step:112 - training/reward:3.901649513821292 - training/n_rollouts:32 - training/n_rollouts_w_trace:32 - training/n_rollouts_w_reward:32 - training/n_truncated_triplets:0 - training/n_triplets:64 - actor/entropy_loss:0.40760892629623413 - critic/score/mean_before_processing:3.90625 - critic/score/max_before_processing:3.953125 - critic/score/min_before_processing:3.84375 - critic/rewards/mean_before_processing:3.90625 - critic/rewards/max_before_processing:3.953125 - critic/rewards/min_before_processing:3.84375 - critic/advantages/mean_before_processing:0.0927734375 - critic/advantages/max_before_processing:2.15625 - critic/advantages/min_before_processing:-1.8671875 - critic/returns/mean_before_processing:0.0927734375 - critic/returns/max_before_processing:2.15625 - critic/returns/min_before_processing:-1.8671875 - response_length/mean_before_processing:399.96875 - response_length/max_before_processing:877.0 - response_length/min_before_processing:53.0 - response_length/clip_ratio_before_processing:0.0 - prompt_length/mean_before_processing:3462.84375 - prompt_length/max_before_processing:7334.0 - prompt_length/min_before_processing:1354.0 - prompt_length/clip_ratio_before_processing:0.0 - training/n_triplets_prompt_too_long:0 - training/n_triplets_dropped_remainder:0 - global_seqlen/min:56940 - global_seqlen/max:68761 - global_seqlen/minmax_diff:11821 - global_seqlen/balanced_min:61743 - global_seqlen/balanced_max:61934 - global_seqlen/mean:61805.0 - actor/kl_loss:0.00827881531586172 - actor/kl_coef:0.08 - actor/pg_loss:0.0411226749420166 - actor/pg_clipfrac:0.00020124143338762224 - actor/ppo_kl:0.0003045489324904338 - actor/pg_clipfrac_lower:0.0 - actor/grad_norm:2.2430750131607056 - perf/mfu/actor:0.029619647778418575 - perf/max_memory_allocated_gb:50.91010618209839 - perf/max_memory_reserved_gb:59.5390625 - perf/cpu_memory_used_gb:157.51548767089844 - actor/lr:8e-07 - critic/score/mean_after_processing:3.90625 - critic/score/max_after_processing:3.953125 - critic/score/min_after_processing:3.84375 - critic/rewards/mean_after_processing:3.90625 - critic/rewards/max_after_processing:3.953125 - critic/rewards/min_after_processing:3.84375 - critic/advantages/mean_after_processing:0.0927734375 - critic/advantages/max_after_processing:2.15625 - critic/advantages/min_after_processing:-1.8671875 - critic/returns/mean_after_processing:0.0927734375 - critic/returns/max_after_processing:2.15625 - critic/returns/min_after_processing:-1.8671875 - response_length/mean_after_processing:399.96875 - response_length/max_after_processing:877.0 - response_length/min_after_processing:53.0 - response_length/clip_ratio_after_processing:0.0 - prompt_length/mean_after_processing:3462.84375 - prompt_length/max_after_processing:7334.0 - prompt_length/min_after_processing:1354.0 - prompt_length/clip_ratio_after_processing:0.0 - timing_s/gen:362.4065378209925 - timing_s/reward:2.6390189304947853e-06 - timing_s/old_log_prob:80.99312293803087 - timing_s/ref:80.02866291097598 - timing_s/adv:0.003234714036807418 - timing_s/update_actor:702.418010170979 - timing_s/step:1225.8903066869825 - timing_per_token_ms/update_actor:2.841266928933658 - timing_per_token_ms/ref:0.323714355274557 - timing_per_token_ms/gen:14.15761144702682 - timing_per_token_ms/adv:1.3084354165550594e-05 - perf/total_num_tokens:247220 - perf/time_per_step:1225.8903066869825 - perf/throughput:50.41641953025184 - val/n_rollouts:100 - val/n_rollouts_w_trace:100 - val/n_rollouts_w_reward:100 - val/reward:3.751659634809634 - val/mean_response_length:413.015 - val/sum_response_length:826.03 - val/turn_count:2.0 - training/global_step:112 - training/epoch:0
+[36m(TaskRunner pid=2179404)[0m ("Final validation metrics: {'val/n_rollouts': 100, 'val/n_rollouts_w_trace': "
+[36m(TaskRunner pid=2179404)[0m  "100, 'val/n_rollouts_w_reward': 100, 'val/reward': 3.751659634809634, "
+[36m(TaskRunner pid=2179404)[0m  "'val/mean_response_length': 413.015, 'val/sum_response_length': 826.03, "
+[36m(TaskRunner pid=2179404)[0m  "'val/turn_count': 2.0}")
+[36m(TaskRunner pid=2179404)[0m 'Flush the logger...'
+[05/11/26 18:05:18] INFO     Stopping the lightning store server...                                                                                                                 client_server.py:431
+                    INFO     Stopping server fastapi.applications:app...                                                                                                          server_launcher.py:699
+                    INFO     Stopping uvicorn thread server...                                                                                                                    server_launcher.py:892
+[36m(TaskRunner pid=2179404)[0m wandb: 
+[36m(TaskRunner pid=2179404)[0m wandb: Run history:
+[36m(TaskRunner pid=2179404)[0m wandb:                     actor/entropy_loss ▃▄▂▅▂▄▁▄▃▄▃▂▂▃▁▂▃▄▃▆▄▃▃▄▃▃▅▅▄▅▅▅▇█▅▄▄▇▄▁
+[36m(TaskRunner pid=2179404)[0m wandb:                        actor/grad_norm ▂▂▂▅▂█▂▂▂▂▄▁▁▃▂▂▂▂▂▃▇▁▂▂▂▂▅▃▂▂▅▂▂▂▁▂▂▁▁▂
+[36m(TaskRunner pid=2179404)[0m wandb:                          actor/kl_coef ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+[36m(TaskRunner pid=2179404)[0m wandb:                          actor/kl_loss ▁▁▁▁▁▂▁▂▂▂▂▂▂▂▂▂▃▄▃▃▃▄▃▃▃▃▄▄▆▅▆▇▅█▇▆▅▄▄▅
+[36m(TaskRunner pid=2179404)[0m wandb:                               actor/lr ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+[36m(TaskRunner pid=2179404)[0m wandb:                      actor/pg_clipfrac ▄▂▃▆▂▅▂▂▄▂▃▄▃▄▃█▁▃▁▃▂▂▇▃▁▁▂▃█▂▅▃▁▂▁▂▁▃▂▂
+[36m(TaskRunner pid=2179404)[0m wandb:                actor/pg_clipfrac_lower ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+[36m(TaskRunner pid=2179404)[0m wandb:                          actor/pg_loss ▃▄▃▆▅▆▅▃▄▂▅▆▆▄█▆▂▄▃▅▅▅▅▂▄▅▃▇▅▄▃▄▄▃▆▃▆▁▄▅
+[36m(TaskRunner pid=2179404)[0m wandb:                           actor/ppo_kl ▅▅▅▅▃▅▆▄▅▅▄▄▆▄▆█▆▃▃▃▅▆▃▆▄▄▆▅▆▃▃▄▃▅▄▃▄▃▁▆
+[36m(TaskRunner pid=2179404)[0m wandb: critic/advantages/max_after_processing ██▆▅█▁▆▆▁██████▆▆██▂█▆██▆█▃██████▃█▃▆▆██
+[36m(TaskRunner pid=2179404)[0m wandb:                                    +80 ...
+[36m(TaskRunner pid=2179404)[0m wandb: 
+[36m(TaskRunner pid=2179404)[0m wandb: Run summary:
+[36m(TaskRunner pid=2179404)[0m wandb:                     actor/entropy_loss 0.40761
+[36m(TaskRunner pid=2179404)[0m wandb:                        actor/grad_norm 2.24308
+[36m(TaskRunner pid=2179404)[0m wandb:                          actor/kl_coef 0.08
+[36m(TaskRunner pid=2179404)[0m wandb:                          actor/kl_loss 0.00828
+[36m(TaskRunner pid=2179404)[0m wandb:                               actor/lr 0.0
+[36m(TaskRunner pid=2179404)[0m wandb:                      actor/pg_clipfrac 0.0002
+[36m(TaskRunner pid=2179404)[0m wandb:                actor/pg_clipfrac_lower 0
+[36m(TaskRunner pid=2179404)[0m wandb:                          actor/pg_loss 0.04112
+[36m(TaskRunner pid=2179404)[0m wandb:                           actor/ppo_kl 0.0003
+[36m(TaskRunner pid=2179404)[0m wandb: critic/advantages/max_after_processing 2.15625
+[36m(TaskRunner pid=2179404)[0m wandb:                                    +80 ...
+[36m(TaskRunner pid=2179404)[0m wandb: 
+[36m(TaskRunner pid=2179404)[0m wandb: 🚀 View run ebm_agent_14b_grpo_4gpu_v17_plus_small at: http://103.139.212.228:3005/johnson/AgentLightning/runs/jpctvk4m
+[36m(TaskRunner pid=2179404)[0m wandb: ⭐️ View project at: http://103.139.212.228:3005/johnson/AgentLightning
+[36m(TaskRunner pid=2179404)[0m wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+[36m(TaskRunner pid=2179404)[0m wandb: Find logs at: ./wandb/run-20260510_025035-jpctvk4m/logs
+[36m(WorkerDict pid=2180848)[0m INFO:2026-05-11 18:05:10,604:[Rank 1] Saved model to /workspace/post_train/sql_agent/checkpoints/AgentLightning/ebm_agent_14b_grpo_4gpu_v17_plus_small/global_step_112/actor/model_world_size_4_rank_1.pt[32m [repeated 2x across cluster][0m
+[36m(TaskRunner pid=2179404)[0m 'Training finished at step 112.'
+                    INFO     Requesting graceful shutdown of uvicorn server.                                                                                                      server_launcher.py:305
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2175239]
+                    INFO     Uvicorn server shut down gracefully.                                                                                                                 server_launcher.py:307
+                    INFO     Uvicorn thread server stopped                                                                                                                        server_launcher.py:907
+                    INFO     Server fastapi.applications:app stopped                                                                                                              server_launcher.py:709
+                    INFO     Lightning store server stopped.                                                                                                                        client_server.py:433
+                    INFO     Shutting down subprocesses                                                                                                                             client_server.py:432
+[05/11/26 18:05:18] INFO     [Worker 2] Tearing down OpenTelemetry tracer does NOT remove the tracer provider.                                                                               otel.py:121
+                    INFO     Unpatched newer version of agentops using handle_chat_attributes                                                                                            agentops.py:168
+                    INFO     [Worker 2] Instrumentation removed.                                                                                                                         agentops.py:103
+[05/11/26 18:05:18] INFO     [Worker 0] Tearing down OpenTelemetry tracer does NOT remove the tracer provider.                                                                               otel.py:121
+                    INFO     Unpatched newer version of agentops using handle_chat_attributes                                                                                            agentops.py:168
+                    INFO     [Worker 0] Instrumentation removed.                                                                                                                         agentops.py:103
+[05/11/26 18:05:18] INFO     [Worker 3] Tearing down OpenTelemetry tracer does NOT remove the tracer provider.                                                                               otel.py:121
+                    INFO     Unpatched newer version of agentops using handle_chat_attributes                                                                                            agentops.py:168
+                    INFO     [Worker 3] Instrumentation removed.                                                                                                                         agentops.py:103
+[05/11/26 18:05:18] INFO     [Worker 1] Tearing down OpenTelemetry tracer does NOT remove the tracer provider.                                                                               otel.py:121
+                    INFO     Unpatched newer version of agentops using handle_chat_attributes                                                                                            agentops.py:168
+                    INFO     [Worker 1] Instrumentation removed.                                                                                                                         agentops.py:103
