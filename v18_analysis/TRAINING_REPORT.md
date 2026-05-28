@@ -351,3 +351,68 @@ v18_analysis/
 | `report_v18_step300.md` | v18 独立报告 |
 | `report_v17_vs_v18_comparison.md` | v17 vs v18 对比报告 |
 | `compare_v17_vs_v18.py` | 生成对比图表（8张） |
+
+曲线：
+actor：
+<img width="2427" height="801" alt="image" src="https://github.com/user-attachments/assets/45cf62f5-e044-4290-8428-381ee94d25e0" />
+<img width="2433" height="411" alt="image" src="https://github.com/user-attachments/assets/70abce7b-3090-4dd1-9f11-bc17f66b7b4d" />
+critic:
+<img width="2412" height="791" alt="image" src="https://github.com/user-attachments/assets/9fb20c89-9e50-447f-a60a-640c0d3dfba7" />
+<img width="2393" height="789" alt="image" src="https://github.com/user-attachments/assets/e15b2d95-3304-4482-9fea-64cd2ff02ff0" />
+<img width="2415" height="792" alt="image" src="https://github.com/user-attachments/assets/91a5db86-6028-4c0e-9885-6a1f626a5f90" />
+<img width="2403" height="789" alt="image" src="https://github.com/user-attachments/assets/07e501d8-8abb-494e-af39-5779b6ed47a7" />
+global_seqlen:
+<img width="2412" height="792" alt="image" src="https://github.com/user-attachments/assets/89dd3cc9-49d3-41c8-8211-cd66254a79dc" />
+perf:
+<img width="2421" height="795" alt="image" src="https://github.com/user-attachments/assets/e193db2c-3bc4-45a7-b335-03c297e93970" />
+<img width="810" height="417" alt="image" src="https://github.com/user-attachments/assets/b0640aab-13bc-4ee3-8157-60c4c8bc427b" />
+prompt_length:
+<img width="2403" height="794" alt="image" src="https://github.com/user-attachments/assets/85ae078c-8846-4cd1-b248-72d3b639bb52" />
+<img width="1611" height="420" alt="image" src="https://github.com/user-attachments/assets/28c23432-3dd4-4423-b8de-ff3da9e32d95" />
+response_length:
+<img width="2418" height="801" alt="image" src="https://github.com/user-attachments/assets/f883264b-5b05-41d4-87a0-5817168909bb" />
+<img width="1626" height="432" alt="image" src="https://github.com/user-attachments/assets/fcf529ed-a2b8-4705-9aec-fe67ed05b8cc" />
+timing_per_token_ms:
+<img width="2412" height="800" alt="image" src="https://github.com/user-attachments/assets/9c59f146-3a51-4bf9-9f1b-afc704c9f123" />
+<img width="2427" height="810" alt="image" src="https://github.com/user-attachments/assets/5c08fbb8-a7b3-4e21-84fa-b33375cf7687" />
+timing_s:
+<img width="2409" height="792" alt="image" src="https://github.com/user-attachments/assets/2bbf99c3-ef8f-43c5-bb0a-6dece315a0aa" />
+<img width="798" height="438" alt="image" src="https://github.com/user-attachments/assets/8948efa4-0545-4610-b492-9da70ffc745b" />
+training:
+<img width="2409" height="807" alt="image" src="https://github.com/user-attachments/assets/01a6cab9-11bd-46f2-8efc-3275445b3d0b" />
+<img width="2426" height="795" alt="image" src="https://github.com/user-attachments/assets/d277ddda-74ee-4c39-ae37-c0f75abd56d6" />
+val:
+<img width="2388" height="810" alt="image" src="https://github.com/user-attachments/assets/079fdea1-775c-419a-aaf4-0a4c570eb39c" />
+<img width="834" height="423" alt="image" src="https://github.com/user-attachments/assets/4bfd8d08-a0c4-4577-84f8-2eec64b4d35d" />
+System；
+<img width="2436" height="795" alt="image" src="https://github.com/user-attachments/assets/d3d416ec-d6a5-4a44-b7f3-590e05e783f9" />
+<img width="2390" height="804" alt="image" src="https://github.com/user-attachments/assets/62c32f21-0a69-48f3-b384-8c1b1353be35" />
+<img width="2403" height="795" alt="image" src="https://github.com/user-attachments/assets/c5777042-6616-4395-8dc1-082db96e4958" />
+<img width="2418" height="798" alt="image" src="https://github.com/user-attachments/assets/6e8259dd-6b1b-47b4-9a3c-7cd69a44be00" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
