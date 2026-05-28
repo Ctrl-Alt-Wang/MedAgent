@@ -493,3 +493,64 @@ v17_analysis/
 | epoch 3 续训日志 | `/tmp/train_v17_plus_small_resume2.log` | — |
 | progress 文件 | `/tmp/sql_agent_progress_v17_plus_small.json` | 最终状态 |
 | checkpoint 目录 | `/workspace/post_train/sql_agent/checkpoints/AgentLightning/ebm_agent_14b_grpo_4gpu_v17_plus_small/` | 含 14 个 step |
+
+曲线指标：
+actor:
+<img width="2421" height="801" alt="image" src="https://github.com/user-attachments/assets/15d8fcd6-c142-45de-a391-a2e14b4e831a" />
+<img width="2439" height="456" alt="image" src="https://github.com/user-attachments/assets/244d7d09-e6b1-4383-9d65-8f403ba5fda0" />
+critic:
+<img width="2415" height="789" alt="image" src="https://github.com/user-attachments/assets/c3d4210c-bcb0-4a1f-9586-1203424e0682" />
+<img width="2409" height="798" alt="image" src="https://github.com/user-attachments/assets/ebbb0ff0-28c9-4967-9fee-8b40c285c564" />
+<img width="2415" height="795" alt="image" src="https://github.com/user-attachments/assets/cee831e6-a2cd-4284-8b51-5d95c3d92331" />
+<img width="2394" height="800" alt="image" src="https://github.com/user-attachments/assets/2447e230-68e3-45c6-a3a0-c3c7315733d0" />
+global_seqlen:
+<img width="2400" height="795" alt="image" src="https://github.com/user-attachments/assets/76cbbeb5-dbf9-40e9-964c-26f5a13f3354" />
+perf:
+<img width="2415" height="803" alt="image" src="https://github.com/user-attachments/assets/e7e09531-11a1-426a-8727-e9264a62a776" />
+<img width="849" height="429" alt="image" src="https://github.com/user-attachments/assets/ef8dc819-2c09-43fa-9447-d0b7d54c900a" />
+prompt_length:
+<img width="2408" height="810" alt="image" src="https://github.com/user-attachments/assets/09ba1554-ec97-4ea3-9fc0-6069016ea165" />
+<img width="1635" height="435" alt="image" src="https://github.com/user-attachments/assets/010f8c6a-ac3a-46ea-bca0-93136c33a0f2" />
+response_length:
+<img width="2412" height="807" alt="image" src="https://github.com/user-attachments/assets/80b4a862-5686-487c-99b5-f93bd8d60193" />
+<img width="1605" height="425" alt="image" src="https://github.com/user-attachments/assets/36488d42-eea5-43d0-bad7-69fc94bfc604" />
+timing_per_token_ms:
+<img width="2442" height="797" alt="image" src="https://github.com/user-attachments/assets/10786372-1504-435d-8262-c48700029209" />
+timing_s:
+<img width="2433" height="783" alt="image" src="https://github.com/user-attachments/assets/b3068569-bab2-470c-8969-cd42a1aa02ad" />
+<img width="804" height="417" alt="image" src="https://github.com/user-attachments/assets/9df8031f-5870-400d-88b2-d6cd7a5e8dd7" />
+training:
+<img width="2412" height="804" alt="image" src="https://github.com/user-attachments/assets/27a93ee2-dd3c-42d2-acb5-99d3da4ab74f" />
+<img width="2412" height="801" alt="image" src="https://github.com/user-attachments/assets/85179800-d839-4a82-9b39-8e0f39b73fd5" />
+val:
+<img width="2430" height="807" alt="image" src="https://github.com/user-attachments/assets/57ffd4cc-65a6-4e58-84cd-d15cecd71e73" />
+<img width="813" height="435" alt="image" src="https://github.com/user-attachments/assets/bee4a920-6c4d-4a55-9653-36d0eb269476" />
+System:
+<img width="2421" height="780" alt="image" src="https://github.com/user-attachments/assets/01c81057-561d-4d39-8c3f-1d635a8254ad" />
+<img width="2397" height="792" alt="image" src="https://github.com/user-attachments/assets/ee41f4ed-ab29-402f-aac5-1172cc1a9a15" />
+<img width="2445" height="813" alt="image" src="https://github.com/user-attachments/assets/98c82f81-3c47-4454-987c-95e1b4f31d86" />
+<img width="2409" height="806" alt="image" src="https://github.com/user-attachments/assets/892ce443-7cf5-4397-8f94-deb07efd18c1" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
