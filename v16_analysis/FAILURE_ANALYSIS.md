@@ -565,3 +565,56 @@ v16_analysis/
 | v14 训练日志 | `/tmp/train_v14.log` | 811MB |
 | SQL Agent 训练日志 | `/workspace/post_train/sql_agent/sql_agent_training.log` | ~250MB |
 | AgentOps 日志 | `/workspace/post_train/sql_agent/agentops.log` | ~84KB |
+
+
+训练曲线分析：
+actor
+<img width="2412" height="801" alt="image" src="https://github.com/user-attachments/assets/fb7c7e1c-9dce-45ab-9e41-2f8ad10cc9c9" />
+<img width="2448" height="423" alt="image" src="https://github.com/user-attachments/assets/27966e50-b6f8-42fc-a2a7-2718740011bd" />
+critic
+<img width="2412" height="801" alt="image" src="https://github.com/user-attachments/assets/95eab58a-49e5-486b-a90f-fc7bb712bdef" />
+<img width="2433" height="810" alt="image" src="https://github.com/user-attachments/assets/f18bde30-5e62-4515-b712-4548fa876d83" />
+<img width="2385" height="786" alt="image" src="https://github.com/user-attachments/assets/546344f6-90f5-4f0a-b395-775dcc336932" />
+<img width="2399" height="783" alt="image" src="https://github.com/user-attachments/assets/ef658581-6d6c-42fa-ab9d-11d47e479f3a" />
+global_seqlen
+<img width="2412" height="804" alt="image" src="https://github.com/user-attachments/assets/676ed9d4-afb8-4575-8595-ee4986adf0bc" />
+perf
+<img width="2409" height="789" alt="image" src="https://github.com/user-attachments/assets/ae2ebb80-f0da-4ea6-936a-b06f60677b72" />
+<img width="879" height="432" alt="image" src="https://github.com/user-attachments/assets/ac0a6dfa-d071-4456-a556-c934ac23009d" />
+prompt_length
+<img width="2400" height="801" alt="image" src="https://github.com/user-attachments/assets/3e00450b-dad1-4acc-ab1a-a27dfae4b646" />
+<img width="1650" height="462" alt="image" src="https://github.com/user-attachments/assets/1cc5e461-33b7-4ee1-a2ec-0bfde7ce527e" />
+response_length
+<img width="2426" height="783" alt="image" src="https://github.com/user-attachments/assets/55d0d557-9820-42d1-b0a1-b374bff55e8e" />
+<img width="1641" height="426" alt="image" src="https://github.com/user-attachments/assets/f1ea06b3-a5e4-4754-bdef-4211e5afdc1d" />
+timing_per_token_ms
+<img width="2403" height="795" alt="image" src="https://github.com/user-attachments/assets/89ef2383-9eb1-4f09-b483-87a3540ebbf0" />
+timing_s
+<img width="2415" height="789" alt="image" src="https://github.com/user-attachments/assets/620d0a86-1aad-46ac-80f5-e1dacd3f7467" />
+<img width="798" height="429" alt="image" src="https://github.com/user-attachments/assets/52d886be-f5c0-4f63-9ded-a745fff1a31c" />
+training
+<img width="2421" height="768" alt="image" src="https://github.com/user-attachments/assets/87afb8e4-9560-4721-aef9-fc6c4129f376" />
+<img width="2424" height="789" alt="image" src="https://github.com/user-attachments/assets/830afae5-3070-4585-9b65-eca3b7cc5d2f" />
+val
+<img width="2454" height="822" alt="image" src="https://github.com/user-attachments/assets/b38e189c-eda4-4831-8e1c-288437dbc9b7" />
+<img width="809" height="423" alt="image" src="https://github.com/user-attachments/assets/9026977e-10fe-4b39-8265-5f7d9b6b9d19" />
+System
+<img width="2429" height="810" alt="image" src="https://github.com/user-attachments/assets/11f1d0c6-cfba-49a7-b4d5-e6548461e246" />
+<img width="2409" height="792" alt="image" src="https://github.com/user-attachments/assets/0e71e370-da79-4425-9c95-9959ee077c8c" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
