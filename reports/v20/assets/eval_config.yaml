@@ -1,0 +1,87 @@
+# v20 评测完整配置
+
+eval_runner:
+  file: eval_runner_v20.py
+  file_prefix: grpo_v20_step458
+  model_desc: "Qwen2.5-14B-GRPO-v20 (step458 final, AgentLightning, 4GPU)"
+  agent_url: http://localhost:9998
+  dataset: data/eval_dataset_final_v5.json
+  total_questions: 200
+  completed: 200
+  errors: 0
+  avg_response_time_s: 35
+  avg_response_chars: 1516
+  output_file: eval_results/grpo_v20_step458_20260609_081101_answers.json
+
+eval_scorer:
+  file: eval_scorer_v20.py
+  scoring_version: strict_v4
+  api_base: https://one-api.infox-med.com/v1
+  model: gpt-4.1
+  temperature: 0.1
+  max_tokens: 4000
+  concurrency: 3    # asyncio.Semaphore(3)
+  output_file: eval_results/grpo_v20_step458_strict_v4_20260609_114701_scored.json
+
+deployment:
+  model_path: /workspace/grpo_v20_step458_hf
+  server: 117.50.198.65:8001
+  vllm:
+    tensor_parallel_size: 4
+    dtype: bfloat16
+    max_model_len: 32768       # 比训练时更大（16384 → 32768）
+    gpu_memory_utilization: 0.85
+    enable_auto_tool_choice: true
+    tool_call_parser: hermes
+    served_model_name: local_agent_model
+    screen_session: 531167.vllm_v20
+  ssh_tunnel:
+    local_port: 8015
+    remote_host: 117.50.198.65
+    remote_port: 8001
+    script: ssh_tunnel_v20.py
+
+agent_service:
+  port: 9998
+  env:
+    MODEL_PROVIDER: vllm
+    LLM_MODEL: local_agent_model
+    VLLM_API_KEY: none
+    VLLM_API_URL: http://localhost:8015/v1
+
+scoring_rubric:
+  method: Chain-of-Critique (strict_v4)
+  dimensions:
+    - id: R1
+      name: 问题相关性（正向）
+      weight: +3
+    - id: R2
+      name: 错误临床推荐（负向）
+      weight: -3
+    - id: R3
+      name: 证据层级合理性（正向）
+      weight: +2
+    - id: R4
+      name: 证据层级合理性（补充）
+      weight: +1
+    - id: R5
+      name: 证据质量与时效性（正向）
+      weight: +2
+    - id: R6
+      name: 证据质量与时效性（补充）
+      weight: +1
+    - id: R7
+      name: 捏造证据（负向）
+      weight: -3
+    - id: R8
+      name: 证据回答一致性（正向）
+      weight: +2
+    - id: R9
+      name: 信息全面性与深度
+      weight: +2
+    - id: R10
+      name: 逻辑严谨性
+      weight: +2
+    - id: R11
+      name: 医学术语规范性
+      weight: +1

@@ -1,0 +1,88 @@
+# v20 完整训练配置（从 train_sql_agent_v20_sft.py 提取）
+
+algorithm:
+  adv_estimator: grpo
+  use_kl_in_reward: false
+
+data:
+  train_batch_size: 8            # 4GPU时 = base_batch_per_dp(8) * dp(1)
+  max_prompt_length: 12288
+  max_response_length: 2048
+  train_file: data/train_v18_full_weighted.parquet   # 900条
+  val_file: data/val.parquet                          # 100条
+
+actor_rollout_ref:
+  rollout:
+    name: vllm
+    tensor_model_parallel_size: 4
+    ulysses_sequence_parallel_size: 1
+    n: 4                           # GRPO group size
+    log_prob_micro_batch_size_per_gpu: 1
+    free_cache_engine: true
+    gpu_memory_utilization: 0.40   # 4GPU时保守分配
+    multi_turn:
+      format: hermes
+      max_turns: 2
+    engine_kwargs:
+      vllm:
+        enable_auto_tool_choice: true
+        tool_call_parser: hermes
+        max_model_len: 16384       # 训练时上下文窗口
+
+  actor:
+    strategy: fsdp2
+    ppo_mini_batch_size: 8         # = train_batch_size
+    ppo_micro_batch_size_per_gpu: 1
+    optim:
+      lr: 5.0e-7                   # base_lr=5e-7, dp=1 无scaling
+      # 计算方式: max(3e-7, min(5e-7 * sqrt(1), 3e-6)) = 5e-7
+    use_kl_loss: true
+    kl_loss_coef: 0.10
+    entropy_coeff: 0.005
+    clip_ratio_low: 0.20           # PPO surrogate clip [0.8, 1.2]
+    clip_ratio_high: 0.20
+    fsdp_config:
+      offload_policy: true         # 4GPU时开启actor offload
+      reshard_after_forward: true
+    checkpoint:
+      save_contents: [model, optimizer, extra]
+      load_contents: [model]       # 恢复时只加载model权重
+
+  ref:
+    log_prob_micro_batch_size_per_gpu: 1
+    fsdp_config:
+      param_offload: true          # ref model 常开offload
+
+  model:
+    path: /workspace/models/Qwen2.5-14B-Instruct-SFT-Agent
+    use_remove_padding: false
+    enable_gradient_checkpointing: true
+    use_torch_compile: false       # 不用compile，保证兼容性
+    entropy_checkpointing: true
+
+trainer:
+  n_gpus_per_node: 4
+  val_before_train: true           # 训练前先做验证
+  critic_warmup: 0
+  logger: [console, wandb]
+  project_name: AgentLightning
+  experiment_name: ebm_agent_14b_grpo_4gpu_v20_sft
+  nnodes: 1
+  save_freq: 50
+  test_freq: 25
+  total_epochs: 3
+  max_actor_ckpt_to_keep: 2
+  max_critic_ckpt_to_keep: 2
+
+# 动态奖励调度（sql_agent_v18.py 中实现）
+reward_schedule:
+  progress_file: /tmp/sql_agent_progress_v20_sft.json
+  schedule_steps: 150              # min(150, total_updates=460)
+  rollouts_per_update: 32          # = train_batch_size(8) * n_rollouts(4)
+  format_scale: 0.70               # 固定（v18开始不再动态衰减）
+  correct_scale: 1.00              # 固定
+  rm_weight_schedule:
+    start_progress: 0.30           # 30%之后开始引入RM
+    end_progress: 1.00
+    start_weight: 0.00
+    end_weight: 0.25               # 线性升至0.25

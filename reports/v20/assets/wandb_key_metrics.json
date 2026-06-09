@@ -1,0 +1,75 @@
+{
+  "experiment": "ebm_agent_14b_grpo_4gpu_v20_sft",
+  "wandb_run_id": "l787uc3v",
+  "wandb_run_name": "run-20260601_233952-l787uc3v",
+  "final_step": 458,
+  "runtime_seconds": 571719,
+  "runtime_hours": 158.8,
+
+  "final_metrics": {
+    "training_reward": 3.3842,
+    "val_reward": 3.2397,
+    "actor_lr": 5e-7,
+    "actor_kl_loss": 0.0297,
+    "actor_kl_coef": 0.10,
+    "actor_entropy_loss": 0.5568,
+    "actor_pg_loss": -0.0561,
+    "actor_pg_clipfrac": 0.000173,
+    "actor_grad_norm": 2.4665
+  },
+
+  "advantage_stats": {
+    "mean": 0.1553,
+    "min": -1.617,
+    "max": 1.867
+  },
+
+  "score_stats": {
+    "mean": 3.391,
+    "min": 3.156,
+    "max": 3.422,
+    "range": 0.266
+  },
+
+  "perf_metrics": {
+    "throughput_tokens_per_s": 50.46,
+    "mfu_actor": 0.0298,
+    "max_memory_allocated_gb": 50.91,
+    "max_memory_reserved_gb": 59.54,
+    "cpu_memory_used_gb": 161.5,
+    "time_per_step_seconds": 1201.4
+  },
+
+  "timing_breakdown_seconds": {
+    "generation_rollout": 361.3,
+    "update_actor": 680.2,
+    "ref_model": 79.0,
+    "old_log_prob": 80.7,
+    "advantage": 0.005
+  },
+
+  "sequence_lengths": {
+    "prompt_mean": 3342,
+    "prompt_max": 7239,
+    "prompt_min": 1359,
+    "response_mean": 446,
+    "response_max": 1067,
+    "response_min": 57
+  },
+
+  "training_progression": {
+    "val_reward_initial": 3.1855,
+    "val_reward_final": 3.2570,
+    "delta": 0.0715,
+    "train_reward_early": 3.600,
+    "train_reward_final": 3.384
+  },
+
+  "hardware": {
+    "gpus": 4,
+    "gpu_model": "NVIDIA A800-SXM4-80GB",
+    "gpu_memory_each_gb": 80,
+    "cuda_version": "13.0",
+    "python": "3.12.11"
+  }
+}
