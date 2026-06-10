@@ -1045,5 +1045,54 @@ eval:
 ```
 
 ---
+actor:
+<img width="2406" height="933" alt="image" src="https://github.com/user-attachments/assets/c8fdc137-97c3-404b-9441-66e27c249259" />
+<img width="2408" height="489" alt="image" src="https://github.com/user-attachments/assets/1b5d9186-abbf-4815-92b3-12cb2138146a" />
+critic；
+<img width="2394" height="885" alt="image" src="https://github.com/user-attachments/assets/0fbf5387-fa30-4853-b02f-7e0f9ac91bfd" />
+<img width="2376" height="897" alt="image" src="https://github.com/user-attachments/assets/ec441dfe-a7bf-4c22-9e2a-3f91238fff32" />
+<img width="2382" height="900" alt="image" src="https://github.com/user-attachments/assets/30b98a8a-d2e8-4d03-b787-e84b7bb71c12" />
+<img width="2394" height="885" alt="image" src="https://github.com/user-attachments/assets/a59cec2f-f445-4ed4-ab99-2c140fe9c6bf" />
+global_seqlen:
+<img width="2391" height="900" alt="image" src="https://github.com/user-attachments/assets/f94b3c49-392f-441a-9d17-cccea0f7ee6e" />
+perf:
+<img width="2433" height="912" alt="image" src="https://github.com/user-attachments/assets/e968a92d-7ff7-4af3-b6cf-babf95a8f911" />
+<img width="813" height="474" alt="image" src="https://github.com/user-attachments/assets/0a4b4744-1fe5-42fe-8fd2-9552f50bafdc" />
+prompt_length:
+<img width="2382" height="890" alt="image" src="https://github.com/user-attachments/assets/5ef02e5a-df79-464d-88ea-667e7f81a399" />
+<img width="1629" height="483" alt="image" src="https://github.com/user-attachments/assets/2af45e5e-cfc3-4608-bb2d-ab745777d1fc" />
+response_length:
+<img width="2403" height="900" alt="image" src="https://github.com/user-attachments/assets/14d73bb4-b69c-4e46-822b-1dee08c859d6" />
+<img width="1617" height="498" alt="image" src="https://github.com/user-attachments/assets/f62cf995-76ae-42d4-beb3-127509816085" />
+timing_per_token:
+<img width="2417" height="899" alt="image" src="https://github.com/user-attachments/assets/5bc513b0-6671-4fe2-a1a8-9d7093a0f1b5" />
+timing_s:
+<img width="2382" height="888" alt="image" src="https://github.com/user-attachments/assets/387763a5-3baf-4543-8186-214b0186e7f0" />
+<img width="894" height="492" alt="image" src="https://github.com/user-attachments/assets/560c1660-c435-473e-a7e3-4823e8cf1812" />
+training:
+<img width="2418" height="909" alt="image" src="https://github.com/user-attachments/assets/f2cc42e5-4649-402d-9389-6bd24b594e21" />
+<img width="2397" height="894" alt="image" src="https://github.com/user-attachments/assets/77a38cfc-c91e-42dd-bdf6-f364e1132fa2" />
+val：
+<img width="2406" height="903" alt="image" src="https://github.com/user-attachments/assets/b66bbf4b-1bbc-40a1-9932-3ffb8efaa3a7" />
+<img width="804" height="471" alt="image" src="https://github.com/user-attachments/assets/c7a433f9-359a-4776-88b4-d814957227a4" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 *本报告涵盖 v20 训练的全部关键维度。如需进一步分析具体样本或特定专科的详细数据，请参阅 `eval_results/grpo_v20_step458_strict_v4_20260609_114701_scored.json`。*
